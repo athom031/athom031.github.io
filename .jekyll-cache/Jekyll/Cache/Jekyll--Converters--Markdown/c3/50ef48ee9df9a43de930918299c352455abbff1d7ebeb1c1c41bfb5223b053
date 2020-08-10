@@ -1,0 +1,183 @@
+I"±<div style="display:flex; flex-direction:column;">
+
+    <html>
+        <a href="#down">Click Here to Smoothly Scroll Down</a>
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+    <button onclick="document.getElementById('middle').scrollIntoView();"> 
+        Episode 1: The Chai Chai Talk Intro 
+    </button>
+
+
+
+
+
+
+
+
+
+
+    asufhaksjh
+    asfkjahsfjkaslajkfhs
+    asfajshfajhkfas
+    asfjaskhfka
+    ashfjkashjakfs
+    asfkhjahfak'jhas
+    asf
+    lashfaa
+    a
+    aa
+    a
+    a
+    a
+    a
+    a
+    a
+    a
+    a
+    a
+
+    a
+    a
+    a
+    a
+    a
+
+    a
+    a
+    a
+    a
+    <br />
+    a
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    a
+    a
+    a
+    a
+    a
+
+    a
+    a
+    a
+    a
+    a
+
+    a
+    a
+
+    a
+    a
+    a
+    a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="middl"> hello </div>
+
+    <input value="Episode 1: The Chai Chai Talk Intro" type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        
+
+    <input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        Episode 3: Giving Our Children A Diluted India 
+
+    <input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        Episode 4: A Shifting Identity
+
+    <input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        Episode 5: Underground Music Culture 
+
+    <input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        Episode 6: Item Song Impact
+
+    <input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        Episode 7: Bollywood Music Evolution 
+
+    <input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> 
+        Episode 8: Immigrant American Music Expression
+
+    <div id="down">
+    <h1>You are down!</h1>
+  
+</div>
+</html></div>
+:ET

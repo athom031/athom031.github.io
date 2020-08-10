@@ -1,0 +1,180 @@
+I"g!<h3 id="full-stack-web-application">Full-Stack Web Application</h3>
+
+<h1 id="user-localization-visualization-tool">User Localization Visualization Tool</h1>
+
+<p>This project is to create a visual map of users which includes:
+1) Web page where users can register with their information (username, name, password, US address).
+2) Database that holds user data along with their lat/long geocode.
+3) Frontend interface for users to login and edit their own information.
+4) Map to display location of users.
+5) Online User data which shows which users are online on the map.</p>
+
+<h2 id="demo-images">Demo Images</h2>
+<ol>
+  <li>Interface to register users and save user data to mongoDB. 
+<img src="https://github.com/athom031/UserRegLatLong/blob/master/demo_img/Register.png" alt="Register" /></li>
+  <li>User Homepage where they can update their information.
+<img src="https://github.com/athom031/UserRegLatLong/blob/master/demo_img/Login.png" alt="Login" /></li>
+  <li>Client application that visualizes user location and activity. 
+<img src="https://github.com/athom031/UserRegLatLong/blob/master/demo_img/Visualization.png" alt="Visualization" /></li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>1) Be sure to install mongoose on your system.</p>
+<ul>
+  <li>https://treehouse.github.io/installation-guides/mac/mongo-mac.html
+2) Get a google api key.</li>
+  <li>https://developers.google.com/maps/documentation/javascript/get-api-key
+3) Make a Mongo DB and create a collection called ‘users’.</li>
+  <li>https://www.mongodb.com/products/compass</li>
+</ul>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>Run command located in package.json:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run setup
+</code></pre></div></div>
+<p>to install all of the required libraries</p>
+
+<h3 id="installing">Installing</h3>
+
+<ol>
+  <li>Update API.js with your own <a href="https://github.com/athom031/UserRegLatLong/blob/master/API.js">API key</a>.</li>
+  <li>Update the <a href="https://github.com/athom031/UserRegLatLong/blob/master/server/config/config.json">config file</a> in the server side on what is the link to the Mongo DB as the MONGO URI.</li>
+  <li>Run the command to install all of the required libraries: <br />
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run setup
+</code></pre></div>    </div>
+  </li>
+  <li>This application runs on the following ports: <br />
+    <ul>
+      <li>PORT 3000 =&gt; backend <br /></li>
+      <li>PORT 3001 =&gt; user registration/login front end <br /></li>
+      <li>PORT 3002 =&gt; client user map front end <br />
+if you have things running on those ports run the command to kill those local ports:
+ <br /></li>
+    </ul>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run clear
+</code></pre></div></div>
+
+<ol>
+  <li>Run the command to concurrently run the application (frontend and backend):
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"npm run dev" 
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="built-with">Built With</h2>
+<p>These libraries are all installed in the package.json command:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run setup
+</code></pre></div></div>
+
+<h3 id="server-side">Server Side</h3>
+<ul>
+  <li><a href="https://www.npmjs.com/package/jsonwebtoken">jsonwebtoken</a></li>
+  <li><a href="https://www.npmjs.com/package/passport">passport</a> / <a href="https://www.npmjs.com/package/passport-local">passport-local</a></li>
+  <li><a href="https://www.npmjs.com/package/mongoose">mongoose</a></li>
+  <li><a href="https://www.npmjs.com/package/lodash">lodash</a></li>
+  <li><a href="https://www.npmjs.com/package/node-fetch">node-fetch</a></li>
+  <li><a href="https://www.npmjs.com/package/bcryptjs">bcryptjs</a></li>
+  <li><a href="https://www.npmjs.com/package/express">express</a></li>
+  <li><a href="https://www.npmjs.com/package/body-parser">body-parser</a></li>
+  <li><a href="https://www.npmjs.com/package/cors">cors</a></li>
+</ul>
+
+<h3 id="client-side">Client Side</h3>
+<ul>
+  <li><a href="https://www.npmjs.com/package/react">react</a></li>
+</ul>
+
+<h3 id="visualization">Visualization</h3>
+<ul>
+  <li><a href="https://www.npmjs.com/package/google-maps-react">google-maps-react</a></li>
+  <li><a href="https://www.npmjs.com/package/customize-cra">customize-cra</a></li>
+  <li><a href="https://www.npmjs.com/package/react-app-rewired">react-app-rewired</a></li>
+</ul>
+
+<h3 id="total-application">Total Application</h3>
+<ul>
+  <li><a href="https://www.npmjs.com/package/concurrently">concurrently</a></li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>Please read <a href="https://github.com/athom031/UserRegLatLong/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
+
+<h2 id="authors">Authors</h2>
+
+<ul>
+  <li><strong>Alex Thomas</strong> - <a href="https://github.com/athom031">Github</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/athom031/UserRegLatLong/blob/master/LICENSE.md">LICENSE.md</a> file for details</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>How to deal with waiting on the promise call:</p>
+<ul>
+  <li>https://stackoverflow.com/questions/48980380/returning-data-from-axios-api</li>
+</ul>
+
+<p>How to send JSON object to server with a post:</p>
+<ul>
+  <li>https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/</li>
+</ul>
+
+<p>Form Controlled Component basics</p>
+<ul>
+  <li>https://www.youtube.com/watch?v=7Vo_VCcWupQ</li>
+</ul>
+
+<p>Styling Background Image</p>
+<ul>
+  <li>https://css-tricks.com/perfect-full-page-background-image/</li>
+</ul>
+
+<p>React Login Registration Form</p>
+<ul>
+  <li>https://www.youtube.com/watch?v=juUaJpMd2LE</li>
+</ul>
+
+<p>Import outside of React src folder</p>
+<ul>
+  <li>https://stackoverflow.com/questions/44114436/the-create-react-app-imports-restriction-outside-of-src-directory</li>
+</ul>
+
+<p>Integrating Google Maps API into React</p>
+<ul>
+  <li>https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications</li>
+</ul>
+
+<p>Implementing Custom Google Map Api Style</p>
+<ul>
+  <li>https://towardsdatascience.com/how-to-use-the-google-maps-api-with-custom-styling-in-react-js-f6e7e59273df</li>
+</ul>
+
+<h2 id="inspiration">Inspiration:</h2>
+<p>Mean Stack User Registration</p>
+<ul>
+  <li>https://www.youtube.com/watch?v=m34FCkBd7UU&amp;t=1839s</li>
+</ul>
+
+<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+:ET
