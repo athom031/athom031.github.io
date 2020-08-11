@@ -32,54 +32,103 @@ have to deal with.
 /*
 assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3
 assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3
-assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3
-assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3
-assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3
-assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3
-assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3
-assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3
-assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3
-assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3
-*/
+
+
 </code>
 
 
-<div id="ep1"> </div>
+<div id="ep1"></div>
+
 # Episode 1: The Chai Chai Talk Intro
 
-
-<audio controls>
-    <source src="{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3" type = "audio/mpeg"> 
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3" 
+            type = "audio/mpeg"> 
     "Your browser does not support the audio element."
 </audio>
 
-
-<audio
-    controls
-    preload
-    src="{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3">
-        Your browser does not support the
-        <code>audio</code> element.
-</audio>
-
 <div id="ep2"> </div>
+
 # Episode 2: Growing Up In America Indian
 
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
 <div id="ep3"> </div>
+
 # Episode 3: Giving Our Children A Diluted India 
 
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
 <div id="ep4"> </div>
+
 # Episode 4: A Shifting Identity
 
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
 <div id="ep5"> </div>
+
 # Episode 5: Underground Music Culture 
 
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
 <div id="ep6"> </div>
+
 # Episode 6: Item Song Impact 
 
+##### Part 1
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
+##### Part 2
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
 <div id="ep7"> </div>
+
 # Episode 7: Bollywood Music Evolution 
 
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
 <div id="ep8"> </div>
+
 # Episode 8: Immigrant American Music Expression 
 
+##### Part 1
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
+
+##### Part 2
+<audio controls preload>
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3" 
+            type = "audio/mpeg"> 
+    "Your browser does not support the audio element."
+</audio>
