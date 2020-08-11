@@ -12,6 +12,9 @@ Dance team, UCR Afsana. These interviews were then edited and condensed into a s
 have to deal with.
 
 <br/>
+
+
+<!--                    TABLE OF CONTENTS                                   -->
 # Table of Contents
 <div style="display:flex; flex-direction:column;">    
     <html>
@@ -27,9 +30,16 @@ have to deal with.
 </div>
 <br/>
 
+
+<!--                        Episode 1                                      -->
 <div id="ep1"></div>
 
 # Episode 1: The Chai Chai Talk Intro
+
+<img src="{{ site.url }}/assets/Files/Guests/1_Manny.jpg" width = "50%"/>
+
+#### Joined by Manny Garcia
+
 
 <audio controls preload>
     <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3" 
@@ -37,9 +47,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JgNctxDDFhKN4VKOd1yyI-p)
+<br/>
+
+
+<!--                        Episode 2                                       -->
 <div id="ep2"> </div>
 
 # Episode 2: Growing Up In America Indian
+
+<img src="{{ site.url }}/assets/Files/Guests/2_Manasi.jpeg" width = "50%"/>
+
+#### Joined by Manasi Soni
 
 <audio controls preload>
     <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3" 
@@ -47,9 +66,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JiHmgr0s6a030jmrnQWp4tm)
+<br/>
+
+
+<!--                        Episode 3                                       -->
 <div id="ep3"> </div>
 
 # Episode 3: Giving Our Children A Diluted India 
+
+<img src="{{ site.url }}/assets/Files/Guests/3_Manasi.png" width = "50%"/>
+
+#### Joined by Manasi Soni
 
 <audio controls preload>
     <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3" 
@@ -57,9 +85,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhZAi5v-BnzyKNC3YFnwAAr)
+<br/>
+
+
+<!--                        Episode 4                                      -->
 <div id="ep4"> </div>
 
 # Episode 4: A Shifting Identity
+
+<img src="{{ site.url }}/assets/Files/Guests/4_Sarena.jpeg" width = "50%"/>
+
+#### Joined by Sarena Minawala
 
 <audio controls preload>
     <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3" 
@@ -67,9 +104,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh-WwjJlcSGjwSUJz-B2keF)
+<br/>
+
+
+<!--                        Episode 5                                      -->
 <div id="ep5"> </div>
 
 # Episode 5: Underground Music Culture 
+
+<img src="{{ site.url }}/assets/Files/Guests/5_Vishant.jpeg" width = "50%"/>
+
+#### Joined by Vishant Gandhi
 
 <audio controls preload>
     <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3" 
@@ -77,9 +123,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhY2Pq7ZwmhDU8jYQ1da_en)
+<br/>
+
+
+<!--                        Episode 6                                      -->
 <div id="ep6"> </div>
 
 # Episode 6: Item Song Impact 
+
+<img src="{{ site.url }}/assets/Files/Guests/6_Sarah.jpeg" width = "50%"/>
+
+#### Joined by Sarah Easow
 
 ##### Part 1
 <audio controls preload>
@@ -95,9 +150,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhAaFAPP_5FZp9JZygtY9_b)
+<br/>
+
+
+<!--                        Episode 7                                      -->
 <div id="ep7"> </div>
 
 # Episode 7: Bollywood Music Evolution 
+
+<img src="{{ site.url }}/assets/Files/Guests/7_Nihal.jpeg" width = "50%"/>
+
+#### Joined by Nihal Deopura
 
 <audio controls preload>
     <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3" 
@@ -105,9 +169,18 @@ have to deal with.
     "Your browser does not support the audio element."
 </audio>
 
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JgVWOo3wDQWAV83qPaAz_yQ)
+<br/>
+
+
+<!--                        Episode 8                                      -->
 <div id="ep8"> </div>
 
 # Episode 8: Immigrant American Music Expression 
+
+<img src="{{ site.url }}/assets/Files/Guests/8_Pratyusha.jpeg" width = "50%"/>
+
+#### Joined by Pratyusha Macherla
 
 ##### Part 1
 <audio controls preload>
@@ -122,3 +195,5 @@ have to deal with.
             type = "audio/mpeg"> 
     "Your browser does not support the audio element."
 </audio>
+
+###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh8_gjkkk3yx3EDPG92ILIm)
