@@ -27,16 +27,6 @@ have to deal with.
 </div>
 <br/>
 
-
-<code>
-/*
-assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3
-assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3
-
-
-</code>
-
-
 <div id="ep1"></div>
 
 # Episode 1: The Chai Chai Talk Intro
