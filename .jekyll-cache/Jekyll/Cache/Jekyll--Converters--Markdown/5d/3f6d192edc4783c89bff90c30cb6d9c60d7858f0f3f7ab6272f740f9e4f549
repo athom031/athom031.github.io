@@ -1,4 +1,0 @@
-I"õ<embed src="http://localhost:4000/assets/Files/AlexThomasResume.pdf" width="100%" height="1000px" type="application/pdf" />
-
-<p><input type="button" onclick="document.getElementById('middle').scrollIntoView();" /> Episode 1:  &lt;/input&gt;</p>
-:ET

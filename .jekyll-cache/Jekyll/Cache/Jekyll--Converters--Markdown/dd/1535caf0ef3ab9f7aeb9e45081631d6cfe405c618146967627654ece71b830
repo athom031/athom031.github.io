@@ -1,18 +1,12 @@
----
-layout: page
-title: The Chai Chai Talk
-permalink: /theChaiChaiTalk/
----
+I" <h3 id="music-in-the-american-indian-identity---a-podcast-series">Music in the American Indian Identity - A Podcast Series</h3>
+<h5 id="ucr-honors-capstone-project">UCR Honors Capstone Project</h5>
 
-### Music in the American Indian Identity - A Podcast Series
-##### UCR Honors Capstone Project
-
-Children born in of Indian Immigrants in the U.S. often struggle to balance their two conflicting identities. In the name of fitting in, traditions and memories are forgotten to accommodate what is thought of as normal. Because of that, part of who they are is pushed to the side. This project seeks to find how Indian Americans use music to identify with their other half. My research is a series of interviews with members of UCR’s Hindi-Film 
+<p>Children born in of Indian Immigrants in the U.S. often struggle to balance their two conflicting identities. In the name of fitting in, traditions and memories are forgotten to accommodate what is thought of as normal. Because of that, part of who they are is pushed to the side. This project seeks to find how Indian Americans use music to identify with their other half. My research is a series of interviews with members of UCR’s Hindi-Film 
 Dance team, UCR Afsana. These interviews were then edited and condensed into a series of podcasts, where American children of Indian parents share their path to how music plays a part in identifying with their South Asian culture. In some cases, this project can show how music even serves as a vehicle to join their two halves. This project aims to evaluate a possible solution in alleviating the struggles of confused identities many children of immigrant families 
-have to deal with.
+have to deal with.</p>
 
-<br/>
-# Table of Contents
+<p><br /></p>
+<h1 id="table-of-contents">Table of Contents</h1>
 <div style="display:flex; flex-direction:column;">    
     <html>
         <a href="#ep1">Episode 1: The Chai Chai Talk Intro</a>
@@ -25,10 +19,9 @@ have to deal with.
         <a href="#ep8">Episode 8: Immigrant American Music Expression</a>
     </html>
 </div>
-<br/>
+<p><br /></p>
 
-
-<code>
+<p><code>
 /*
 assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3
 assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3
@@ -41,45 +34,36 @@ assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3
 assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3
 assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3
 */
-</code>
-
+</code></p>
 
 <div id="ep1"> </div>
-# Episode 1: The Chai Chai Talk Intro
+<h1 id="episode-1-the-chai-chai-talk-intro">Episode 1: The Chai Chai Talk Intro</h1>
 
-
-<audio controls>
-    <source src="{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3" type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-
-<audio
-    controls
-    preload
-    src="{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3">
+<audio controls="" preload="" src="http://localhost:4000/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3">
         Your browser does not support the
         <code>audio</code> element.
 </audio>
+<embed src="http://localhost:4000/assets/Files/AlexThomasResume.pdf" width="100%" height="1000px" type="audio" />
 
 <div id="ep2"> </div>
-# Episode 2: Growing Up In America Indian
+<h1 id="episode-2-growing-up-in-america-indian">Episode 2: Growing Up In America Indian</h1>
 
 <div id="ep3"> </div>
-# Episode 3: Giving Our Children A Diluted India 
+<h1 id="episode-3-giving-our-children-a-diluted-india">Episode 3: Giving Our Children A Diluted India</h1>
 
 <div id="ep4"> </div>
-# Episode 4: A Shifting Identity
+<h1 id="episode-4-a-shifting-identity">Episode 4: A Shifting Identity</h1>
 
 <div id="ep5"> </div>
-# Episode 5: Underground Music Culture 
+<h1 id="episode-5-underground-music-culture">Episode 5: Underground Music Culture</h1>
 
 <div id="ep6"> </div>
-# Episode 6: Item Song Impact 
+<h1 id="episode-6-item-song-impact">Episode 6: Item Song Impact</h1>
 
 <div id="ep7"> </div>
-# Episode 7: Bollywood Music Evolution 
+<h1 id="episode-7-bollywood-music-evolution">Episode 7: Bollywood Music Evolution</h1>
 
 <div id="ep8"> </div>
-# Episode 8: Immigrant American Music Expression 
+<h1 id="episode-8-immigrant-american-music-expression">Episode 8: Immigrant American Music Expression</h1>
 
+:ET
