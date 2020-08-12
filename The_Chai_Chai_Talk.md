@@ -209,7 +209,7 @@ In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Ni
 
 #### Joined by Pratyusha Macherla
 
-In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha Macherla. Pratyusha is a second year Neuroscience major from San Jose, California. Together we explore the Indian college circuit and the music scene that accompanies it. Tune in, for the last time, to hear how Pratyusha and I took part in the South Asian college community and learned to expand our immigrant identities past the boundaries of India itself. 
+In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha Macherla. Pratyusha is a second year Neuroscience major from San Jose, California. Together we explore the Indian college circuit and the music scene that accompanies it. Tune in, for the last time, to hear how Pratyusha and I took part in the South Asian college community and learned to expand our immigrant identities past the boundaries of India itself. Hopefully you will do the same.
 <br/>
 
 ##### Part 1
@@ -227,3 +227,14 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha 
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh8_gjkkk3yx3EDPG92ILIm)
+
+
+<br/>
+
+##### Become a part of the new America. Drink Boba, eat Ramen, jam to Reggaeton. <br/> Listen, listen, listen, to all the people so excited to share their culture. <br/> In doing so, you will have found the the space to be able to share your own.
+
+<br/>
+
+##### Thank you to [Dr. Xóchitl C. Chávez](https://music.ucr.edu/faculty/chavez/) for mentoring me on this project.
+
+#### Thank you for listening.
