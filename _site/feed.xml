@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T13:49:33-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T13:55:17-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
 A team player with a passion for learning and developing new software. 
 Let's get some work done.
 </subtitle><entry><title type="html">User Location Visualization Tool</title><link href="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html" rel="alternate" type="text/html" title="User Location Visualization Tool" /><published>2020-07-05T00:00:00-07:00</published><updated>2020-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2020/07/05/User-Location-Visualization-Tool</id><content type="html" xml:base="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html">&lt;h3 id=&quot;full-stack-web-application&quot;&gt;Full-Stack Web Application&lt;/h3&gt;
@@ -44,7 +44,7 @@ Let's get some work done.
 
 &lt;p&gt;I saw an opportunity to optimize company scripts and made my own script which had a speedup due to cancelling redundant calculations.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/SplitScript&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/SplitScript&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;audio-cutter&quot;&gt;Audio Cutter&lt;/h2&gt;
 
@@ -55,7 +55,7 @@ Often times in music I enjoy, there are annoying segments whether it be instrume
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/AudioCutter.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/AudioCutter&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/AudioCutter&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;trim-silence&quot;&gt;Trim Silence&lt;/h2&gt;
 
@@ -66,7 +66,7 @@ Being a person passionate about collecting music, I found that a lot of audio ha
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/TrimSilence.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/TrimSilence&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.</summary></entry><entry><title type="html">Box Bot - Bluetooth RC</title><link href="http://localhost:4000/2017/11/12/Bluetooth-RC.html" rel="alternate" type="text/html" title="Box Bot - Bluetooth RC" /><published>2017-11-12T00:00:00-08:00</published><updated>2017-11-12T00:00:00-08:00</updated><id>http://localhost:4000/2017/11/12/Bluetooth-RC</id><content type="html" xml:base="http://localhost:4000/2017/11/12/Bluetooth-RC.html">&lt;h4 id=&quot;ucr-hackathon-submission&quot;&gt;UCR Hackathon Submission&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/TrimSilence&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.</summary></entry><entry><title type="html">Box Bot - Bluetooth RC</title><link href="http://localhost:4000/2017/11/12/Bluetooth-RC.html" rel="alternate" type="text/html" title="Box Bot - Bluetooth RC" /><published>2017-11-12T00:00:00-08:00</published><updated>2017-11-12T00:00:00-08:00</updated><id>http://localhost:4000/2017/11/12/Bluetooth-RC</id><content type="html" xml:base="http://localhost:4000/2017/11/12/Bluetooth-RC.html">&lt;h4 id=&quot;ucr-hackathon-submission&quot;&gt;UCR Hackathon Submission&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/BoxBot/BoxBot.JPG&quot; /&gt;&lt;/p&gt;
 

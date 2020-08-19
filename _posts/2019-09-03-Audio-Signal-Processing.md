@@ -22,7 +22,7 @@ This audio is saved as the total file but each utterance is required to be split
 
 I saw an opportunity to optimize company scripts and made my own script which had a speedup due to cancelling redundant calculations.
 
-[Check It Out!](https://github.com/athom031/SplitScript)
+[Project Repo](https://github.com/athom031/SplitScript)
 
 ## Audio Cutter
 
@@ -34,7 +34,7 @@ Trimming off the beginning and ending of a song is easy on iTunes but to cut out
 
 <img src="{{ site.url }}/assets/Files/AudioSignal/AudioCutter.png"/>
 
-[Check It Out!](https://github.com/athom031/AudioCutter)
+[Project Repo](https://github.com/athom031/AudioCutter)
 
 ## Trim Silence
 
@@ -46,7 +46,7 @@ This script trims off silence automatically and chooses which "utterance" to exp
 
 <img src="{{ site.url }}/assets/Files/AudioSignal/TrimSilence.png"/>
 
-[Check It Out!](https://github.com/athom031/TrimSilence)
+[Project Repo](https://github.com/athom031/TrimSilence)
 
 
 
