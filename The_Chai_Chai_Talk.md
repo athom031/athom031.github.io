@@ -235,8 +235,9 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha 
 
 ##### Become a part of the new America. Drink Boba, eat Ramen, jam to Reggaeton. <br/> Listen, listen, listen, to all the people so excited to share their culture. <br/> In doing so, you will have found the the space to be able to share your own.
 
+#### Thank you for listening.
+
 <br/>
 
 ##### Thank you to [Dr. Xóchitl C. Chávez](https://music.ucr.edu/faculty/chavez/) for mentoring me on this project.
 
-#### Thank you for listening.
