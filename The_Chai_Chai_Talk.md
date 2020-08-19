@@ -233,7 +233,7 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha 
 
 <br/>
 
-##### Become a part of the new America. Drink Boba, eat Ramen, jam to Reggaeton. <br/> Listen, listen, listen, to all the people so excited to share their culture. <br/> In doing so, you will have found the the space to be able to share your own.
+Become a part of the new America. <br/> Drink Boba, eat Ramen, jam to Reggaeton. <br/> Listen, listen, listen, to all the people so excited to share their culture. <br/> In doing so, you will have found the the space to be able to share your own.<br/> <br/>
 
 #### Thank you for listening.
 
