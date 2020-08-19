@@ -10,15 +10,15 @@ A visual map of users for a client to see user whereabouts and activity. User si
 # Demo Images
 1. Interface to register users and save user data to mongoDB. 
 
-<img src="{{ site.url }}/assets/Files/demo_img/Register.png"/>
+<img src="{{ site.url }}/assets/Files/UserLocationDemo/Register.png"/>
 
 2. User Homepage where users can update their information.
 
-<img src="{{ site.url }}/assets/Files/demo_img/Login.png"/>
+<img src="{{ site.url }}/assets/Files/UserLocationDemo/Login.png"/>
 
 3. Client application that visualizes user location and activity. 
 
-<img src="{{ site.url }}/assets/Files/demo_img/Visualization.png"/>
+<img src="{{ site.url }}/assets/Files/UserLocationDemo/Visualization.png"/>
 
 
 ### Github Repo
