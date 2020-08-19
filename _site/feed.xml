@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-11T21:47:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T13:08:49-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
 A team player with a passion for learning and developing new software. 
 Let's get some work done.
 </subtitle><entry><title type="html">User Location Visualization Tool</title><link href="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html" rel="alternate" type="text/html" title="User Location Visualization Tool" /><published>2020-07-05T00:00:00-07:00</published><updated>2020-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2020/07/05/User-Location-Visualization-Tool</id><content type="html" xml:base="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html">&lt;h3 id=&quot;full-stack-web-application&quot;&gt;Full-Stack Web Application&lt;/h3&gt;
@@ -11,21 +11,84 @@ Let's get some work done.
   &lt;li&gt;Interface to register users and save user data to mongoDB.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/demo_img/Register.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/UserLocationDemo/Register.png&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;User Homepage where users can update their information.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/demo_img/Login.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/UserLocationDemo/Login.png&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Client application that visualizes user location and activity.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/demo_img/Visualization.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/UserLocationDemo/Visualization.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;github-repo&quot;&gt;Github Repo&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/athom031/UserRegLatLong&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;
-&lt;h5 id=&quot;setup-instructions-included&quot;&gt;Setup Instructions Included&lt;/h5&gt;</content><author><name></name></author><summary type="html">Full-Stack Web Application</summary></entry></feed>
+&lt;h5 id=&quot;setup-instructions-included&quot;&gt;Setup Instructions Included&lt;/h5&gt;</content><author><name></name></author><summary type="html">Full-Stack Web Application</summary></entry><entry><title type="html">Audio Signal Processing</title><link href="http://localhost:4000/2019/09/03/Audio-Signal-Processing.html" rel="alternate" type="text/html" title="Audio Signal Processing" /><published>2019-09-03T00:00:00-07:00</published><updated>2019-09-03T00:00:00-07:00</updated><id>http://localhost:4000/2019/09/03/Audio-Signal-Processing</id><content type="html" xml:base="http://localhost:4000/2019/09/03/Audio-Signal-Processing.html">&lt;p&gt;An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.&lt;/p&gt;
+
+&lt;h2 id=&quot;split-script&quot;&gt;Split Script&lt;/h2&gt;
+
+&lt;p&gt;Voice to command technology has become ever more present in today’s devices. To test this technology, keyword utterances are required.&lt;/p&gt;
+
+&lt;p&gt;In my Knowles Data Collection project I organized for 30 subjects to come into the lab and record 10 instances of 9 different keywords.&lt;/p&gt;
+
+&lt;p&gt;(A key word example: “Hey Siri, what’s the weather like today”.)&lt;/p&gt;
+
+&lt;p&gt;This audio is saved as the total file but each utterance is required to be split and saved in the proper database collection. This base split script is used to take in an audio file and find the utterances. Later naming conventions and ordering was used to determine which keyword it is and where to send it in the database.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/SplitScript.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I saw an opportunity to optimize company scripts and made my own script which had a speedup due to cancelling redundant calculations.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/SplitScript&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;audio-cutter&quot;&gt;Audio Cutter&lt;/h2&gt;
+
+&lt;p&gt;During my internship this became a small passion project. 
+Often times in music I enjoy, there are annoying segments whether it be instrumental or a undesired verse that irks the music listening process.&lt;/p&gt;
+
+&lt;p&gt;Trimming off the beginning and ending of a song is easy on iTunes but to cut out a middle section of a song causes a lot more hardship. Instead of opening up GarageBand and hand trimming the audio, concatenating them, and then exporting the audio, this python desktop application does it for you based on timestamps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/AudioCutter.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/AudioCutter&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;trim-silence&quot;&gt;Trim Silence&lt;/h2&gt;
+
+&lt;p&gt;After my internship I wondered how I could apply the split script methodologies to my life.
+Being a person passionate about collecting music, I found that a lot of audio have different levels and that downloaded music has awkward dips and pauses from the song.&lt;/p&gt;
+
+&lt;p&gt;This script trims off silence automatically and chooses which “utterance” to export based on length.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/TrimSilence.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/TrimSilence&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.</summary></entry><entry><title type="html">Box Bot - Bluetooth RC</title><link href="http://localhost:4000/2017/11/12/Bluetooth-RC.html" rel="alternate" type="text/html" title="Box Bot - Bluetooth RC" /><published>2017-11-12T00:00:00-08:00</published><updated>2017-11-12T00:00:00-08:00</updated><id>http://localhost:4000/2017/11/12/Bluetooth-RC</id><content type="html" xml:base="http://localhost:4000/2017/11/12/Bluetooth-RC.html">&lt;h4 id=&quot;ucr-hackathon-submission&quot;&gt;UCR Hackathon Submission&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/BoxBot/BoxBot.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My team consisted of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Melissa Do&lt;/li&gt;
+  &lt;li&gt;Emma Rivera&lt;/li&gt;
+  &lt;li&gt;Cindy Quach&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We used the Arduino IDE to build motorized car that was controlled by personal Android application.&lt;/p&gt;
+
+&lt;p&gt;From this project, we learned how to program using the Arduino IDE, build simple circuits, the difference between digital and analog signals, and how to solder wires onto our LED lights.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devpost.com/software/box-bot&quot;&gt;Project&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/BoxBot/Award.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other than Melissa, the rest of the team had never been to a Hackathon before nor had prior experience with working with hardware. So we approached this opportunity with the goal of learning how to step out of our comfort zones and into the engineering world. Considering our experience with hardware, we achieved something great by being awarded the Best Hardware Hack!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;http://localhost:4000/assets/Files/BoxBot/BoxBot.gif&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">UCR Hackathon Submission</summary></entry></feed>

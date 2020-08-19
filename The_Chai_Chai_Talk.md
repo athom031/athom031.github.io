@@ -41,9 +41,11 @@ Children born of Indian Immigrants in the U.S. often struggle to balance their t
 <!--                        Episode 1                                      -->
 <div id="ep1"></div>
 
+
 ## Episode 1: The Chai Chai Talk Intro
 
 <img src="{{ site.url }}/assets/Files/Guests/1_Manny.jpg" width = "50%"/>
+
 
 #### Joined by Manny Garcia
 
