@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alex Thomas
+title: Contact Me
 email: alexjosthomas@gmail.com
 description: |+ # we want to keep newlines
   A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
