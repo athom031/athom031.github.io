@@ -5,7 +5,7 @@ title: "Embedded Systems"
 
 # Embedded Systems
 
-This directory is a collection of projects completed in CS120B - Embedded Systems <br/>
+A collection of projects completed in CS120B - Embedded Systems <br/>
 ##### (UCR Spring 2020).
 
 

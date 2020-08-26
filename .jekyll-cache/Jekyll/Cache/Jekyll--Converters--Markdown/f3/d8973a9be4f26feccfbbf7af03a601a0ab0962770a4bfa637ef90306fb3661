@@ -1,0 +1,131 @@
+I", <h3 id="ucr-senior-design-project">UCR Senior Design Project</h3>
+
+<h4 id="video-demo"><a href="https://www.youtube.com/watch?v=16-g_YCpumI">Video Demo</a></h4>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Krazy Kitchen is an online cooperative game where a group of your friends attempt to complete several recipes under chaotic situations. This is our own implementation of the Overcooked game series. Space and time is limited and completing recipes are a combination of many different tasks and ingredients. This game requires users to get, cut, cook, combine and then deliver food. The true fun comes from the pandemonium that accompanies attempting levels individually and discovering through gameplay that the only way to succeed is to work together.</p>
+
+<h2 id="built-with">Built With</h2>
+
+<p><strong>Unity Enginer</strong></p>
+<ul>
+  <li>Version: <a href="https://unity3d.com/unity/beta/2019.3.0b3">2019.3.0 Beta 3</a></li>
+</ul>
+
+<h2 id="authors">Authors</h2>
+
+<ul>
+  <li><strong>Alex Thomas</strong> - <a href="https://github.com/athom031">Github</a></li>
+  <li><strong>Jose Garcia</strong> - <a href="https://github.com/LadyEbony">Github</a></li>
+  <li><strong>Siqi Tian</strong> - <a href="https://github.com/SiqiT">Github</a></li>
+  <li><strong>Max McKee</strong> - <a href="https://github.com/mmckee003">Github</a></li>
+  <li><strong>Chong Zuo</strong> - <a href="https://github.com/ChongZuo">Github</a></li>
+</ul>
+
+<h2 id="game-description">Game Description</h2>
+
+<h3 id="level-components">Level Components</h3>
+<div align="center">
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/plates.png" width="50%" /> <br />
+Cutting boards are where players can prepare specific ingredients for specific recipes. <br />And the plates are what meals are served on.
+<br /><br />
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/trashcan.png" width="30%" /> <br />
+Cabinets with an exclamation point over it serve as garbage cans. Putting anything on these cabinets will kill the object, allowing you to clean up your kitchen before it gets too much in disarray.
+<br /><br />
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/cookingpot.png" width="40%" /> <br />
+Stove tops allow our chefs to cook the needed ingredients to complete their recipes. Keeping ingredients too long will cause the food to become charred and no longer servable, so watch your food!
+<br /><br />
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/ingredients.png" width="40%" /> <br />
+Ingredients are available in this design on top of item spawning cabinets. There is no limit to how many ingredients can be spawned. Try not to drown in fish!
+<br /><br />
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/timer.png" width="30%" /> <br />
+A timer is available on every level to show how much time is left to complete recipes. This is independent of what recipe tasks are being given to the player and instead is dependent on the level itself. Completing the required number of recipes in the level time serves as beating the level.
+<br /><br />
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/recipes.png" width="40%" /> <br />
+In the top left corner all of the tasks are located for the players with its specific recipe. Plating and delivering a meal will delete the task and update your score in the bottom left corner.
+<br /><br />
+
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/delivery.png" width="40%" /> <br />
+These special cabinets are where we can deliver play-created meals. Once plated food is put on these cabinets, they are checked to see if the recipe has been met and then the score is incremented.
+<br /><br />
+
+</div>
+
+<h3 id="levels">Levels</h3>
+
+<p><img src="http://localhost:4000/assets/Files/KrazyKitchen/level1.png" /> <br /></p>
+
+<h4 id="level-1">Level 1</h4>
+<p>In our first level we stress the importance of working together right off the bat. Players spawn in one of the two areas. If you are in the top section, you are only able to spawn and cut ingredients. These prepared ingredients can be put on the middle island section to be picked up by players in the bottom section. If you are in the bottom section, you can get the prepared ingredients, cook and plate them accordingly. The delivery of recipes are in the bottom section as well.
+<br /><br /></p>
+
+<p><img src="http://localhost:4000/assets/Files/KrazyKitchen/level2.png" /> <br /></p>
+
+<h4 id="level-2">Level 2</h4>
+<p>In our second level we open tasks up to the players’ discretion. Through the small window in the cabinets, players can switch sides. It is important to note that ingredients are on top and the cutting board is on the bottom. This level involves a lot of transferring ingredients back and forth to complete a recipe. So although now a player can individually complete recipes, working together will still allow the most efficient system. 
+<br /><br /></p>
+
+<p><img src="http://localhost:4000/assets/Files/KrazyKitchen/level3.png" /> <br /></p>
+
+<h4 id="level-3">Level 3</h4>
+<p>This level can prove to be the most frustrating without communication. Players can be clogged up in this claustrophobic environment and cannot rely on cabinet island transfers unlike before. The suggested gameplay for this level is to keep movement constant among teammates in a same circular direction. If players were to move clockwise, there will be no traffic congestion.<br />
+<br /><br /></p>
+
+<p><img src="http://localhost:4000/assets/Files/KrazyKitchen/level4.png" /> <br /></p>
+
+<h4 id="level-4">Level 4</h4>
+<p>In the final level of the game, players must test their abilities learned in the previous labels. Players must move within the tight channel to get ingredients to the other side. The throw feature can be used to great effect in this level.
+<br /><br /></p>
+
+<h3 id="characters">Characters</h3>
+
+<div align="center">
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/player.png" width="30%" /> 
+</div>
+<p><br />
+When the game starts, each user is assigned the same character model. Depending on the order they connect to the server, their model will be a different color. There is no ability or task difference in the player model. The 3D model is designed by Jose. Users can move their characters around and grab/drop an item. Users can also throw an item to other users in order to save more time.</p>
+
+<h3 id="gameplay">Gameplay</h3>
+
+<div align="center">
+<img src="http://localhost:4000/assets/Files/KrazyKitchen/controls.png" width="50%" /> 
+</div>
+<p><br />
+After all the players join the game, the game starts. Players have to cook meals based on the recipe to get corresponding points. Users can use ‘ W ’,‘ A ’,‘ S ’,‘ D ’  to control the character, ‘ E ’ to grab items, ‘ F ’ to throw items. Players can do the following operations: (1) Press ‘ E ’  to pick an ingredient from the food crate;  (2) Press ‘ F ’ several times to alter ingredient to cut food state if the player is at the cutting cabinet. (3) Press ‘  E ’ to put food into a stove and wait for a while to get a cooked food if the player is in front of the stove; (4) Press ‘ E ’ to deliver food at the deliver tile and get related points; (5) Press ‘ E’ to discard food if the player is at the trash cabinet.</p>
+
+<h3 id="sound-effects">Sound Effects</h3>
+
+<h3 id="animations-and-particle-effects">Animations and Particle Effects</h3>
+
+<h2 id="implementation">Implementation</h2>
+
+<p><strong>Game Engine</strong> - Unity</p>
+<ul>
+  <li>Version: <a href="https://unity3d.com/unity/beta/2019.3.0b3">2019.3.0 Beta 3</a></li>
+</ul>
+
+<p><strong>Networking Framework</strong> - Photon</p>
+<ul>
+  <li><a href="https://www.photonengine.com/pun">Photon</a> <br /></li>
+</ul>
+
+<p><strong>Necessary Scripts</strong></p>
+<ul>
+  <li><a href="https://docs.unity3d.com/Packages/com.unity.entities@0.0/api/Unity.Entities.EntityManager.html">UnitEntityManager</a></li>
+  <li><a href="https://docs.unity3d.com/540/Documentation/ScriptReference/UI.Selectable-interactable.html">Interactable</a></li>
+</ul>
+
+<h2 id="inspiration">Inspiration:</h2>
+<p>Overcooked - chaotic couch co-op cooking game</p>
+<ul>
+  <li>https://store.steampowered.com/app/448510/Overcooked/</li>
+</ul>
+
+:ET
