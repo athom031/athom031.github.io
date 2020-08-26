@@ -6,7 +6,7 @@ title: "Krazy Kitchen"
 ### UCR Senior Design Project
 
 #### [Video Demo](https://www.youtube.com/watch?v=16-g_YCpumI)
-
+#### [Github Repository](https://github.com/athom031/KrazyKitchen)
 
 ## Abstract
 
