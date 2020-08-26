@@ -119,6 +119,4 @@ Users can use:
 * [Interactable](https://docs.unity3d.com/540/Documentation/ScriptReference/UI.Selectable-interactable.html)
 
 ## Inspiration: 
-Overcooked - chaotic couch co-op cooking game
-* https://store.steampowered.com/app/448510/Overcooked/
-
+[Overcooked](https://store.steampowered.com/app/448510/Overcooked/)- chaotic couch co-op cooking game 
