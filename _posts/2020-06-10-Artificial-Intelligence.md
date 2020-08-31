@@ -2,15 +2,14 @@
 layout: post
 title: "Artificial Intelligence"
 ---
-A collection of projects completed in CS170 - Artificial Intelligence exploring fundamentals such as search, machine learning, and logic systems. <br/>
+A collection of projects completed in _CS170 - Artificial Intelligence_ exploring fundamentals of AI. <br/>
 
-Search: The process of traversing from a start state to a goal state through a set of intermediate states. <br/>
-Machine Learning: An application that provides a system with the ability to "learn" from previous data. <br/>
-Logic Systems: The ability to take previous data and rules and then manipulate them to create new facts.
+_Search_: The process of traversing from a start state to a goal state through a set of intermediate states. <br/>
+_Machine Learning_: An application that provides a system with the ability to "learn" from previous data. <br/>
+_Logic Systems_: The ability to take previous data and rules and then manipulate them to create new facts.
 
-## Projects
 <!--                    TABLE OF CONTENTS                                   -->
-### Table of Contents
+### Project Table of Contents
 <div style="display:flex; flex-direction:column;">    
     <html>
         <a href="#puzzle">Search: 8 Puzzle Solver</a>
@@ -20,6 +19,8 @@ Logic Systems: The ability to take previous data and rules and then manipulate t
 </div>
 <br/>
 
+<!--                          PROJECTS                                      -->
+
 <div id="puzzle"></div>
 
 ## Search: 8 Puzzle Solver
@@ -27,7 +28,7 @@ Logic Systems: The ability to take previous data and rules and then manipulate t
 ### [Puzzle Solver Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver)
 
 <div align="center">
-<img src="https://github.com/athom031/Artificial_Intelligence/blob/master/8-Puzzle-Solver/demo_img/nodeAnalysis.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png" width = "50%"/> 
 </div><br/>
 
 ### Abstract
@@ -42,7 +43,7 @@ _Manhattan Distance_ checks how far each tile is from where it should be. <br/>
 ### Reflection
 
 <div align="center">
-<img src="https://github.com/athom031/Artificial_Intelligence/blob/master/8-Puzzle-Solver/demo_img/runtime.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png" width = "50%"/> 
 </div><br/>
 
 We can see building upon the movement cost to predict the next best step, reduces the runtime and space complexity exponentially. The heuristic chosen also matters. I was surprised that the misplaced tile performed better for this example than the Manhattan distance because from theory, the Manhattan distance uses more information about the actual state. But they are very similar and might vary for other examples.
@@ -55,7 +56,7 @@ We can see building upon the movement cost to predict the next best step, reduce
 ### [Feature Selection Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN)
 
 <div align="center">
-<img src="https://github.com/athom031/Artificial_Intelligence/blob/master/FeatureSelectionNN/feature_selection_example/80_features_3_5.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "50%"/> 
 </div><br/>
 
 ### Abstract
@@ -82,12 +83,12 @@ Backwards Selection also takes more time on larger datasets. <br/>
 ### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
 
 <div align="center">
-<img src="https://github.com/athom031/Artificial_Intelligence/blob/master/AryaBot/demo_img/aryaWanderer.jpg" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.png" width = "50%"/> 
 </div><br/>
 
 Arya is a chat bot that represents her learned personality ('negative', 'neutral', or 'positive') with a score and responds occordingly. <br/>
 
-![Demo_Personality](https://github.com/athom031/Artificial_Intelligence/blob/master/AryaBot/demo_img/aryaSoccer.png)
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaSoccer.png"/>
 <br/>
 
 Each line, her personality 'score' is at a positive, netural, and negative level accordingly. Though the user input changes, Arya 'feels' like responding in a different way.
