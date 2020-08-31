@@ -121,5 +121,4 @@ Input will affect Arya's personality beyond setting it manually:
 
 ### Inpsiration
 
-Input parser and output creating inspired by Liza Daly's python chat bot fundamentals example.
-* [brobot](https://github.com/lizadaly/brobot)
+Input parser and output creating inspired by Liza Daly's python [chat bot](https://github.com/lizadaly/brobot) fundamentals example.
