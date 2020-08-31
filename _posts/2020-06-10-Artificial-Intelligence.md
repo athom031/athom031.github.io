@@ -13,7 +13,7 @@ _Logic Systems_: The ability to take previous data and rules and then manipulate
 <div style="display:flex; flex-direction:column;">    
     <html>
         <a href="#puzzle">Search: 8 Puzzle Solver</a>
-        <a href="#feature">Machine Learning: Feature Selection using Nearest Neighbor</a>
+        <a href="#feature">Machine Learning: Nearest Neighbor Feature Selection</a>
         <a href="#arya">Logic Systems: Arya the ChatBot</a>
     </html>
 </div>
@@ -25,7 +25,7 @@ _Logic Systems_: The ability to take previous data and rules and then manipulate
 
 ## Search: 8 Puzzle Solver
 
-### [Puzzle Solver Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver)
+#### [Puzzle Solver Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver)
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png" width = "50%"/> 
@@ -51,9 +51,9 @@ We can see building upon the movement cost to predict the next best step, reduce
 
 <div id="feature"></div>
 
-## Machine Learning: Feature Selection using Nearest Neighbor
+## Machine Learning: Nearest Neighbor Feature Selection
 
-### [Feature Selection Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN)
+#### [Feature Selection Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN)
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "50%"/> 
@@ -80,7 +80,7 @@ Backwards Selection also takes more time on larger datasets. <br/>
 
 ## Logic Systems: Arya the ChatBot
 
-### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
+#### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.png" width = "50%"/> 
