@@ -28,7 +28,7 @@ _Logic Systems_: The ability to take previous data and rules and then manipulate
 #### [Puzzle Solver Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png"/> 
 </div><br/>
 
 ### Abstract
@@ -43,7 +43,7 @@ _Manhattan Distance_ checks how far each tile is from where it should be. <br/>
 ### Reflection
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png"/> 
 </div><br/>
 
 We can see building upon the movement cost to predict the next best step, reduces the runtime and space complexity exponentially. The heuristic chosen also matters. I was surprised that the misplaced tile performed better for this example than the Manhattan distance because from theory, the Manhattan distance uses more information about the actual state. But they are very similar and might vary for other examples.
@@ -56,7 +56,7 @@ We can see building upon the movement cost to predict the next best step, reduce
 #### [Feature Selection Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "75%"/> 
 </div><br/>
 
 ### Abstract
@@ -83,7 +83,7 @@ Backwards Selection also takes more time on larger datasets. <br/>
 #### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "75%"/> 
 </div><br/>
 
 Arya is a chat bot that represents her learned personality ('negative', 'neutral', or 'positive') with a score and responds occordingly. <br/>
