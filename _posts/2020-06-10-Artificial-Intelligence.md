@@ -83,7 +83,7 @@ Backwards Selection also takes more time on larger datasets. <br/>
 #### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.png" width = "50%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "50%"/> 
 </div><br/>
 
 Arya is a chat bot that represents her learned personality ('negative', 'neutral', or 'positive') with a score and responds occordingly. <br/>
