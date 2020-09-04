@@ -1,7 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-25T18:12:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-04T16:27:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
 A team player with a passion for learning and developing new software. 
 Let's get some work done.
-</subtitle><entry><title type="html">User Location Visualization Tool</title><link href="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html" rel="alternate" type="text/html" title="User Location Visualization Tool" /><published>2020-07-05T00:00:00-07:00</published><updated>2020-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2020/07/05/User-Location-Visualization-Tool</id><content type="html" xml:base="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html">&lt;h3 id=&quot;full-stack-web-application&quot;&gt;Full-Stack Web Application&lt;/h3&gt;
+</subtitle><entry><title type="html">Twitter Search Engine</title><link href="http://localhost:4000/2020/09/04/Twitter-Search-Engine.html" rel="alternate" type="text/html" title="Twitter Search Engine" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/2020/09/04/Twitter-Search-Engine</id><content type="html" xml:base="http://localhost:4000/2020/09/04/Twitter-Search-Engine.html">&lt;h3 id=&quot;full-stack-web-application&quot;&gt;Full-Stack Web Application&lt;/h3&gt;
+
+&lt;p&gt;A search engine for crawled tweet data. With a Lucene Index, this search engine has the ability to search millions of tweets and return the most recent and relevant results based on a user query.&lt;/p&gt;
+
+&lt;h5 id=&quot;project-pipeline-back-end--spring-front-end--react-twitter-dev-api-twitter-4j&quot;&gt;Project Pipeline: Back End – Spring, Front End – React, Twitter Dev API, Twitter 4j&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/TwitterSearch/front_end_search.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;crawl-and-indexing&quot;&gt;Crawl and Indexing&lt;/h2&gt;
+
+&lt;h3 id=&quot;crawl&quot;&gt;Crawl&lt;/h3&gt;
+
+&lt;p&gt;To crawl twitter, a connection to the Twitter API using a Twitter 4j object and developer keys was made, opening up a stream of tweets. For the tweets, there are two explicit parameters:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tweets tagged with “English” language&lt;/li&gt;
+  &lt;li&gt;GPS bounding box for the United States of America&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Example crawled tweets are located &lt;a href=&quot;https://github.com/athom031/TwitterCrawlAndSearch/tree/master/crawl_index/data-sample&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Initially, crawled data also included:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Datetime&lt;/li&gt;
+  &lt;li&gt;Geolocation (Latitude, Longitude)&lt;/li&gt;
+  &lt;li&gt;User&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But embedding tweets in front-end application only needed the unique Tweet ID.&amp;lt;/br&amp;gt;
+Text and timestamp is kept as parameters for the actual search feature.&lt;/p&gt;
+
+&lt;h3 id=&quot;indexing&quot;&gt;Indexing&lt;/h3&gt;
+
+&lt;p&gt;The index structure generated uses the Lucene library object IndexWriter. The index is built by loading all of the .JSON objects in the .JSON line formatted files into memory which are then parsed to create documents for the lucene index.&lt;/p&gt;
+
+&lt;p&gt;When a .JSON object (a Tweet) is parsed, the text of the Tweet is stored as a TextField in the index’s document. This is the baseline used when searching the index later. The ID is not used in the tweet itself but is primarily used when representing the tweet on the front end. The timestamp of the Tweet is stored twice: once as a NumericDocValuesField (used for search score boosting) and once as a LongPoint (for drill down serach functionality).&lt;/p&gt;
+
+&lt;h2 id=&quot;web-application&quot;&gt;Web Application&lt;/h2&gt;
+
+&lt;h3 id=&quot;back-end&quot;&gt;Back End&lt;/h3&gt;
+
+&lt;p&gt;The LuceneBuilder Class was manipulated to fit the contraints of the Spring framework to create a working backend for search queries. But the default Spring framework proved erraneous due to the front end and back end being on local host in development. This meant that cross origin request errors were not linking the front end and backend properly. Therefore a more specialized &lt;a href=&quot;https://spring.io/guides/gs/rest-service-cors/&quot;&gt;framework&lt;/a&gt; was used.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/TwitterSearch/back_end.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;front-end&quot;&gt;Front End&lt;/h3&gt;
+
+&lt;p&gt;The react twitter embed &lt;a href=&quot;https://www.npmjs.com/package/react-twitter-embed&quot;&gt;component&lt;/a&gt; made displaying the relevant tweets quite easy. The only difficulty was that the entire project, initially, was collecting different tweet data. So the Twitter Crawl and Index had to be changed accordingly.&lt;/p&gt;
+
+&lt;p&gt;The website changes based on the current state of the App class (depending on whether or not a user has entered a query). Once the query is submitted, it calls the front end to get the ID’s of the 10 most relevant tweets, and uses the embed component to display the tweets in a familiar way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/TwitterSearch/front_end_result.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;github-repo&quot;&gt;Github Repo&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/TwitterCrawlAndSearch&quot;&gt;Check It Out!&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&quot;setup-instructions-included&quot;&gt;Setup Instructions Included&lt;/h5&gt;</content><author><name></name></author><summary type="html">Full-Stack Web Application</summary></entry><entry><title type="html">User Location Visualization Tool</title><link href="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html" rel="alternate" type="text/html" title="User Location Visualization Tool" /><published>2020-07-05T00:00:00-07:00</published><updated>2020-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2020/07/05/User-Location-Visualization-Tool</id><content type="html" xml:base="http://localhost:4000/2020/07/05/User-Location-Visualization-Tool.html">&lt;h3 id=&quot;full-stack-web-application&quot;&gt;Full-Stack Web Application&lt;/h3&gt;
 
 &lt;p&gt;A visual map of users for a client to see user whereabouts and activity. User side involves sleek Login and Registration tabs that then stores information in a MongoDB collection. Once logged in Users can change their information as well. With the Google Cloud API, the users coordinates are saved and displayed on the client side map.&lt;/p&gt;
 &lt;h5 id=&quot;project-pipeline-back-end--nodejs-front-end--react-user-model--mongodb-google-cloud-apis&quot;&gt;Project Pipeline: Back End – NodeJS, Front End – React, User Model – MongoDB, Google Cloud APIs&lt;/h5&gt;
@@ -31,6 +86,7 @@ Let's get some work done.
 &lt;h5 id=&quot;setup-instructions-included&quot;&gt;Setup Instructions Included&lt;/h5&gt;</content><author><name></name></author><summary type="html">Full-Stack Web Application</summary></entry><entry><title type="html">Krazy Kitchen</title><link href="http://localhost:4000/2020/06/11/Krazy-Kitchen.html" rel="alternate" type="text/html" title="Krazy Kitchen" /><published>2020-06-11T00:00:00-07:00</published><updated>2020-06-11T00:00:00-07:00</updated><id>http://localhost:4000/2020/06/11/Krazy-Kitchen</id><content type="html" xml:base="http://localhost:4000/2020/06/11/Krazy-Kitchen.html">&lt;h3 id=&quot;ucr-senior-design-project&quot;&gt;UCR Senior Design Project&lt;/h3&gt;
 
 &lt;h4 id=&quot;video-demo&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=16-g_YCpumI&quot;&gt;Video Demo&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;github-repository&quot;&gt;&lt;a href=&quot;https://github.com/athom031/KrazyKitchen&quot;&gt;Github Repository&lt;/a&gt;&lt;/h4&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
@@ -156,10 +212,136 @@ Users can use:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;inspiration&quot;&gt;Inspiration:&lt;/h2&gt;
-&lt;p&gt;Overcooked - chaotic couch co-op cooking game&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/448510/Overcooked/&quot;&gt;Overcooked&lt;/a&gt;- chaotic couch co-op cooking game&lt;/p&gt;</content><author><name></name></author><summary type="html">UCR Senior Design Project</summary></entry><entry><title type="html">Artificial Intelligence</title><link href="http://localhost:4000/2020/06/10/Artificial-Intelligence.html" rel="alternate" type="text/html" title="Artificial Intelligence" /><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><id>http://localhost:4000/2020/06/10/Artificial-Intelligence</id><content type="html" xml:base="http://localhost:4000/2020/06/10/Artificial-Intelligence.html">&lt;p&gt;A collection of projects completed in &lt;em&gt;CS170 - Artificial Intelligence&lt;/em&gt; exploring fundamentals of AI. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Search&lt;/em&gt;: The process of traversing from a start state to a goal state through a set of intermediate states. &lt;br /&gt;
+&lt;em&gt;Machine Learning&lt;/em&gt;: An application that provides a system with the ability to “learn” from previous data. &lt;br /&gt;
+&lt;em&gt;Logic Systems&lt;/em&gt;: The ability to take previous data and rules and then manipulate them to create new facts.&lt;/p&gt;
+
+&lt;!--                    TABLE OF CONTENTS                                   --&gt;
+&lt;h3 id=&quot;project-table-of-contents&quot;&gt;Project Table of Contents&lt;/h3&gt;
+&lt;div style=&quot;display:flex; flex-direction:column;&quot;&gt;    
+    &lt;html&gt;
+        &lt;a href=&quot;#puzzle&quot;&gt;Search: 8 Puzzle Solver&lt;/a&gt;
+        &lt;a href=&quot;#feature&quot;&gt;Machine Learning: Nearest Neighbor Feature Selection&lt;/a&gt;
+        &lt;a href=&quot;#arya&quot;&gt;Logic Systems: Arya the ChatBot&lt;/a&gt;
+    &lt;/html&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--                          PROJECTS                                      --&gt;
+
+&lt;div id=&quot;puzzle&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;search-8-puzzle-solver&quot;&gt;Search: 8 Puzzle Solver&lt;/h2&gt;
+
+&lt;h4 id=&quot;puzzle-solver-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver&quot;&gt;Puzzle Solver Repo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/nodeAnalysis.png&quot; /&gt; 
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;A python implementation of a search solution to the 8 puzzle &lt;a href=&quot;https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288&quot;&gt;problem&lt;/a&gt;. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Three methods are used to show the merit of A* search and within that, the importance of a good heuristic.&lt;br /&gt;
+Uniform Cost Search only depends on the movement cost to determine the next move.&lt;br /&gt;
+A* Search uses the movement cost to determine the next move but adding to that includes a heuristic function to determine the best next step. The A* search used, depends on two different heuristics.&lt;br /&gt;
+&lt;em&gt;Misplaced Tile&lt;/em&gt; checks how many tiles are where they shouldn’t be. &lt;br /&gt;
+&lt;em&gt;Manhattan Distance&lt;/em&gt; checks how far each tile is from where it should be. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/runtime.png&quot; /&gt; 
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can see building upon the movement cost to predict the next best step, reduces the runtime and space complexity exponentially. The heuristic chosen also matters. I was surprised that the misplaced tile performed better for this example than the Manhattan distance because from theory, the Manhattan distance uses more information about the actual state. But they are very similar and might vary for other examples.&lt;/p&gt;
+
+&lt;div id=&quot;feature&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;machine-learning-nearest-neighbor-feature-selection&quot;&gt;Machine Learning: Nearest Neighbor Feature Selection&lt;/h2&gt;
+
+&lt;h4 id=&quot;feature-selection-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN&quot;&gt;Feature Selection Repo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/80_features_3_5.png&quot; width=&quot;75%&quot; /&gt; 
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract-1&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Given a feature set with N classified instances and M features, we want to find the feature subset that will best represent the dataset for future unclassified instances. This uses the Nearest Neighbor Classifier and One Out algorithm to measure each potential feature subset.&lt;/p&gt;
+&lt;h5 id=&quot;one-out-algorithm&quot;&gt;One Out Algorithm:&lt;/h5&gt;
+&lt;p&gt;Take one data point out and build a Nearest Neighbor classifier from the current feature subset. Then use this classifier to guess the one out point. We do this for every point to determine the accuracy of our current feature subset.&lt;/p&gt;
+&lt;h5 id=&quot;feature-selection&quot;&gt;Feature Selection:&lt;/h5&gt;
+&lt;p&gt;We select features one of two ways, either we start with no features (forward selection) or all features (backward selection). Then we simply greedily narrow it down to the most accurate subset of features (remember we evaluate accuracy with the one out algorithm.&lt;/p&gt;
+
+&lt;h3 id=&quot;warnings&quot;&gt;Warnings&lt;/h3&gt;
+
+&lt;p&gt;Though foward selection and backward selection will result in similar accurate feature subset, these subsets will not always be the same. &lt;br /&gt;
+Forward selection will replicate the accuracy of backward selection with less features. &lt;br /&gt;
+This makes the features picked by Backwards Selection harder to pick. &lt;br /&gt;
+Backwards Selection also takes more time on larger datasets. &lt;br /&gt;
+&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN/feature_accuracy_example&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;arya&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;logic-systems-arya-the-chatbot&quot;&gt;Logic Systems: Arya the ChatBot&lt;/h2&gt;
+
+&lt;h4 id=&quot;arya-chatbot-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot&quot;&gt;Arya ChatBot Repo&lt;/a&gt;&lt;/h4&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/aryaWanderer.jpg&quot; width=&quot;75%&quot; /&gt; 
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Arya is a chat bot that represents her learned personality (‘negative’, ‘neutral’, or ‘positive’) with a score and responds occordingly. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/aryaSoccer.png&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each line, her personality ‘score’ is at a positive, netural, and negative level accordingly. Though the user input changes, Arya ‘feels’ like responding in a different way.&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract-2&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;This is a simple AI interface that responds to user entries based on the conversation and personality of the AI. If the user enters positive entries, the AI personality will slowly rise. But if the user starts sending negative messages, Arya’s personality will start to drop.&lt;/p&gt;
+
+&lt;h3 id=&quot;limitations&quot;&gt;Limitations&lt;/h3&gt;
+
+&lt;p&gt;AI is a complex field which is the reason for the Turing Test to exist. &lt;br /&gt;
+Because of that there are limitations on Arya.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;https://store.steampowered.com/app/448510/Overcooked/&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">UCR Senior Design Project</summary></entry><entry><title type="html">Embedded Systems</title><link href="http://localhost:4000/2020/06/10/Embedded-Systems.html" rel="alternate" type="text/html" title="Embedded Systems" /><published>2020-06-10T00:00:00-07:00</published><updated>2020-06-10T00:00:00-07:00</updated><id>http://localhost:4000/2020/06/10/Embedded-Systems</id><content type="html" xml:base="http://localhost:4000/2020/06/10/Embedded-Systems.html">&lt;h1 id=&quot;embedded-systems&quot;&gt;Embedded Systems&lt;/h1&gt;
+  &lt;li&gt;Arya’s vocabulary is off a database of words and this is character specific, therefore capitalization does change understanding&lt;/li&gt;
+  &lt;li&gt;Some phrases will simply not be understood because of the limits of the words understood by Arya.&lt;/li&gt;
+  &lt;li&gt;Because of this can crash and just not respond on some user input.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;user-input-examples&quot;&gt;User Input Examples&lt;/h3&gt;
+
+&lt;p&gt;Some output stays the same no matter the personality:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“What time is it?” will return standard time of clock &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The other output will change based on how Arya feels:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“Who am I?”&lt;/li&gt;
+  &lt;li&gt;“Who are you?”&lt;/li&gt;
+  &lt;li&gt;“I am good at &lt;em&gt;insert noun&lt;/em&gt;” &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Input will affect Arya’s personality beyond setting it manually:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“You are a &lt;em&gt;insert adj&lt;/em&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inpsiration&quot;&gt;Inpsiration&lt;/h3&gt;
+
+&lt;p&gt;Input parser and output creating inspired by Liza Daly’s python &lt;a href=&quot;https://github.com/lizadaly/brobot&quot;&gt;chat bot&lt;/a&gt; fundamentals example.&lt;/p&gt;</content><author><name></name></author><summary type="html">A collection of projects completed in CS170 - Artificial Intelligence exploring fundamentals of AI.</summary></entry><entry><title type="html">Embedded Systems</title><link href="http://localhost:4000/2020/06/08/Embedded-Systems.html" rel="alternate" type="text/html" title="Embedded Systems" /><published>2020-06-08T00:00:00-07:00</published><updated>2020-06-08T00:00:00-07:00</updated><id>http://localhost:4000/2020/06/08/Embedded-Systems</id><content type="html" xml:base="http://localhost:4000/2020/06/08/Embedded-Systems.html">&lt;h1 id=&quot;embedded-systems&quot;&gt;Embedded Systems&lt;/h1&gt;
 
 &lt;p&gt;A collection of projects completed in CS120B - Embedded Systems &lt;br /&gt;&lt;/p&gt;
 &lt;h5 id=&quot;ucr-spring-2020&quot;&gt;(UCR Spring 2020).&lt;/h5&gt;
