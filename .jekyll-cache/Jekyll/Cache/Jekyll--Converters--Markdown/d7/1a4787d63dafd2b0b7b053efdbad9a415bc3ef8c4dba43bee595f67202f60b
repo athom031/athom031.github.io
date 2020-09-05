@@ -1,0 +1,27 @@
+I"<p>A visual map of users for a client to see user whereabouts and activity. User side involves sleek Login and Registration tabs that then stores information in a MongoDB collection. Once logged in Users can change their information as well. With the Google Cloud API, the users coordinates are saved and displayed on the client side map.</p>
+<h5 id="project-pipeline-back-end--nodejs-front-end--react-user-model--mongodb-google-cloud-apis">Project Pipeline: Back End – NodeJS, Front End – React, User Model – MongoDB, Google Cloud APIs</h5>
+
+<h1 id="demo-images">Demo Images</h1>
+<ol>
+  <li>Interface to register users and save user data to mongoDB.</li>
+</ol>
+
+<p><img src="http://localhost:4000/assets/Files/UserLocationDemo/Register.png" /></p>
+
+<ol>
+  <li>User Homepage where users can update their information.</li>
+</ol>
+
+<p><img src="http://localhost:4000/assets/Files/UserLocationDemo/Login.png" /></p>
+
+<ol>
+  <li>Client application that visualizes user location and activity.</li>
+</ol>
+
+<p><img src="http://localhost:4000/assets/Files/UserLocationDemo/Visualization.png" /></p>
+
+<h3 id="github-repo">Github Repo</h3>
+
+<p><a href="https://github.com/athom031/UserRegLatLong">Check It Out!</a></p>
+<h5 id="setup-instructions-included">Setup Instructions Included</h5>
+:ET

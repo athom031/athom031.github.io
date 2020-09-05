@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Twitter Search Engine"
+title: "Twitter Search Engine: Full Stack Web Application"
 ---
-### Full-Stack Web Application
 
 A search engine for crawled tweet data. With a Lucene Index, this search engine has the ability to search millions of tweets and return the most recent and relevant results based on a user query.
 

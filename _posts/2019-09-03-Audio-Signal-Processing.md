@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Audio Signal Processing"
+title: "Audio Signal Processing: Intern Projects"
 ---
 
 An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.

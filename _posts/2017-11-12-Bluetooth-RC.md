@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Box Bot - Bluetooth RC"
+title: "Box Bot: UCR Hackathon Submission"
 ---
 
-#### UCR Hackathon Submission
+### Bluetooth Remote Controlled Car
 
 <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.JPG"/>
 

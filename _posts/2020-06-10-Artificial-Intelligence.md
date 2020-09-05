@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Artificial Intelligence"
+title: "Artificial Intelligence: CS 170 Class Projects"
 ---
 A collection of projects completed in _CS170 - Artificial Intelligence_ exploring fundamentals of AI. <br/>
 

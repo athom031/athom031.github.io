@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Krazy Kitchen"
+title: "Krazy Kitchen: Unity Engine Video Game"
 ---
 
 ### UCR Senior Design Project

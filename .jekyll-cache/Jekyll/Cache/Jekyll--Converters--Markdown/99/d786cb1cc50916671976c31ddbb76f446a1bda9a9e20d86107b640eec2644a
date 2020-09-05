@@ -1,0 +1,3 @@
+I"$<p>A visual map of users for a client to see user whereabouts and activity. User side involves sleek Login and Registration tabs that then stores information in a MongoDB collection. Once logged in Users can change their information as well. With the Google Cloud API, the users coordinates are saved and displayed on the client side map.</p>
+<h5 id="project-pipeline-back-end--nodejs-front-end--react-user-model--mongodb-google-cloud-apis">Project Pipeline: Back End – NodeJS, Front End – React, User Model – MongoDB, Google Cloud APIs</h5>
+:ET
