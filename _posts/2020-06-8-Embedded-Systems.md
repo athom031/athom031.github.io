@@ -9,27 +9,9 @@ A collection of projects completed in CS120B - Embedded Systems <br/>
 ##### (UCR Spring 2020).
 
 
-[Github Repo](https://github.com/athom031/EmbeddedSystems)
+### [Github Repo](https://github.com/athom031/EmbeddedSystems)
 
 ## Projects
-<!--                    TABLE OF CONTENTS                                   -->
-### Table of Contents
-<div style="display:flex; flex-direction:column;">    
-    <html>
-        <a href="#lcd">Final Project: LCD Racer</a>
-        <a href="#lab11">Lab 11: Task Scheduler</a>
-        <a href="#lab10">Lab 10: Concurrent synchSMs</a>
-        <a href="#lab9">Lab 9: PWM (Music Player)</a>
-        <a href="#lab8">Lab 8: ADC</a>
-        <a href="#lab7">Lab 7: LCD Screen</a>
-        <a href="#lab6">Lab 6: synchSMs</a>
-        <a href="#lab5">Lab 5: ATMega1284 Microcontroller Intro</a>
-        <a href="#lab4">Lab 4: State Machines</a>
-        <a href="#lab3">Lab 3: Bit Manipulation</a>
-        <a href="#lab2">Lab 2: AVR Toolchain Intro</a>
-    </html>
-</div>
-<br/>
 
 <!--                           PROJECTS                                      -->
 <div id="lcd"></div>
@@ -38,161 +20,92 @@ A collection of projects completed in CS120B - Embedded Systems <br/>
 
 #### LCD racing game. <br/>
 
-Help player Smee (>) avoid the obstacles that ever increase in speed. <br/>
+Help player Smee (>) avoid the obstacles (#). The obstacles increase over time and give an even larger challenge to Smee.
+<br/>
 Try and beat your high score!
 
-[Demo](https://youtu.be/kZFsC9rSBdo) <br/>
+#### [Demo](https://youtu.be/kZFsC9rSBdo) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer)
 
 <div id="lab11"></div>
 
-### Lab 11: Task Scheduler
+### Task Scheduler
 
-#### Part 1 
-Code the keypad to be a SM task and implements a task scheduler to output the ASCII code for the character being pressed.
-#### Part 2
-Display the message "CS120 is Legend... wait for it DARY!". <br/>
-The string does not fit on the display all at once, so the display scrolls through the text.
-#### Part 3 
-Implement a task scheduler to print the character last pressed.
-#### Part 4
-Have a string displayed that takes up the display and implement a task scheduler to iterate through the display index and output user characters over the string.
+<i>Highlight: </i> Legen... wait for it <br/>
+
+Concurrent syncSM that scrolls through text to display the string "Legen ... wait for it ... DARY!!", which is too big to fit on the LCD screen.
 
 [Demo](https://youtu.be/onJCacxnShQ) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab11)
-
-<div id="lab10"></div>
-
-### Lab 10: Concurrent synchSMs
-
-#### Part 1 
-A concurrent SM that runs a SM for threeLDs to alternate each second and another SM blink a fourth light.
-#### Part 2
-An edited concurrent SM from the one above that "appears" to opperate on different periods.
-#### Part 3 
-An edited concurrent SM from the one above that now includes a speaker to be toggled every 2 ms.
-#### Part 4
-Includes user input to change what frequency the speaker outputs audio.
-
-[Demo](https://youtu.be/swwiqgo0ODQ) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab10)
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab11/athom031_lab11_part2.c)
 
 <div id="lab9"></div>
 
-### Lab 9: PWM (Music Player)
+### Pulse Width Modulation (PWM)
 
-#### Part 1 
-With the PWM functionality, a designed system uses three buttons to play three different tones on a speaker.
-#### Part 2
-A SM that uses PWM functionality to scale through the C scale.
-#### Part 3 
-A SM that uses PWM functionality to play Kal Ho Na Ho theme.
+<i>Highlight: </i> Music Player <br/>
+
+A SM that uses PWM functionality to scale through the C scale and play the Kal Ho Naa Ho theme song (Bollywood song).
 
 [Demo](https://youtu.be/0He5l6V-2h0) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab9)
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab9/athom031_lab9_part3.c)
 
 <div id="lab8"></div>
 
-### Lab 8: ADC
+### Analog to Digital Converter (ADC)
 
-#### Part 1 
-A system that reads the 10-bit ADC result from a potentiometer and displays it on a LED array.
-#### Part 2
-A system that replaces the potentiometer with a photoresistor and displays it on a LED array.
-#### Part 3 
-A system that uses max and min results from previous lab to then only illuminate LED when enough light is detected on the photo resistor.
-#### Part 4
-A system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected. 
+<i>Highlight: </i> Light Sensor <br/>
+
+This is a system connected to a photo resistor. Based on the light, output the level on a bank of eight LEDs as a representation of the light level.
 
 [Demo](https://youtu.be/WifXfBjOIZE) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab8)
-
-<div id="lab7"></div>
-
-### Lab 7: LCD Screen
-
-#### Part 1 
-Output a number that can be incremented or decremented with a button press.
-#### Part 2
-Cycling LED array cycle game, where score is incrememnted when the button is pressed and the middle light is illuminated.
-
-[Demo](https://youtu.be/7MUxzIRRO7U) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab7)
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab8/athom031_lab8_part4.c)
 
 <div id="lab6"></div>
 
-### Lab 6: synchSMs
+### synchSMs
 
-#### Part 1
-A syncSM that blinks three LEDs in increasing and decreasing order, 1 second each.
-#### Part 2
-A simple light game that requires pressing a button when the middle light is illuminated. Pressing the light again restarts the game.
-#### Part 3
-LEDs represents bit # representation. Pressing one button increases the #, presssing another decreases the #.
+<i>Highlight: </i> Catch the Light <br/>
 
-[Demo](https://youtu.be/5JkeYeg2FGo) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab6)
+A simple light game where an array of LEDs cycles up and down. The task of the player is to try and press the button when the middle light is on. Each time the player succeeds, score is incremented on an LED screen. 
+
+[Demo](https://youtu.be/7MUxzIRRO7U) <br/>
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab6/athom031_lab6_part2.c)
 
 <div id="lab5"></div>
 
-### Lab 5: ATMega1284 Microcontroller Intro
+### ATMega1284 Microcontroller Intro
 
-#### Part 1
-Based on the fuel tank given as input, have the lights warn what the fuel level is.
-#### Part 2
-Increment or decrement output with button presses.
-#### Part 3
-A festive light display.
+<i>Highlight: </i> Fuel Level <br/>
+
+Input is connected to fuel tank gas level (numeric), so that we can output LED sequence that signifies what fuel level is. Additional light sequence for when levels dip low as a warning.
 
 [Demo](https://youtu.be/xjrFZ647MQU) <br/>
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab5)
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab5/athom031_lab5_part1.c)
 
 <div id="lab4"></div>
 
-### Lab 4: State Machines
+### State Machines
 
-#### Part 1
-Implemented on button and off button for an LED.
-#### Part 2
-Increment or decrement output based on button press.
-#### Part 3
-Digital combination deadbolt lock system for garage doorway.
-#### Part 4
-Extended dedadbolt where entering the lock key again will then lock the unlocked door.
-#### Part 5
-Further extended deadbolt that requires a 4-button sequence rather than 2-button sequence. This SM is instead represented with an array rather than a state for each button press.
+<i>Highlight: </i> Digital Combination Deadbolt <br/>
 
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab4)
+A digital combination deadbolt that takes input and authorizes entrance to the garage doorway. Entering the combination again will lock the doorway.
+
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab4/athom031_lab4_part5.c)
 
 <div id="lab3"></div>
 
-### Lab 3: Bit Manipulation
+### Bit Manipulation
+<i>Highlight: </i> Airbag Light <br/>
 
-#### Part 1
-Output the number of the number of 1's on two input ports.
-#### Part 2
-Output fuel level based on fuel tank count.
-#### Part 3
-Extend fuel level output to flash light if seatbelt is not fastened and driver is seated.
-#### Part 4
-Take the upper nibble of PINA and map it to the lower nibble of PORTB and vice versa.
-#### Part 5
-Based on driver seat weight, siginfy whether or not the airbag is abled.
+The input includes the weight sensor in the driver's seat. Based on this, signify whether or not the airbag is abled.
 
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab3)
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab3/athom031_lab3_part5.c)
 
 <div id="lab2"></div>
 
-### Lab 2: AVR Toolchain Intro
+### AVR Toolchain Intro 
+<i>Highlight: </i> Weight Sensor <br/>
 
+Weight sensor for amusement park ride that insures the weight is balanced across three seats and meets certain restrictions.
 
-#### Part 1
-Illuminate an LED if the garage door is open at night.
-#### Part 2
-Output the number of available parking spaces in a parking garage.
-#### Part 3
-Extended available parking for a warning if parking lot is full.
-#### Part 4
-Weight sensor for amusement park ride with three seats that insures the weight is balanced.
-
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab2) 
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab2/athom031_lab2_part4.c) 

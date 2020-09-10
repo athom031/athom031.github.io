@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-05T11:54:19-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-10T10:32:33-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
 A team player with a passion for learning and developing new software. 
 Let's get some work done.
 </subtitle><entry><title type="html">Twitter Search Engine: Full Stack Web Application</title><link href="http://localhost:4000/2020/09/04/Twitter-Search-Engine.html" rel="alternate" type="text/html" title="Twitter Search Engine: Full Stack Web Application" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/2020/09/04/Twitter-Search-Engine</id><content type="html" xml:base="http://localhost:4000/2020/09/04/Twitter-Search-Engine.html">&lt;p&gt;A search engine for crawled tweet data. With a Lucene Index, this search engine has the ability to search millions of tweets and return the most recent and relevant results based on a user query.&lt;/p&gt;
@@ -342,27 +342,9 @@ Because of that there are limitations on Arya.&lt;/p&gt;
 &lt;p&gt;A collection of projects completed in CS120B - Embedded Systems &lt;br /&gt;&lt;/p&gt;
 &lt;h5 id=&quot;ucr-spring-2020&quot;&gt;(UCR Spring 2020).&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;github-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems&quot;&gt;Github Repo&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
-&lt;!--                    TABLE OF CONTENTS                                   --&gt;
-&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
-&lt;div style=&quot;display:flex; flex-direction:column;&quot;&gt;    
-    &lt;html&gt;
-        &lt;a href=&quot;#lcd&quot;&gt;Final Project: LCD Racer&lt;/a&gt;
-        &lt;a href=&quot;#lab11&quot;&gt;Lab 11: Task Scheduler&lt;/a&gt;
-        &lt;a href=&quot;#lab10&quot;&gt;Lab 10: Concurrent synchSMs&lt;/a&gt;
-        &lt;a href=&quot;#lab9&quot;&gt;Lab 9: PWM (Music Player)&lt;/a&gt;
-        &lt;a href=&quot;#lab8&quot;&gt;Lab 8: ADC&lt;/a&gt;
-        &lt;a href=&quot;#lab7&quot;&gt;Lab 7: LCD Screen&lt;/a&gt;
-        &lt;a href=&quot;#lab6&quot;&gt;Lab 6: synchSMs&lt;/a&gt;
-        &lt;a href=&quot;#lab5&quot;&gt;Lab 5: ATMega1284 Microcontroller Intro&lt;/a&gt;
-        &lt;a href=&quot;#lab4&quot;&gt;Lab 4: State Machines&lt;/a&gt;
-        &lt;a href=&quot;#lab3&quot;&gt;Lab 3: Bit Manipulation&lt;/a&gt;
-        &lt;a href=&quot;#lab2&quot;&gt;Lab 2: AVR Toolchain Intro&lt;/a&gt;
-    &lt;/html&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!--                           PROJECTS                                      --&gt;
 &lt;div id=&quot;lcd&quot;&gt;&lt;/div&gt;
@@ -371,163 +353,95 @@ Because of that there are limitations on Arya.&lt;/p&gt;
 
 &lt;h4 id=&quot;lcd-racing-game-&quot;&gt;LCD racing game. &lt;br /&gt;&lt;/h4&gt;
 
-&lt;p&gt;Help player Smee (&amp;gt;) avoid the obstacles that ever increase in speed. &lt;br /&gt;
+&lt;p&gt;Help player Smee (&amp;gt;) avoid the obstacles (#). The obstacles increase over time and give an even larger challenge to Smee.
+&lt;br /&gt;
 Try and beat your high score!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/kZFsC9rSBdo&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;demo-&quot;&gt;&lt;a href=&quot;https://youtu.be/kZFsC9rSBdo&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab11&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-11-task-scheduler&quot;&gt;Lab 11: Task Scheduler&lt;/h3&gt;
+&lt;h3 id=&quot;task-scheduler&quot;&gt;Task Scheduler&lt;/h3&gt;
 
-&lt;h4 id=&quot;part-1&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;Code the keypad to be a SM task and implements a task scheduler to output the ASCII code for the character being pressed.&lt;/p&gt;
-&lt;h4 id=&quot;part-2&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;Display the message “CS120 is Legend… wait for it DARY!”. &lt;br /&gt;
-The string does not fit on the display all at once, so the display scrolls through the text.&lt;/p&gt;
-&lt;h4 id=&quot;part-3&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;Implement a task scheduler to print the character last pressed.&lt;/p&gt;
-&lt;h4 id=&quot;part-4&quot;&gt;Part 4&lt;/h4&gt;
-&lt;p&gt;Have a string displayed that takes up the display and implement a task scheduler to iterate through the display index and output user characters over the string.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Legen… wait for it &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Concurrent syncSM that scrolls through text to display the string “Legen … wait for it … DARY!!”, which is too big to fit on the LCD screen.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/onJCacxnShQ&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab11&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;div id=&quot;lab10&quot;&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;lab-10-concurrent-synchsms&quot;&gt;Lab 10: Concurrent synchSMs&lt;/h3&gt;
-
-&lt;h4 id=&quot;part-1-1&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;A concurrent SM that runs a SM for threeLDs to alternate each second and another SM blink a fourth light.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-1&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;An edited concurrent SM from the one above that “appears” to opperate on different periods.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-1&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;An edited concurrent SM from the one above that now includes a speaker to be toggled every 2 ms.&lt;/p&gt;
-&lt;h4 id=&quot;part-4-1&quot;&gt;Part 4&lt;/h4&gt;
-&lt;p&gt;Includes user input to change what frequency the speaker outputs audio.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/swwiqgo0ODQ&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab10&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab11/athom031_lab11_part2.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab9&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-9-pwm-music-player&quot;&gt;Lab 9: PWM (Music Player)&lt;/h3&gt;
+&lt;h3 id=&quot;pulse-width-modulation-pwm&quot;&gt;Pulse Width Modulation (PWM)&lt;/h3&gt;
 
-&lt;h4 id=&quot;part-1-2&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;With the PWM functionality, a designed system uses three buttons to play three different tones on a speaker.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-2&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;A SM that uses PWM functionality to scale through the C scale.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-2&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;A SM that uses PWM functionality to play Kal Ho Na Ho theme.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Music Player &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A SM that uses PWM functionality to scale through the C scale and play the Kal Ho Naa Ho theme song (Bollywood song).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/0He5l6V-2h0&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab9&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab9/athom031_lab9_part3.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab8&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-8-adc&quot;&gt;Lab 8: ADC&lt;/h3&gt;
+&lt;h3 id=&quot;analog-to-digital-converter-adc&quot;&gt;Analog to Digital Converter (ADC)&lt;/h3&gt;
 
-&lt;h4 id=&quot;part-1-3&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;A system that reads the 10-bit ADC result from a potentiometer and displays it on a LED array.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-3&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;A system that replaces the potentiometer with a photoresistor and displays it on a LED array.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-3&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;A system that uses max and min results from previous lab to then only illuminate LED when enough light is detected on the photo resistor.&lt;/p&gt;
-&lt;h4 id=&quot;part-4-2&quot;&gt;Part 4&lt;/h4&gt;
-&lt;p&gt;A system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Light Sensor &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a system connected to a photo resistor. Based on the light, output the level on a bank of eight LEDs as a representation of the light level.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/WifXfBjOIZE&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab8&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;div id=&quot;lab7&quot;&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;lab-7-lcd-screen&quot;&gt;Lab 7: LCD Screen&lt;/h3&gt;
-
-&lt;h4 id=&quot;part-1-4&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;Output a number that can be incremented or decremented with a button press.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-4&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;Cycling LED array cycle game, where score is incrememnted when the button is pressed and the middle light is illuminated.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/7MUxzIRRO7U&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab7&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab8/athom031_lab8_part4.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab6&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-6-synchsms&quot;&gt;Lab 6: synchSMs&lt;/h3&gt;
+&lt;h3 id=&quot;synchsms&quot;&gt;synchSMs&lt;/h3&gt;
 
-&lt;h4 id=&quot;part-1-5&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;A syncSM that blinks three LEDs in increasing and decreasing order, 1 second each.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-5&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;A simple light game that requires pressing a button when the middle light is illuminated. Pressing the light again restarts the game.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-4&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;LEDs represents bit # representation. Pressing one button increases the #, presssing another decreases the #.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Catch the Light &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/5JkeYeg2FGo&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab6&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A simple light game where an array of LEDs cycles up and down. The task of the player is to try and press the button when the middle light is on. Each time the player succeeds, score is incremented on an LED screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/7MUxzIRRO7U&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab6/athom031_lab6_part2.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab5&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-5-atmega1284-microcontroller-intro&quot;&gt;Lab 5: ATMega1284 Microcontroller Intro&lt;/h3&gt;
+&lt;h3 id=&quot;atmega1284-microcontroller-intro&quot;&gt;ATMega1284 Microcontroller Intro&lt;/h3&gt;
 
-&lt;h4 id=&quot;part-1-6&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;Based on the fuel tank given as input, have the lights warn what the fuel level is.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-6&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;Increment or decrement output with button presses.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-5&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;A festive light display.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Fuel Level &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Input is connected to fuel tank gas level (numeric), so that we can output LED sequence that signifies what fuel level is. Additional light sequence for when levels dip low as a warning.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/xjrFZ647MQU&quot;&gt;Demo&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab5&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab5/athom031_lab5_part1.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab4&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-4-state-machines&quot;&gt;Lab 4: State Machines&lt;/h3&gt;
+&lt;h3 id=&quot;state-machines&quot;&gt;State Machines&lt;/h3&gt;
 
-&lt;h4 id=&quot;part-1-7&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;Implemented on button and off button for an LED.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-7&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;Increment or decrement output based on button press.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-6&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;Digital combination deadbolt lock system for garage doorway.&lt;/p&gt;
-&lt;h4 id=&quot;part-4-3&quot;&gt;Part 4&lt;/h4&gt;
-&lt;p&gt;Extended dedadbolt where entering the lock key again will then lock the unlocked door.&lt;/p&gt;
-&lt;h4 id=&quot;part-5&quot;&gt;Part 5&lt;/h4&gt;
-&lt;p&gt;Further extended deadbolt that requires a 4-button sequence rather than 2-button sequence. This SM is instead represented with an array rather than a state for each button press.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Digital Combination Deadbolt &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab4&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A digital combination deadbolt that takes input and authorizes entrance to the garage doorway. Entering the combination again will lock the doorway.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab4/athom031_lab4_part5.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab3&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-3-bit-manipulation&quot;&gt;Lab 3: Bit Manipulation&lt;/h3&gt;
+&lt;h3 id=&quot;bit-manipulation&quot;&gt;Bit Manipulation&lt;/h3&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Airbag Light &lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;part-1-8&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;Output the number of the number of 1’s on two input ports.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-8&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;Output fuel level based on fuel tank count.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-7&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;Extend fuel level output to flash light if seatbelt is not fastened and driver is seated.&lt;/p&gt;
-&lt;h4 id=&quot;part-4-4&quot;&gt;Part 4&lt;/h4&gt;
-&lt;p&gt;Take the upper nibble of PINA and map it to the lower nibble of PORTB and vice versa.&lt;/p&gt;
-&lt;h4 id=&quot;part-5-1&quot;&gt;Part 5&lt;/h4&gt;
-&lt;p&gt;Based on driver seat weight, siginfy whether or not the airbag is abled.&lt;/p&gt;
+&lt;p&gt;The input includes the weight sensor in the driver’s seat. Based on this, signify whether or not the airbag is abled.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab3&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab3/athom031_lab3_part5.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;lab2&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;lab-2-avr-toolchain-intro&quot;&gt;Lab 2: AVR Toolchain Intro&lt;/h3&gt;
+&lt;h3 id=&quot;avr-toolchain-intro&quot;&gt;AVR Toolchain Intro&lt;/h3&gt;
+&lt;p&gt;&lt;i&gt;Highlight: &lt;/i&gt; Weight Sensor &lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;part-1-9&quot;&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;Illuminate an LED if the garage door is open at night.&lt;/p&gt;
-&lt;h4 id=&quot;part-2-9&quot;&gt;Part 2&lt;/h4&gt;
-&lt;p&gt;Output the number of available parking spaces in a parking garage.&lt;/p&gt;
-&lt;h4 id=&quot;part-3-8&quot;&gt;Part 3&lt;/h4&gt;
-&lt;p&gt;Extended available parking for a warning if parking lot is full.&lt;/p&gt;
-&lt;h4 id=&quot;part-4-5&quot;&gt;Part 4&lt;/h4&gt;
-&lt;p&gt;Weight sensor for amusement park ride with three seats that insures the weight is balanced.&lt;/p&gt;
+&lt;p&gt;Weight sensor for amusement park ride that insures the weight is balanced across three seats and meets certain restrictions.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab2&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Embedded Systems</summary></entry><entry><title type="html">Audio Signal Processing: Intern Projects</title><link href="http://localhost:4000/2019/09/03/Audio-Signal-Processing.html" rel="alternate" type="text/html" title="Audio Signal Processing: Intern Projects" /><published>2019-09-03T00:00:00-07:00</published><updated>2019-09-03T00:00:00-07:00</updated><id>http://localhost:4000/2019/09/03/Audio-Signal-Processing</id><content type="html" xml:base="http://localhost:4000/2019/09/03/Audio-Signal-Processing.html">&lt;p&gt;An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab2/athom031_lab2_part4.c&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Embedded Systems</summary></entry><entry><title type="html">Audio Signal Processing: Intern Projects</title><link href="http://localhost:4000/2019/09/03/Audio-Signal-Processing.html" rel="alternate" type="text/html" title="Audio Signal Processing: Intern Projects" /><published>2019-09-03T00:00:00-07:00</published><updated>2019-09-03T00:00:00-07:00</updated><id>http://localhost:4000/2019/09/03/Audio-Signal-Processing</id><content type="html" xml:base="http://localhost:4000/2019/09/03/Audio-Signal-Processing.html">&lt;p&gt;An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.&lt;/p&gt;
 
 &lt;h2 id=&quot;split-script&quot;&gt;Split Script&lt;/h2&gt;
 

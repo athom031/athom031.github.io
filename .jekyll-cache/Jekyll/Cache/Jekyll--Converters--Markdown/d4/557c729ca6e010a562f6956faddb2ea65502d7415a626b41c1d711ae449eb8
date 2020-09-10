@@ -1,0 +1,141 @@
+I"�<h1 id="embedded-systems">Embedded Systems</h1>
+
+<p>A collection of projects completed in CS120B - Embedded Systems <br /></p>
+<h5 id="ucr-spring-2020">(UCR Spring 2020).</h5>
+
+<h3 id="github-repo"><a href="https://github.com/athom031/EmbeddedSystems">Github Repo</a></h3>
+
+<h2 id="projects">Projects</h2>
+<!--                    TABLE OF CONTENTS                                   -->
+<h3 id="table-of-contents">Table of Contents</h3>
+<div style="display:flex; flex-direction:column;">    
+    <html>
+        <a href="#lcd">Final Project: LCD Racer</a>
+        <a href="#lab11">Lab 11: Task Scheduler</a>
+        <a href="#lab10">Lab 10: Concurrent synchSMs</a>
+        <a href="#lab9">Lab 9: PWM (Music Player)</a>
+        <a href="#lab8">Lab 8: ADC</a>
+        <a href="#lab6">synchSMs</a>
+        <a href="#lab5">ATMega1284 Microcontroller Intro</a>
+        <a href="#lab4">State Machines</a>
+        <a href="#lab3">Bit Manipulation</a>
+        <a href="#lab2">AVR Toolchain Intro</a>
+    </html>
+</div>
+<p><br /></p>
+
+<!--                           PROJECTS                                      -->
+<div id="lcd"></div>
+
+<h3 id="final-project-lcd-racer">Final Project: LCD Racer</h3>
+
+<h4 id="lcd-racing-game-">LCD racing game. <br /></h4>
+
+<p>Help player Smee (&gt;) avoid the obstacles (#). The obstacles increase over time and give an even larger challenge to Smee.
+<br />
+Try and beat your high score!</p>
+
+<h4 id="demo-"><a href="https://youtu.be/kZFsC9rSBdo">Demo</a> <br /></h4>
+<p><a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer">Source</a></p>
+
+<div id="lab11"></div>
+
+<h3 id="lab-11-task-scheduler">Lab 11: Task Scheduler</h3>
+
+<p>Task scheduling allows for multiple independent program to run series of projects that explore task scheduling in emebedded systems. <br />
+<i>Highlight: </i> Part 2 implements code scrolling for text that is too big to all fit in one line.</p>
+
+<p><a href="https://youtu.be/onJCacxnShQ">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab11">Source</a></p>
+
+<div id="lab10"></div>
+
+<h3 id="lab-10-concurrent-synchsms">Lab 10: Concurrent synchSMs</h3>
+<p>In these labs we create syncSMs that appear to operate concurrently.</p>
+<h4 id="part-1">Part 1</h4>
+<p>A concurrent SM that runs a SM for threeLDs to alternate each second and another SM blink a fourth light.</p>
+<h4 id="part-2">Part 2</h4>
+<p>An edited concurrent SM from the one above that “appears” to opperate on different periods.</p>
+<h4 id="part-3">Part 3</h4>
+<p>An edited concurrent SM from the one above that now includes a speaker to be toggled every 2 ms.</p>
+<h4 id="part-4">Part 4</h4>
+<p>Includes user input to change what frequency the speaker outputs audio.</p>
+
+<p><a href="https://youtu.be/swwiqgo0ODQ">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab10">Source</a></p>
+
+<div id="lab9"></div>
+
+<h3 id="pwm-music-player">PWM (Music Player)</h3>
+
+<h4 id="part-1-1">Part 1</h4>
+<p>A SM that uses PWM functionality to scale through the C scale and play the Kal Ho NaaWith the PWM functionality, a designed system  uses three buttons to play three different tones on a speaker.</p>
+<h4 id="part-2-1">Part 2</h4>
+<p>A SM that uses PWM functionality to scale through the C scale.</p>
+<h4 id="part-3-1">Part 3</h4>
+<p>A SM that uses PWM functionality to play Kal Ho Na Ho theme.</p>
+
+<p><a href="https://youtu.be/0He5l6V-2h0">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab9/athom031_lab9_part3.c">Source</a></p>
+
+<div id="lab8"></div>
+
+<h3 id="adc">ADC</h3>
+
+<p><i>Highlight: </i> Light Sensor <br /></p>
+
+<p>This is a system connected to a photo resistor. Based on the light, output the level on a bank of eight LEDs as a representation of the light level.</p>
+
+<p><a href="https://youtu.be/WifXfBjOIZE">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab8/athom031_lab8_part4.c">Source</a></p>
+
+<div id="lab6"></div>
+
+<h3 id="synchsms">synchSMs</h3>
+
+<p><i>Highlight: </i> Catch the Light <br /></p>
+
+<p>A simple light game where an array of LEDs cycles up and down. The task of the player is to try and press the button when the middle light is on. Each time the player succeeds, score is incremented on an LED screen.</p>
+
+<p><a href="https://youtu.be/7MUxzIRRO7U">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab6/athom031_lab6_part2.c">Source</a></p>
+
+<div id="lab5"></div>
+
+<h3 id="atmega1284-microcontroller-intro">ATMega1284 Microcontroller Intro</h3>
+
+<p><i>Highlight: </i> Fuel Level <br /></p>
+
+<p>Input is connected to fuel tank gas level (numeric), so that we can output LED sequence that signifies what fuel level is. Additional light sequence for when levels dip low as a warning.</p>
+
+<p><a href="https://youtu.be/xjrFZ647MQU">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab5/athom031_lab5_part1.c">Source</a></p>
+
+<div id="lab4"></div>
+
+<h3 id="state-machines">State Machines</h3>
+
+<p><i>Highlight: </i> Digital Combination Deadbolt <br /></p>
+
+<p>A digital combination deadbolt that takes input and authorizes entrance to the garage doorway. Entering the combination again will lock the doorway.</p>
+
+<p><a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab4/athom031_lab4_part5.c">Source</a></p>
+
+<div id="lab3"></div>
+
+<h3 id="bit-manipulation">Bit Manipulation</h3>
+<p><i>Highlight: </i> Airbag Light <br /></p>
+
+<p>The input includes the weight sensor in the driver’s seat. Based on this, signify whether or not the airbag is abled.</p>
+
+<p><a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab3/athom031_lab3_part5.c">Source</a></p>
+
+<div id="lab2"></div>
+
+<h3 id="avr-toolchain-intro">AVR Toolchain Intro</h3>
+<p><i>Highlight: </i> Weight Sensor <br /></p>
+
+<p>Weight sensor for amusement park ride that insures the weight is balanced across three seats and meets certain restrictions.</p>
+
+<p><a href="https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab2/athom031_lab2_part4.c">Source</a></p>
+:ET

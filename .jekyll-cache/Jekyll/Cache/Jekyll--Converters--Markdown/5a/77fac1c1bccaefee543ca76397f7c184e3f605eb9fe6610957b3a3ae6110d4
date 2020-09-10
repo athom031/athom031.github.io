@@ -1,0 +1,186 @@
+I"F <h1 id="embedded-systems">Embedded Systems</h1>
+
+<p>A collection of projects completed in CS120B - Embedded Systems <br /></p>
+<h5 id="ucr-spring-2020">(UCR Spring 2020).</h5>
+
+<h3 id="github-repo"><a href="https://github.com/athom031/EmbeddedSystems">Github Repo</a></h3>
+
+<h2 id="projects">Projects</h2>
+<!--                    TABLE OF CONTENTS                                   -->
+<h3 id="table-of-contents">Table of Contents</h3>
+<div style="display:flex; flex-direction:column;">    
+    <html>
+        <a href="#lcd">Final Project: LCD Racer</a>
+        <a href="#lab11">Lab 11: Task Scheduler</a>
+        <a href="#lab10">Lab 10: Concurrent synchSMs</a>
+        <a href="#lab9">Lab 9: PWM (Music Player)</a>
+        <a href="#lab8">Lab 8: ADC</a>
+        <a href="#lab7">Lab 7: LCD Screen</a>
+        <a href="#lab6">Lab 6: synchSMs</a>
+        <a href="#lab5">Lab 5: ATMega1284 Microcontroller Intro</a>
+        <a href="#lab4">Lab 4: State Machines</a>
+        <a href="#lab3">Lab 3: Bit Manipulation</a>
+        <a href="#lab2">Lab 2: AVR Toolchain Intro</a>
+    </html>
+</div>
+<p><br /></p>
+
+<!--                           PROJECTS                                      -->
+<div id="lcd"></div>
+
+<h3 id="final-project-lcd-racer">Final Project: LCD Racer</h3>
+
+<h4 id="lcd-racing-game-">LCD racing game. <br /></h4>
+
+<p>Help player Smee (&gt;) avoid the obstacles (#). The obstacles increase over time and give an even larger challenge to Smee.
+<br />
+Try and beat your high score!</p>
+
+<h4 id="demo-"><a href="https://youtu.be/kZFsC9rSBdo">Demo</a> <br /></h4>
+<p><a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer">Source</a></p>
+
+<div id="lab11"></div>
+
+<h3 id="lab-11-task-scheduler">Lab 11: Task Scheduler</h3>
+
+<p>Task scheduling allows for multiple independent program to run series of projects that explore task scheduling in emebedded systems. <br />
+<i>Highlight: </i> Part 2 implements code scrolling for text that is too big to all fit in one line.</p>
+
+<p><a href="https://youtu.be/onJCacxnShQ">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab11">Source</a></p>
+
+<div id="lab10"></div>
+
+<h3 id="lab-10-concurrent-synchsms">Lab 10: Concurrent synchSMs</h3>
+<p>In these labs</p>
+<h4 id="part-1">Part 1</h4>
+<p>A concurrent SM that runs a SM for threeLDs to alternate each second and another SM blink a fourth light.</p>
+<h4 id="part-2">Part 2</h4>
+<p>An edited concurrent SM from the one above that “appears” to opperate on different periods.</p>
+<h4 id="part-3">Part 3</h4>
+<p>An edited concurrent SM from the one above that now includes a speaker to be toggled every 2 ms.</p>
+<h4 id="part-4">Part 4</h4>
+<p>Includes user input to change what frequency the speaker outputs audio.</p>
+
+<p><a href="https://youtu.be/swwiqgo0ODQ">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab10">Source</a></p>
+
+<div id="lab9"></div>
+
+<h3 id="lab-9-pwm-music-player">Lab 9: PWM (Music Player)</h3>
+
+<h4 id="part-1-1">Part 1</h4>
+<p>With the PWM functionality, a designed system uses three buttons to play three different tones on a speaker.</p>
+<h4 id="part-2-1">Part 2</h4>
+<p>A SM that uses PWM functionality to scale through the C scale.</p>
+<h4 id="part-3-1">Part 3</h4>
+<p>A SM that uses PWM functionality to play Kal Ho Na Ho theme.</p>
+
+<p><a href="https://youtu.be/0He5l6V-2h0">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab9">Source</a></p>
+
+<div id="lab8"></div>
+
+<h3 id="lab-8-adc">Lab 8: ADC</h3>
+
+<h4 id="part-1-2">Part 1</h4>
+<p>A system that reads the 10-bit ADC result from a potentiometer and displays it on a LED array.</p>
+<h4 id="part-2-2">Part 2</h4>
+<p>A system that replaces the potentiometer with a photoresistor and displays it on a LED array.</p>
+<h4 id="part-3-2">Part 3</h4>
+<p>A system that uses max and min results from previous lab to then only illuminate LED when enough light is detected on the photo resistor.</p>
+<h4 id="part-4-1">Part 4</h4>
+<p>A system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected.</p>
+
+<p><a href="https://youtu.be/WifXfBjOIZE">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab8">Source</a></p>
+
+<div id="lab7"></div>
+
+<h3 id="lab-7-lcd-screen">Lab 7: LCD Screen</h3>
+
+<h4 id="part-1-3">Part 1</h4>
+<p>Output a number that can be incremented or decremented with a button press.</p>
+<h4 id="part-2-3">Part 2</h4>
+<p>Cycling LED array cycle game, where score is incrememnted when the button is pressed and the middle light is illuminated.</p>
+
+<p><a href="https://youtu.be/7MUxzIRRO7U">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab7">Source</a></p>
+
+<div id="lab6"></div>
+
+<h3 id="lab-6-synchsms">Lab 6: synchSMs</h3>
+
+<h4 id="part-1-4">Part 1</h4>
+<p>A syncSM that blinks three LEDs in increasing and decreasing order, 1 second each.</p>
+<h4 id="part-2-4">Part 2</h4>
+<p>A simple light game that requires pressing a button when the middle light is illuminated. Pressing the light again restarts the game.</p>
+<h4 id="part-3-3">Part 3</h4>
+<p>LEDs represents bit # representation. Pressing one button increases the #, presssing another decreases the #.</p>
+
+<p><a href="https://youtu.be/5JkeYeg2FGo">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab6">Source</a></p>
+
+<div id="lab5"></div>
+
+<h3 id="lab-5-atmega1284-microcontroller-intro">Lab 5: ATMega1284 Microcontroller Intro</h3>
+
+<h4 id="part-1-5">Part 1</h4>
+<p>Based on the fuel tank given as input, have the lights warn what the fuel level is.</p>
+<h4 id="part-2-5">Part 2</h4>
+<p>Increment or decrement output with button presses.</p>
+<h4 id="part-3-4">Part 3</h4>
+<p>A festive light display.</p>
+
+<p><a href="https://youtu.be/xjrFZ647MQU">Demo</a> <br />
+<a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab5">Source</a></p>
+
+<div id="lab4"></div>
+
+<h3 id="lab-4-state-machines">Lab 4: State Machines</h3>
+
+<h4 id="part-1-6">Part 1</h4>
+<p>Implemented on button and off button for an LED.</p>
+<h4 id="part-2-6">Part 2</h4>
+<p>Increment or decrement output based on button press.</p>
+<h4 id="part-3-5">Part 3</h4>
+<p>Digital combination deadbolt lock system for garage doorway.</p>
+<h4 id="part-4-2">Part 4</h4>
+<p>Extended dedadbolt where entering the lock key again will then lock the unlocked door.</p>
+<h4 id="part-5">Part 5</h4>
+<p>Further extended deadbolt that requires a 4-button sequence rather than 2-button sequence. This SM is instead represented with an array rather than a state for each button press.</p>
+
+<p><a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab4">Source</a></p>
+
+<div id="lab3"></div>
+
+<h3 id="lab-3-bit-manipulation">Lab 3: Bit Manipulation</h3>
+
+<h4 id="part-1-7">Part 1</h4>
+<p>Output the number of the number of 1’s on two input ports.</p>
+<h4 id="part-2-7">Part 2</h4>
+<p>Output fuel level based on fuel tank count.</p>
+<h4 id="part-3-6">Part 3</h4>
+<p>Extend fuel level output to flash light if seatbelt is not fastened and driver is seated.</p>
+<h4 id="part-4-3">Part 4</h4>
+<p>Take the upper nibble of PINA and map it to the lower nibble of PORTB and vice versa.</p>
+<h4 id="part-5-1">Part 5</h4>
+<p>Based on driver seat weight, siginfy whether or not the airbag is abled.</p>
+
+<p><a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab3">Source</a></p>
+
+<div id="lab2"></div>
+
+<h3 id="lab-2-avr-toolchain-intro">Lab 2: AVR Toolchain Intro</h3>
+
+<h4 id="part-1-8">Part 1</h4>
+<p>Illuminate an LED if the garage door is open at night.</p>
+<h4 id="part-2-8">Part 2</h4>
+<p>Output the number of available parking spaces in a parking garage.</p>
+<h4 id="part-3-7">Part 3</h4>
+<p>Extended available parking for a warning if parking lot is full.</p>
+<h4 id="part-4-4">Part 4</h4>
+<p>Weight sensor for amusement park ride with three seats that insures the weight is balanced.</p>
+
+<p><a href="https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab2">Source</a></p>
+:ET
