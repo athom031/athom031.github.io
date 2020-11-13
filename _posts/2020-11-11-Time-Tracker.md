@@ -3,7 +3,10 @@ layout: post
 title: "Time Tracker: Android Application Sigma Connectivity"
 ---
 
-<img src="{{ site.url }}/assets/Files/TimeTracker/TimeTrackerScreenCapture.png"/> 
+<img src="{{ site.url }}/assets/Files/TimeTracker/TimeTrackerScreenCapture.png" height = "50%" width = "50%"/>
+
+<br/>
+
 [Video Demo](https://youtu.be/qMrPhE7Ob-g)
 
 An android application to help employees easily track their hours. 
