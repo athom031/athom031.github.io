@@ -3,9 +3,7 @@ layout: post
 title: "Time Tracker: Android Application Sigma Connectivity"
 ---
 
-<img src="{{ site.url }}/assets/Files/TimeTracker/TimeTrackerScreenCapture.png" height = "50%"/>
-
-<br/>
+<img src="{{ site.url }}/assets/Files/TimeTracker/TimeTrackerScreenCapture.png" height = "25%"/>
 
 #### [Project Repo](https://github.com/athom031/Time_Tracker)
 #### [Video Demo](https://youtu.be/qMrPhE7Ob-g)
