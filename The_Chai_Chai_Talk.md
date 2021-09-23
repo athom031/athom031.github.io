@@ -155,8 +155,6 @@ In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vis
 
 ## Episode 6: Item Song Impact
 
-<img src="{{ site.url }}/assets/Files/Guests/6_Sarah.jpeg" width = "50%"/>
-
 #### Joined by S.
 
 In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third year Neuroscience student from Fremont, California. We have a very difficult conversation that covers  a wide expanse of topics and is definitely not without controversy. S and I attempt to deconstruct the over sexualization/objectification of women in Bollywood that exists despite the restrictive and conservative image of what woman "should" be in India. This Bollywood culture continues to exist by silently discounting the Indian-ness within their item girls. And a current new trend of putting forward non-Indian item girls to sexualize a different culture while maintaining the "cultured" image of an Indian woman. Additionally we will talk about not being the "right" kind of Indian due to our religion and colorism issues we have seen with Indian culture in our Indian upbringing. This is only the start of a conversation that should be continued on.
