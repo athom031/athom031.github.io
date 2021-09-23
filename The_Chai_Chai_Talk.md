@@ -23,7 +23,7 @@ Children born of Indian Immigrants in the U.S. often struggle to balance their t
 
 <!--                    TABLE OF CONTENTS                                   -->
 ## Table of Contents
-<div style="display:flex; flex-direction:column;">    
+<div style="display:flex; flex-direction:column;">
     <html>
         <a href="#ep1">Episode 1: The Chai Chai Talk Intro</a>
         <a href="#ep2">Episode 2: Growing Up In America Indian</a>
@@ -49,12 +49,12 @@ Children born of Indian Immigrants in the U.S. often struggle to balance their t
 
 #### Joined by Manny Garcia
 
-In the first episode of the Chai Chai Talk, we introduce the podcast series itself, as an exploration of the relationship Indian Americans have with music and how it helps them cultivate their identity. American music has an independent culture associated with it. the music you are into, is a conversation starter in and of itself and not restricted to the national boundaries. But the culture associated with Indian music might be inherently alien to some. And therefore we also start with an introduction as to what Indian music tends to be for most Indian Americans. We are joined by Manny Garcia, a fourth year Biology student from Calexico, California who gives an outside perspective. We hope to break the stereotypes that get pushed onto South Asian music and make clearer the diversity in such a large region. 
+In the first episode of the Chai Chai Talk, we introduce the podcast series itself, as an exploration of the relationship Indian Americans have with music and how it helps them cultivate their identity. American music has an independent culture associated with it. the music you are into, is a conversation starter in and of itself and not restricted to the national boundaries. But the culture associated with Indian music might be inherently alien to some. And therefore we also start with an introduction as to what Indian music tends to be for most Indian Americans. We are joined by Manny Garcia, a fourth year Biology student from Calexico, California who gives an outside perspective. We hope to break the stereotypes that get pushed onto South Asian music and make clearer the diversity in such a large region.
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -75,8 +75,8 @@ In the second episode of the Chai Chai Talk, we introduce the phenomenon of havi
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -87,18 +87,18 @@ In the second episode of the Chai Chai Talk, we introduce the phenomenon of havi
 <!--                        Episode 3                                       -->
 <div id="ep3"> </div>
 
-## Episode 3: Giving Our Children A Diluted India 
+## Episode 3: Giving Our Children A Diluted India
 
 <img src="{{ site.url }}/assets/Files/Guests/3_Manasi.png" width = "50%"/>
 
 #### Joined by Manasi Soni
 
-In the third episode of the Chai Chai Talk, we continue our conversation with Manasi Soni. As mentioned before, Manasi is a third year business major from San Diego, California. In the previous episode we admitted a lot of our understanding comes from Indian media (ie: Bollywood). Now we explore how the Bollywood media can never be a faithful representation of Indian culture. And yet it is what we were given and will be one of the few things we are able to carry over from our childhoods into our childrens’. This causes a conundrum when we consider that there is a desire for our children to have a relationship with their Indian heritage. Because the India we have to give to our kids is diluted. 
+In the third episode of the Chai Chai Talk, we continue our conversation with Manasi Soni. As mentioned before, Manasi is a third year business major from San Diego, California. In the previous episode we admitted a lot of our understanding comes from Indian media (ie: Bollywood). Now we explore how the Bollywood media can never be a faithful representation of Indian culture. And yet it is what we were given and will be one of the few things we are able to carry over from our childhoods into our childrens’. This causes a conundrum when we consider that there is a desire for our children to have a relationship with their Indian heritage. Because the India we have to give to our kids is diluted.
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -119,8 +119,8 @@ In the fourth episode of the Chai Chai Talk, we are joined by Sarena Minawala. S
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -131,7 +131,7 @@ In the fourth episode of the Chai Chai Talk, we are joined by Sarena Minawala. S
 <!--                        Episode 5                                      -->
 <div id="ep5"> </div>
 
-## Episode 5: Underground Music Culture 
+## Episode 5: Underground Music Culture
 
 <img src="{{ site.url }}/assets/Files/Guests/5_Vishant.jpeg" width = "50%"/>
 
@@ -141,8 +141,8 @@ In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vis
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -153,26 +153,26 @@ In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vis
 <!--                        Episode 6                                      -->
 <div id="ep6"> </div>
 
-## Episode 6: Item Song Impact 
+## Episode 6: Item Song Impact
 
 <img src="{{ site.url }}/assets/Files/Guests/6_Sarah.jpeg" width = "50%"/>
 
-#### Joined by Sarah Easow
+#### Joined by S.
 
-In the sixth episode of the Chai Chai Talk, we are joined by Sarah Easow. Sarah is a third year Neuroscience student from Fremont, California. We have a very difficult conversation that covers  a wide expanse of topics and is definitely not without controversy. Sarah and I attempt to deconstruct the over sexualization/objectification of women in Bollywood that exists despite the restrictive and conservative image of what woman "should" be in India. This Bollywood culture continues to exist by silently discounting the Indian-ness within their item girls. And a current new trend of putting forward non-Indian item girls to sexualize a different culture while maintaining the "cultured" image of an Indian woman. Additionally we will talk about not being the "right" kind of Indian due to our religion and colorism issues we have seen with Indian culture in our Indian upbringing. This is only the start of a conversation that should be continued on.
+In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third year Neuroscience student from Fremont, California. We have a very difficult conversation that covers  a wide expanse of topics and is definitely not without controversy. S and I attempt to deconstruct the over sexualization/objectification of women in Bollywood that exists despite the restrictive and conservative image of what woman "should" be in India. This Bollywood culture continues to exist by silently discounting the Indian-ness within their item girls. And a current new trend of putting forward non-Indian item girls to sexualize a different culture while maintaining the "cultured" image of an Indian woman. Additionally we will talk about not being the "right" kind of Indian due to our religion and colorism issues we have seen with Indian culture in our Indian upbringing. This is only the start of a conversation that should be continued on.
 <br/>
 
 ##### Part 1
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
 ##### Part 2
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -183,7 +183,7 @@ In the sixth episode of the Chai Chai Talk, we are joined by Sarah Easow. Sarah 
 <!--                        Episode 7                                      -->
 <div id="ep7"> </div>
 
-## Episode 7: Bollywood Music Evolution 
+## Episode 7: Bollywood Music Evolution
 
 <img src="{{ site.url }}/assets/Files/Guests/7_Nihal.jpeg" width = "50%"/>
 
@@ -193,8 +193,8 @@ In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Ni
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -205,7 +205,7 @@ In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Ni
 <!--                        Episode 8                                      -->
 <div id="ep8"> </div>
 
-## Episode 8: Immigrant American Music Expression 
+## Episode 8: Immigrant American Music Expression
 
 <img src="{{ site.url }}/assets/Files/Guests/8_Pratyusha.jpeg" width = "50%"/>
 
@@ -216,15 +216,15 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha 
 
 ##### Part 1
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
 ##### Part 2
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3" 
-            type = "audio/mpeg"> 
+    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3"
+            type = "audio/mpeg">
     "Your browser does not support the audio element."
 </audio>
 
@@ -246,4 +246,3 @@ Become a part of the new America. <br/> Drink Boba, eat Ramen, jam to Reggaeton.
 <div align="center">
     <img src="{{ site.url }}/assets/Files/Guests/chai_gif.gif"/>
 </div>
-
