@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-I am a recent graduate from the University of California, Riverside. I studied for four years to get my B.S. in Computer Science. I was an honors student who worked hard to maintain a 3.76 GPA while taking a myriad of engineering courses, having lead roles in South Asian dance and acapella teams on campus, and orchestrating my own podcast series exploring just how American Immigrants develop their identities.
+I started as a Software Engineer I at Sigma Connectivity Inc. in the beginning of 2021. Though it's been under a year since then, I have taken it upon myself to explore every new field I came across. Starting in Android UX, specializing in Accessibility features, and then diving into build Tools has expanded my skillset considerably since coming out of univeristy.
 
-In my professional experience, I was able to work as an intern at Knowles Intelligent Audio and explore the audio space. A reoccurring theme is my drive for exploring new fields which comes from holding onto my passion for learning. And that passion for learning led me to explore artificial intelligence, embedded systems, and full stack development which are skills demonstrated in projects found on the home page. Ultimately my journey has brought out the skill I have for working with people to solve problems.
+I graduated from the University of California, Riverside in 2020. In those four years, I was an honors student maintaining a 3.76 GPA while taking a myriad of engineering courses, having lead roles in campus South Asian dance and acapella teams, and orchestrating my own podcast series exploring just how American Immigrants develop their identities.
+
+A reoccurring theme is my passion for learning. That passion for learning led me to explore artificial intelligence, embedded systems, and full stack developement demonstrated in projects and roles found on the home page.
+
+Ultimately my journey has brought out the skill I have for working with people to solve problems.
 
 Let's <a class="u-email" href="mailto:alexjosthomas@gmail.com">connect</a> and talk about what work we can do together.
