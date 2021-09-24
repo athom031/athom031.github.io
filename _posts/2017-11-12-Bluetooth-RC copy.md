@@ -22,7 +22,7 @@ From this project, we learned how to program using the Arduino IDE, build simple
 <img src="{{ site.url }}/assets/Files/BoxBot/Award.JPG"/>
 
 
-Other than Melissa, the rest of the team had never been to a Hackathon before nor had prior experience with working with hardware. So we approached this opportunity with the goal of learning how to step out of our comfort zones and into the engineering world. Considering our experience with hardware, we achieved something great by being awarded the Best Hardware Hack!
+Other than Melissa, the rest of the team had never been to a Hackathon before nor had prior experience with working with hardware. So we approached this opportunity with the goal of learning how to step out of our comfort zones and into the world of hardware. Considering our experience at this time, it was a great accomplishment to be awarded *Best Hardware Hack*!
 
 <br/>
 

@@ -17,7 +17,7 @@ permalink: /theChaiChaiTalk/
 <!--                        Abstract                                        -->
 ## Abstract
 
-Children born of Indian Immigrants in the U.S. often struggle to balance their two conflicting identities. In the name of fitting in, traditions and memories are forgotten to accommodate what is thought of as normal. Because of that, part of who they are is pushed to the side. This project seeks to find how Indian Americans use music to identify with their other half. My research is a series of interviews with members of UCR’s Hindi-Film Dance team, UCR Afsana. These interviews were then edited and condensed into a series of podcasts, where American children of Indian parents share their path to how music plays a part in identifying with their South Asian culture. In some cases, this project can even show how music even serves as a vehicle to join their two halves. This project aims to evaluate a possible solution in alleviating the struggles of confused identities many children of immigrant families have to deal with.
+Children born of Indian Immigrants in the U.S. often struggle to balance their two conflicting identities. In the name of fitting in, traditions and memories are forgotten to accommodate what is thought of as normal. Because of that, part of who they are is pushed to the side. This project seeks to find how Indian Americans use music to identify with their other half. My research is a series of interviews with members of UCR’s Hindi-Film Dance team, UCR Afsana. These interviews were then edited and condensed into a series of podcasts where American children of Indian parents share their path on identifying with their South Asian culture. And how much of a part, music plays in it. In some cases, this project can even show how music serves as a vehicle to join their two halves. This project aims to evaluate a possible solution in alleviating the struggles of confused identities many children of immigrant families have to deal with.
 <br/>
 
 
@@ -49,7 +49,7 @@ Children born of Indian Immigrants in the U.S. often struggle to balance their t
 
 #### Joined by Manny Garcia
 
-In the first episode of the Chai Chai Talk, we introduce the podcast series itself, as an exploration of the relationship Indian Americans have with music and how it helps them cultivate their identity. American music has an independent culture associated with it. the music you are into, is a conversation starter in and of itself and not restricted to the national boundaries. But the culture associated with Indian music might be inherently alien to some. And therefore we also start with an introduction as to what Indian music tends to be for most Indian Americans. We are joined by Manny Garcia, a fourth year Biology student from Calexico, California who gives an outside perspective. We hope to break the stereotypes that get pushed onto South Asian music and make clearer the diversity in such a large region.
+In the first episode of the Chai Chai Talk, we introduce the podcast series itself, as an exploration of the relationship Indian Americans have with music and how it helps them cultivate their identity. American music has an independent culture associated with it. The music you are into, is a conversation starter in and of itself and not restricted to the national boundaries. But the culture associated with Indian music might be inherently alien to some. And therefore we also start with an introduction as to what Indian music tends to be for most Indian Americans. We are joined by Manny Garcia, a fourth year Biology student from Calexico, California. We hope to break the stereotypes that get pushed onto South Asian music and make clearer the diversity in such a large region.
 <br/>
 
 <audio controls preload>
@@ -71,7 +71,7 @@ In the first episode of the Chai Chai Talk, we introduce the podcast series itse
 
 #### Joined by Manasi Soni
 
-In the second episode of the Chai Chai Talk, we introduce the phenomenon of having a dual identity. Being an Indian American often makes it so that we grow up not feeling at home at home. "Immigrant Americans", with the title alone, often regard themselves as different. But if the time ever came to visit where their families came from, their ancestral home is an even bigger unknown. When we grow up in America, we never feel American but when we go to India, we are not treated like Indians. We are joined by Manasi Soni, a third year business major from San Diego, California. She provides insight on what it was like to grow up as an Indian American in America. We hope to paint a clearer picture as to why at some point the question, "...So what are we?", gets asked.
+In the second episode of the Chai Chai Talk, we introduce the phenomenon of having a dual identity. Being an Indian American often makes it so that we grow up not feeling at home at home. "Immigrant Americans", with the title alone, often regard themselves as different. But if the time ever came, to visit where their families came from, their ancestral home is an even bigger unknown. When we grow up in America, we never feel American but when we go to India, we are not treated like Indians. We are joined by Manasi Soni, a third year business major from San Diego, California. She provides insight on what it was like to grow up as an Indian American in America. We hope to paint a clearer picture as to why at some point the question, "...So what are we?", gets asked.
 <br/>
 
 <audio controls preload>
@@ -157,7 +157,7 @@ In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vis
 
 #### Joined by S.
 
-In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third year Neuroscience student from Fremont, California. We have a very difficult conversation that covers  a wide expanse of topics and is definitely not without controversy. S and I attempt to deconstruct the over sexualization/objectification of women in Bollywood that exists despite the restrictive and conservative image of what woman "should" be in India. This Bollywood culture continues to exist by silently discounting the Indian-ness within their item girls. And a current new trend of putting forward non-Indian item girls to sexualize a different culture while maintaining the "cultured" image of an Indian woman. Additionally we will talk about not being the "right" kind of Indian due to our religion and colorism issues we have seen with Indian culture in our Indian upbringing. This is only the start of a conversation that should be continued on.
+In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third year Neuroscience student from Fremont, California. S and I attempt to deconstruct the over sexualization/objectification of women in Bollywood that exists despite the restrictive and conservative image of what woman "should" be in India. This Bollywood culture continues to exist by silently discounting the Indian-ness within their item girls. And a current new trend of putting forward non-Indian item girls to sexualize a different culture while maintaining the "cultured" image of an Indian woman. Additionally we will talk about not being the "right" kind of Indian due to our religion and colorism issues we have seen with Indian culture in our Indian upbringing. A controversial wide expanse of topics that serve as only the start to a much larger and needed conversation.
 <br/>
 
 ##### Part 1
@@ -187,7 +187,7 @@ In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third yea
 
 #### Joined by Nihal Deopura
 
-In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Nihal is a second year Business major from Fremont, California. So far in the podcast we have explored two main music trends in Bollywood. Popular independent music gets a new skin and inserted into the next big movie. Item songs have grown as an industry and are becoming more prevalent. But there is a third trend that has taken over the music industry. Similar to movie remake culture in Hollywood, songs of the past are given a modern remake and become part of the movie soundtrack. With these three trends taking over movie albums, songs are rarely an original part of the movie that carries the narrative. And so the music evolution is taking Bollywood music away from the culture I grew up with. What impact will that have on the new viewers, and their children?
+In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Nihal is a second year Business major from Fremont, California. So far in the podcast we have explored two main music trends in Bollywood. Popular independent music gets a new skin and is inserted into the next big movie. And the industry of item songs has continued to grow and become more prevalent. But there is a third trend that has taken over the music industry. Similar to movie remake culture in Hollywood, songs of the past are given a modern remake and become part of the movie soundtrack. With these three trends taking over movie albums, songs are rarely an original part of the movie that carries the narrative. And so the music evolution is taking Bollywood music away from the culture I grew up with. What impact will that have on the new viewers, and their children?
 <br/>
 
 <audio controls preload>
@@ -234,7 +234,8 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha 
 Become a part of the new America. <br/> Drink Boba, eat Ramen, jam to Reggaeton. <br/> Listen, listen, listen, to all the people so excited to share their culture. <br/> In doing so, you will have found the the space to be able to share your own.<br/> <br/>
 
 
-#### Thank you to [Dr. Xóchitl C. Chávez](https://music.ucr.edu/faculty/chavez/) for mentoring me on this project.
+#### Thank you to [Dr. Xóchitl C. Chávez](https://xochitlchavez.com/) for mentoring me on this project.
+
 
 
 #### Thank you for listening.

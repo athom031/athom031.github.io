@@ -14,7 +14,7 @@ An android application to help employees easily track their hours.
 
 Users can either hit the start/stop toggle to start a shift OR if the shake activation switch is on, shake their android as an alternative to the toggle.
 
-Clicking on a date in the calendar shows previously logged shifts. If the date picked is in the future or a date that does not have logged hours will show a default message.
+Clicking on a date in the calendar shows previously logged shifts. If the date picked is in the future or on a day that does not have logged hours, a default message will be shown.
 
 ### Data Storage
 

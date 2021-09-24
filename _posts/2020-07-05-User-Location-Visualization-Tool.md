@@ -3,7 +3,7 @@ layout: post
 title: "User Location Visualization Tool: Full Stack Web Application"
 ---
 
-A visual map of users for a client to see user whereabouts and activity. User side involves sleek Login and Registration tabs that then stores information in a MongoDB collection. Once logged in Users can change their information as well. With the Google Cloud API, the user's coordinates are saved and displayed on the client side map.
+A visual map of users for a client to see user whereabouts and activity. User side involves sleek Login and Registration tabs that then stores information in a MongoDB collection. Once logged in, Users can change their information as well. With the Google Cloud API, the user's coordinates are saved and displayed on the client side map.
 ##### Project Pipeline: Back End – NodeJS, Front End – React, User Model – MongoDB, Google Cloud APIs
 
 # Demo Images
