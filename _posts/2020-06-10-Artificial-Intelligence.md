@@ -10,12 +10,12 @@ _Logic Systems_: The ability to take previous data and rules and then manipulate
 
 <!--                    TABLE OF CONTENTS                                   -->
 ### Project Table of Contents
-<div style="display:flex; flex-direction:column;">    
-    <html>
-        <a href="#puzzle">Search: 8 Puzzle Solver</a>
-        <a href="#feature">Machine Learning: Nearest Neighbor Feature Selection</a>
-        <a href="#arya">Logic Systems: Arya the ChatBot</a>
-    </html>
+<div style="display:flex; flex-direction:column;">
+   <html>
+       <a href="#puzzle">Search: 8 Puzzle Solver</a>
+       <a href="#feature">Machine Learning: Nearest Neighbor Feature Selection</a>
+       <a href="#arya">Logic Systems: Arya the ChatBot</a>
+   </html>
 </div>
 <br/>
 
@@ -28,7 +28,7 @@ _Logic Systems_: The ability to take previous data and rules and then manipulate
 #### [Puzzle Solver Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png"/>
 </div><br/>
 
 ### Abstract
@@ -43,7 +43,7 @@ _Manhattan Distance_ checks how far each tile is from where it should be. <br/>
 ### Reflection
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png"/>
 </div><br/>
 
 We can see building upon the movement cost to predict the next best step, reduces the runtime and space complexity exponentially. The heuristic chosen also matters. I was surprised that the misplaced tile performed better for this example than the Manhattan distance because from theory, the Manhattan distance uses more information about the actual state. But they are very similar and might vary for other examples.
@@ -56,20 +56,20 @@ We can see building upon the movement cost to predict the next best step, reduce
 #### [Feature Selection Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "75%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "75%"/>
 </div><br/>
 
 ### Abstract
 
 Given a feature set with N classified instances and M features, we want to find the feature subset that will best represent the dataset for future unclassified instances. This uses the Nearest Neighbor Classifier and One Out algorithm to measure each potential feature subset.
-##### One Out Algorithm: 
+##### One Out Algorithm:
 Take one data point out and build a Nearest Neighbor classifier from the current feature subset. Then use this classifier to guess the one out point. We do this for every point to determine the accuracy of our current feature subset.
 ##### Feature Selection:
 We select features one of two ways, either we start with no features (forward selection) or all features (backward selection). Then we simply greedily narrow it down to the most accurate subset of features (remember we evaluate accuracy with the one out algorithm.
 
 ### Warnings
 
-Though foward selection and backward selection will result in similar accurate feature subset, these subsets will not always be the same. <br/>
+Though forward selection and backward selection will result in similar accurate feature subset, these subsets will not always be the same. <br/>
 Forward selection will replicate the accuracy of backward selection with less features. <br/>
 This makes the features picked by Backwards Selection harder to pick. <br/>
 Backwards Selection also takes more time on larger datasets. <br/>
@@ -83,10 +83,10 @@ Backwards Selection also takes more time on larger datasets. <br/>
 #### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "75%"/> 
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "75%"/>
 </div><br/>
 
-Arya is a chat bot that represents her learned personality ('negative', 'neutral', or 'positive') with a score and responds occordingly. <br/>
+Arya is a chat bot that represents her learned personality ('negative', 'neutral', or 'positive') with a score and responds accordingly. <br/>
 
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaSoccer.png"/>
 <br/>
@@ -104,7 +104,7 @@ Because of that there are limitations on Arya.
 
 * Arya's vocabulary is off a database of words and this is character specific, therefore capitalization does change understanding
 * Some phrases will simply not be understood because of the limits of the words understood by Arya.
-* Because of this can crash and just not respond on some user input.
+* Because of this, it can crash and just not respond to some user input.
 
 ### User Input Examples
 
@@ -119,6 +119,6 @@ The other output will change based on how Arya feels:
 Input will affect Arya's personality beyond setting it manually:
 * "You are a _insert adj_"
 
-### Inpsiration
+### Inspiration
 
-Input parser and output creating inspired by Liza Daly's python [chat bot](https://github.com/lizadaly/brobot) fundamentals example.
+Input parser and output creation inspired by Liza Daly's python [chat bot](https://github.com/lizadaly/brobot) fundamentals example.

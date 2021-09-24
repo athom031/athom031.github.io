@@ -12,7 +12,7 @@ My team consisted of:
 * Emma Rivera
 * Cindy Quach
 
-We used the Arduino IDE to build a motorized car that was controlled by personal Android application. 
+We used the Arduino IDE to build a motorized car that was controlled by a personal Android application.
 
 From this project, we learned how to program using the Arduino IDE, build simple circuits, the difference between digital and analog signals, and how to solder wires onto our LED lights.
 
@@ -27,7 +27,5 @@ Other than Melissa, the rest of the team had never been to a Hackathon before no
 <br/>
 
 <div align="center">
-    <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.gif"/>
+   <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.gif"/>
 </div>
-
-

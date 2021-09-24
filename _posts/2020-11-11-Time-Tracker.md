@@ -8,22 +8,23 @@ title: "Time Tracker: Android Application Sigma Connectivity"
 #### [Project Repo](https://github.com/athom031/Time_Tracker)
 #### [Video Demo](https://youtu.be/qMrPhE7Ob-g)
 
-An android application to help employees easily track their hours. 
+An android application to help employees easily track their hours.
 
 ### User Interaction
 
-Users can either hit the start/stop toggle to start a shift OR if the shake activation switch is on, shake their android as an alternative to the toggle. 
+Users can either hit the start/stop toggle to start a shift OR if the shake activation switch is on, shake their android as an alternative to the toggle.
 
 Clicking on a date in the calendar shows previously logged shifts. If the date picked is in the future or a date that does not have logged hours will show a default message.
 
 ### Data Storage
 
-The hours worked are stored internally on a SQLite database. The four columns are all of integer types: 
+The hours worked are stored internally on a SQLite database. The four columns are all of integer types:
 * Year
 * Month
 * Day
 * Minutes
-Year, Month, and Day together are the primary keys. 
+
+Year, Month, and Day together are the primary keys.
 
 Insert conflicts occur when you log multiple shifts on a single day, this is dealt with by updating an aggregation of the Minutes column.
 

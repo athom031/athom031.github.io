@@ -10,11 +10,11 @@ title: "Krazy Kitchen: Unity Engine Video Game"
 
 ## Abstract
 
-Krazy Kitchen is an online cooperative game where a group of your friends attempt to complete several recipes under chaotic situations. This is our own implementation of the Overcooked game series. Space and time is limited and completing recipes are a combination of many different tasks and ingredients. This game requires users to get, cut, cook, combine and then deliver food. The true fun comes from the pandemonium that accompanies attempting levels individually and discovering through gameplay that the only way to succeed is to work together. 
+Krazy Kitchen is an online cooperative game where a group of your friends attempt to complete several recipes under chaotic situations. This is our own implementation of the Overcooked game series. Space and time is limited and completing recipes are a combination of many different tasks and ingredients. This game requires users to get, cut, cook, combine and then deliver food. The true fun comes from the pandemonium that accompanies attempting levels individually and discovering through gameplay that the only way to succeed is to work together.
 
 ## Built With
 
-**Unity Enginer**
+**Unity Engine**
 * Version: [2019.3.0 Beta 3](https://unity3d.com/unity/beta/2019.3.0b3)
 
 ## Authors
@@ -72,13 +72,13 @@ In our first level we stress the importance of working together right off the ba
 <img src="{{ site.url }}/assets/Files/KrazyKitchen/level2.png"/> <br/>
 
 #### Level 2
-In our second level we open tasks up to the players’ discretion. Through the small window in the cabinets, players can switch sides. It is important to note that ingredients are on top and the cutting board is on the bottom. This level involves a lot of transferring ingredients back and forth to complete a recipe. So although now a player can individually complete recipes, working together will still allow the most efficient system. 
+In our second level we open tasks up to the players’ discretion. Through the small window in the cabinets, players can switch sides. It is important to note that ingredients are on top and the cutting board is on the bottom. This level involves a lot of transferring ingredients back and forth to complete a recipe. So although now a player can individually complete recipes, working together will still allow the most efficient system.
 <br/><br/>
 
 <img src="{{ site.url }}/assets/Files/KrazyKitchen/level3.png"/> <br/>
 
 #### Level 3
-This level can prove to be the most frustrating without communication. Players can be clogged up in this claustrophobic environment and cannot rely on cabinet island transfers unlike before. The suggested gameplay for this level is to keep movement constant among teammates in a same circular direction. If players were to move clockwise, there will be no traffic congestion.  
+This level can prove to be the most frustrating without communication. Players can be clogged up in this claustrophobic environment and cannot rely on cabinet island transfers unlike before. The suggested gameplay for this level is to keep movement constant among teammates in the same circular direction. If players were to move clockwise, there would be no traffic congestion.
 <br/><br/>
 
 <img src="{{ site.url }}/assets/Files/KrazyKitchen/level4.png"/> <br/>
@@ -90,33 +90,33 @@ In the final level of the game, players must test their abilities learned in the
 ### Characters
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/KrazyKitchen/player.png" width = "30%"/> 
+<img src="{{ site.url }}/assets/Files/KrazyKitchen/player.png" width = "30%"/>
 </div><br/>
 When the game starts, each user is assigned the same character model. Depending on the order they connect to the server, their model will be a different color. There is no ability or task difference in the player model. Users can move their characters around and grab/drop an item. Users can also throw an item to other users in order to save more time.
 
 ### Gameplay
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/KrazyKitchen/controls.png" width = "70%"/> 
+<img src="{{ site.url }}/assets/Files/KrazyKitchen/controls.png" width = "70%"/>
 </div><br/>
 After all the players join the game, the game starts. Players have to cook meals based on the recipe to get corresponding points. <br/>
 Users can use:
 
-* W, A, S, D to control the character 
+* W, A, S, D to control the character
 * E to grab and drop items
-* F to throw items. 
+* F to throw items.
 
 ## Implementation
 
 **Game Engine** - Unity
-* Version: [2019.3.0 Beta 3](https://unity3d.com/unity/beta/2019.3.0b3) 
+* Version: [2019.3.0 Beta 3](https://unity3d.com/unity/beta/2019.3.0b3)
 
 **Networking Framework** - Photon
 * [Photon](https://www.photonengine.com/pun) <br/>
 
 **Necessary Scripts**
-* [UnitEntityManager](https://docs.unity3d.com/Packages/com.unity.entities@0.0/api/Unity.Entities.EntityManager.html) 
+* [UnitEntityManager](https://docs.unity3d.com/Packages/com.unity.entities@0.0/api/Unity.Entities.EntityManager.html)
 * [Interactable](https://docs.unity3d.com/540/Documentation/ScriptReference/UI.Selectable-interactable.html)
 
-## Inspiration: 
-[Overcooked](https://store.steampowered.com/app/448510/Overcooked/)- chaotic couch co-op cooking game 
+## Inspiration:
+[Overcooked](https://store.steampowered.com/app/448510/Overcooked/)- chaotic couch co-op cooking game

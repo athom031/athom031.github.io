@@ -66,7 +66,7 @@ This is a system connected to a photo resistor. Based on the light, output the l
 
 <i>Highlight: </i> Catch the Light <br/>
 
-A simple light game where an array of LEDs cycles up and down. The task of the player is to try and press the button when the middle light is on. Each time the player succeeds, score is incremented on an LED screen. 
+A simple light game where an array of LEDs cycles up and down. The task of the player is to try and press the button when the middle light is on. Each time the player succeeds, the score is incremented on an LED screen.
 
 [Demo](https://youtu.be/7MUxzIRRO7U) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab6/athom031_lab6_part2.c)
@@ -103,9 +103,9 @@ The input includes the weight sensor in the driver's seat. Based on this, signif
 
 <div id="lab2"></div>
 
-### AVR Toolchain Intro 
+### AVR Toolchain Intro
 <i>Highlight: </i> Weight Sensor <br/>
 
-Weight sensor for amusement park ride that insures the weight is balanced across three seats and meets certain restrictions.
+Weight sensor for amusement park ride that ensures the weight is balanced across three seats and meets certain restrictions.
 
-[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab2/athom031_lab2_part4.c) 
+[Source](https://github.com/athom031/EmbeddedSystems/blob/master/projects/source/Lab2/athom031_lab2_part4.c)

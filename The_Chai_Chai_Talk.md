@@ -17,23 +17,23 @@ permalink: /theChaiChaiTalk/
 <!--                        Abstract                                        -->
 ## Abstract
 
-Children born of Indian Immigrants in the U.S. often struggle to balance their two conflicting identities. In the name of fitting in, traditions and memories are forgotten to accommodate what is thought of as normal. Because of that, part of who they are is pushed to the side. This project seeks to find how Indian Americans use music to identify with their other half. My research is a series of interviews with members of UCR’s Hindi-Film Dance team, UCR Afsana. These interviews were then edited and condensed into a series of podcasts, where American children of Indian parents share their path to how music plays a part in identifying with their South Asian culture. In some cases, this project can even how how music even serves as a vehicle to join their two halves. This project aims to evaluate a possible solution in alleviating the struggles of confused identities many children of immigrant families have to deal with.
+Children born of Indian Immigrants in the U.S. often struggle to balance their two conflicting identities. In the name of fitting in, traditions and memories are forgotten to accommodate what is thought of as normal. Because of that, part of who they are is pushed to the side. This project seeks to find how Indian Americans use music to identify with their other half. My research is a series of interviews with members of UCR’s Hindi-Film Dance team, UCR Afsana. These interviews were then edited and condensed into a series of podcasts, where American children of Indian parents share their path to how music plays a part in identifying with their South Asian culture. In some cases, this project can even show how music even serves as a vehicle to join their two halves. This project aims to evaluate a possible solution in alleviating the struggles of confused identities many children of immigrant families have to deal with.
 <br/>
 
 
 <!--                    TABLE OF CONTENTS                                   -->
 ## Table of Contents
 <div style="display:flex; flex-direction:column;">
-    <html>
-        <a href="#ep1">Episode 1: The Chai Chai Talk Intro</a>
-        <a href="#ep2">Episode 2: Growing Up In America Indian</a>
-        <a href="#ep3">Episode 3: Giving Our Children A Diluted India</a>
-        <a href="#ep4">Episode 4: A Shifting Identity</a>
-        <a href="#ep5">Episode 5: Underground Music Culture</a>
-        <a href="#ep6">Episode 6: Item Song Impact</a>
-        <a href="#ep7">Episode 7: Bollywood Music Evolution</a>
-        <a href="#ep8">Episode 8: Immigrant American Music Expression</a>
-    </html>
+   <html>
+       <a href="#ep1">Episode 1: The Chai Chai Talk Intro</a>
+       <a href="#ep2">Episode 2: Growing Up In America Indian</a>
+       <a href="#ep3">Episode 3: Giving Our Children A Diluted India</a>
+       <a href="#ep4">Episode 4: A Shifting Identity</a>
+       <a href="#ep5">Episode 5: Underground Music Culture</a>
+       <a href="#ep6">Episode 6: Item Song Impact</a>
+       <a href="#ep7">Episode 7: Bollywood Music Evolution</a>
+       <a href="#ep8">Episode 8: Immigrant American Music Expression</a>
+   </html>
 </div>
 <br/>
 
@@ -53,9 +53,9 @@ In the first episode of the Chai Chai Talk, we introduce the podcast series itse
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JgNctxDDFhKN4VKOd1yyI-p)
@@ -75,9 +75,9 @@ In the second episode of the Chai Chai Talk, we introduce the phenomenon of havi
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JiHmgr0s6a030jmrnQWp4tm)
@@ -97,9 +97,9 @@ In the third episode of the Chai Chai Talk, we continue our conversation with Ma
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhZAi5v-BnzyKNC3YFnwAAr)
@@ -119,9 +119,9 @@ In the fourth episode of the Chai Chai Talk, we are joined by Sarena Minawala. S
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh-WwjJlcSGjwSUJz-B2keF)
@@ -137,13 +137,13 @@ In the fourth episode of the Chai Chai Talk, we are joined by Sarena Minawala. S
 
 #### Joined by Vishant Gandhi
 
-In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vishant is a third year Bio-Engineering student from Pleasonton, California. So far in this podcast, most of the Indian music brought up, has been movie-music. Vishant introduces the audience to the underground music culture and how it is growing. As it grows it is starting to get integrated with the movie music itself. But we ask the question just how much it will change and challenge the movie music industry I grew up with.
+In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vishant is a third year Bio-Engineering student from Pleasonton, California. So far in this podcast, most of the Indian music brought up has been movie-music. Vishant introduces the audience to the underground music culture and how it is growing. As it grows it is starting to get integrated with the movie music itself. But we ask the question just how much it will change and challenge the movie music industry I grew up with.
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhY2Pq7ZwmhDU8jYQ1da_en)
@@ -162,16 +162,16 @@ In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third yea
 
 ##### Part 1
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ##### Part 2
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhAaFAPP_5FZp9JZygtY9_b)
@@ -191,9 +191,9 @@ In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Ni
 <br/>
 
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JgVWOo3wDQWAV83qPaAz_yQ)
@@ -214,16 +214,16 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha 
 
 ##### Part 1
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ##### Part 2
 <audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3"
-            type = "audio/mpeg">
-    "Your browser does not support the audio element."
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3"
+           type = "audio/mpeg">
+   "Your browser does not support the audio element."
 </audio>
 
 ###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh8_gjkkk3yx3EDPG92ILIm)
@@ -242,5 +242,5 @@ Become a part of the new America. <br/> Drink Boba, eat Ramen, jam to Reggaeton.
 <br/>
 
 <div align="center">
-    <img src="{{ site.url }}/assets/Files/Guests/chai_gif.gif"/>
+   <img src="{{ site.url }}/assets/Files/Guests/chai_gif.gif"/>
 </div>
