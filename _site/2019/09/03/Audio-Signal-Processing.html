@@ -62,18 +62,18 @@
 
 <p>I saw an opportunity to optimize company scripts and made my own script which had a speedup due to cancelling redundant calculations.</p>
 
-<p><a href="https://github.com/athom031/SplitScript">Project Repo</a></p>
+<p><a href="https://github.com/athom031/InternAudioScripts/SplitScript">Project Repo</a></p>
 
 <h2 id="audio-cutter">Audio Cutter</h2>
 
-<p>During my internship this became a small passion project. 
+<p>During my internship this became a small passion project.
 Often times in music I enjoy, there are annoying segments whether it be instrumental or a undesired verse that irks the music listening process.</p>
 
 <p>Trimming off the beginning and ending of a song is easy on iTunes but to cut out a middle section of a song causes a lot more hardship. Instead of opening up GarageBand and hand trimming the audio, concatenating them, and then exporting the audio, this python desktop application does it for you based on timestamps.</p>
 
 <p><img src="http://localhost:4000/assets/Files/AudioSignal/AudioCutter.png" /></p>
 
-<p><a href="https://github.com/athom031/AudioCutter">Project Repo</a></p>
+<p><a href="https://github.com/athom031/InternAudioScripts/AudioCutter">Project Repo</a></p>
 
 <h2 id="trim-silence">Trim Silence</h2>
 
@@ -84,7 +84,7 @@ Being a person passionate about collecting music, I found that a lot of audio ha
 
 <p><img src="http://localhost:4000/assets/Files/AudioSignal/TrimSilence.png" /></p>
 
-<p><a href="https://github.com/athom031/TrimSilence">Project Repo</a></p>
+<p><a href="https://github.com/InternAudioScripts/TrimSilence">Project Repo</a></p>
 
 
   </div><a class="u-url" href="/2019/09/03/Audio-Signal-Processing.html" hidden></a>
@@ -109,7 +109,7 @@ Being a person passionate about collecting music, I found that a lot of audio ha
 
       <div class="footer-col footer-col-3">
         <p>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
-A team player with a passion for learning and developing new software. 
+A team player with a passion for learning and developing new software.
 Let&#39;s get some work done.
 </p>
       </div>
@@ -132,9 +132,9 @@ Let&#39;s get some work done.
         width: 100%;
         height: 100%;
         border: 0;
-    }    
+    }
     </style>
-    
+
     <script>
     function get_youtube_id(url) {
         var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
@@ -153,7 +153,7 @@ Let&#39;s get some work done.
               var theInnerHTML = '<div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+id+'/?byline=0&title=0&portrait=0';
               if(autoplay==1) theInnerHTML += '&autoplay=1';
               if(loop==1) theInnerHTML += '&loop=1';
-              theInnerHTML += '" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'; 
+              theInnerHTML += '" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
               el.innerHTML = theInnerHTML;
             }
           }
@@ -184,7 +184,7 @@ Let&#39;s get some work done.
         }
     }
     video_embed();
-    
+
     function mp3_embed() {
         var p = document.getElementsByTagName('p');
         for(var i = 0; i < p.length; i++) {
@@ -196,7 +196,7 @@ Let&#39;s get some work done.
                 str1 = str1.replace('autoplay=1','').replace('autoplay=0','');
                 str1 = str1.replace('loop=1','').replace('loop=0','');
                 str1 = str1.replace('controls=0','').replace('controls=1','');
-    
+
                 if (str[0].lastIndexOf('.mp3', str[0].length - 4) === str[0].length - 4 && str1.length == 0) {
                     if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
                     if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;

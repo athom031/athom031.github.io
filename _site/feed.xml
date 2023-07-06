@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-10T17:45:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Thomas</title><subtitle>A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
-A team player with a passion for learning and developing new software. 
+A team player with a passion for learning and developing new software.
 Let's get some work done.
 </subtitle><entry><title type="html">Twitter Search Engine: Full Stack Web Application</title><link href="http://localhost:4000/2020/09/04/Twitter-Search-Engine.html" rel="alternate" type="text/html" title="Twitter Search Engine: Full Stack Web Application" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/2020/09/04/Twitter-Search-Engine</id><content type="html" xml:base="http://localhost:4000/2020/09/04/Twitter-Search-Engine.html">&lt;p&gt;A search engine for crawled tweet data. With a Lucene Index, this search engine has the ability to search millions of tweets and return the most recent and relevant results based on a user query.&lt;/p&gt;
 
@@ -151,7 +151,7 @@ These special cabinets are where we can deliver play-created meals. Once plated 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/KrazyKitchen/level2.png&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;level-2&quot;&gt;Level 2&lt;/h4&gt;
-&lt;p&gt;In our second level we open tasks up to the players’ discretion. Through the small window in the cabinets, players can switch sides. It is important to note that ingredients are on top and the cutting board is on the bottom. This level involves a lot of transferring ingredients back and forth to complete a recipe. So although now a player can individually complete recipes, working together will still allow the most efficient system. 
+&lt;p&gt;In our second level we open tasks up to the players’ discretion. Through the small window in the cabinets, players can switch sides. It is important to note that ingredients are on top and the cutting board is on the bottom. This level involves a lot of transferring ingredients back and forth to complete a recipe. So although now a player can individually complete recipes, working together will still allow the most efficient system.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/KrazyKitchen/level3.png&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
@@ -169,7 +169,7 @@ These special cabinets are where we can deliver play-created meals. Once plated 
 &lt;h3 id=&quot;characters&quot;&gt;Characters&lt;/h3&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://localhost:4000/assets/Files/KrazyKitchen/player.png&quot; width=&quot;30%&quot; /&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/Files/KrazyKitchen/player.png&quot; width=&quot;30%&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
 When the game starts, each user is assigned the same character model. Depending on the order they connect to the server, their model will be a different color. There is no ability or task difference in the player model. Users can move their characters around and grab/drop an item. Users can also throw an item to other users in order to save more time.&lt;/p&gt;
@@ -177,7 +177,7 @@ When the game starts, each user is assigned the same character model. Depending 
 &lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://localhost:4000/assets/Files/KrazyKitchen/controls.png&quot; width=&quot;70%&quot; /&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/Files/KrazyKitchen/controls.png&quot; width=&quot;70%&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
 After all the players join the game, the game starts. Players have to cook meals based on the recipe to get corresponding points. &lt;br /&gt;
@@ -216,7 +216,7 @@ Users can use:&lt;/p&gt;
 
 &lt;!--                    TABLE OF CONTENTS                                   --&gt;
 &lt;h3 id=&quot;project-table-of-contents&quot;&gt;Project Table of Contents&lt;/h3&gt;
-&lt;div style=&quot;display:flex; flex-direction:column;&quot;&gt;    
+&lt;div style=&quot;display:flex; flex-direction:column;&quot;&gt;
     &lt;html&gt;
         &lt;a href=&quot;#puzzle&quot;&gt;Search: 8 Puzzle Solver&lt;/a&gt;
         &lt;a href=&quot;#feature&quot;&gt;Machine Learning: Nearest Neighbor Feature Selection&lt;/a&gt;
@@ -234,7 +234,7 @@ Users can use:&lt;/p&gt;
 &lt;h4 id=&quot;puzzle-solver-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver&quot;&gt;Puzzle Solver Repo&lt;/a&gt;&lt;/h4&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/nodeAnalysis.png&quot; /&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/nodeAnalysis.png&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -250,7 +250,7 @@ A* Search uses the movement cost to determine the next move but adding to that i
 &lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/runtime.png&quot; /&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/runtime.png&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -263,7 +263,7 @@ A* Search uses the movement cost to determine the next move but adding to that i
 &lt;h4 id=&quot;feature-selection-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN&quot;&gt;Feature Selection Repo&lt;/a&gt;&lt;/h4&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/80_features_3_5.png&quot; width=&quot;75%&quot; /&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/80_features_3_5.png&quot; width=&quot;75%&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -290,7 +290,7 @@ Backwards Selection also takes more time on larger datasets. &lt;br /&gt;
 &lt;h4 id=&quot;arya-chatbot-repo&quot;&gt;&lt;a href=&quot;https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot&quot;&gt;Arya ChatBot Repo&lt;/a&gt;&lt;/h4&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/aryaWanderer.jpg&quot; width=&quot;75%&quot; /&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/Files/ArtificialIntelligence/aryaWanderer.jpg&quot; width=&quot;75%&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -457,18 +457,18 @@ Try and beat your high score!&lt;/p&gt;
 
 &lt;p&gt;I saw an opportunity to optimize company scripts and made my own script which had a speedup due to cancelling redundant calculations.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/SplitScript&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/InternAudioScripts/SplitScript&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;audio-cutter&quot;&gt;Audio Cutter&lt;/h2&gt;
 
-&lt;p&gt;During my internship this became a small passion project. 
+&lt;p&gt;During my internship this became a small passion project.
 Often times in music I enjoy, there are annoying segments whether it be instrumental or a undesired verse that irks the music listening process.&lt;/p&gt;
 
 &lt;p&gt;Trimming off the beginning and ending of a song is easy on iTunes but to cut out a middle section of a song causes a lot more hardship. Instead of opening up GarageBand and hand trimming the audio, concatenating them, and then exporting the audio, this python desktop application does it for you based on timestamps.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/AudioCutter.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/AudioCutter&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/InternAudioScripts/AudioCutter&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;trim-silence&quot;&gt;Trim Silence&lt;/h2&gt;
 
@@ -479,7 +479,7 @@ Being a person passionate about collecting music, I found that a lot of audio ha
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/AudioSignal/TrimSilence.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/TrimSilence&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.</summary></entry><entry><title type="html">Box Bot: UCR Hackathon Submission</title><link href="http://localhost:4000/2017/11/12/Bluetooth-RC.html" rel="alternate" type="text/html" title="Box Bot: UCR Hackathon Submission" /><published>2017-11-12T00:00:00-08:00</published><updated>2017-11-12T00:00:00-08:00</updated><id>http://localhost:4000/2017/11/12/Bluetooth-RC</id><content type="html" xml:base="http://localhost:4000/2017/11/12/Bluetooth-RC.html">&lt;h3 id=&quot;bluetooth-remote-controlled-car&quot;&gt;Bluetooth Remote Controlled Car&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/athom031/InternAudioScripts/TrimSilence&quot;&gt;Project Repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">An exploration of the audio space inspired by the knowledge gained and experience from my Internship with Knowles Intelligent Audio.</summary></entry><entry><title type="html">Box Bot: UCR Hackathon Submission</title><link href="http://localhost:4000/2017/11/12/Bluetooth-RC.html" rel="alternate" type="text/html" title="Box Bot: UCR Hackathon Submission" /><published>2017-11-12T00:00:00-08:00</published><updated>2017-11-12T00:00:00-08:00</updated><id>http://localhost:4000/2017/11/12/Bluetooth-RC</id><content type="html" xml:base="http://localhost:4000/2017/11/12/Bluetooth-RC.html">&lt;h3 id=&quot;bluetooth-remote-controlled-car&quot;&gt;Bluetooth Remote Controlled Car&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/Files/BoxBot/BoxBot.JPG&quot; /&gt;&lt;/p&gt;
 
