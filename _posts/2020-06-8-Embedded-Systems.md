@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Embedded Systems: CS 120B Class Projects"
+title: "Embedded Systems: UCR CS 120B"
 ---
 
 # Embedded Systems
