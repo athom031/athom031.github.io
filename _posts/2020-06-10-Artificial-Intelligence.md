@@ -4,9 +4,9 @@ title: "Artificial Intelligence and Machine Learning: UCR CS 170"
 ---
 A collection of projects completed in *CS170 - Artificial Intelligence and Machine Learning*. <br/>
 
-*Logic Systems*: The ability to take previous data and rules and then manipulate them to create new facts. <br/>
-*Machine Learning*: An application that provides a system with the ability to "learn" from previous data. <br/>
-*Search*: The process of traversing from a start state to a goal state through a set of intermediate states.
+**Logic Systems**: The ability to take previous data and rules and then manipulate them to create new facts. <br/>
+**Machine Learning**: An application that provides a system with the ability to "learn" from previous data. <br/>
+**Search**: The process of traversing from a start state to a goal state through a set of intermediate states.
 
 <!--                    TABLE OF CONTENTS                                   -->
 ### Project Table of Contents
