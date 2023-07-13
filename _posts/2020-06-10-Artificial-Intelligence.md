@@ -12,7 +12,7 @@ A collection of projects completed in *CS170 - Artificial Intelligence and Machi
 ### Project Table of Contents
 <div style="display:flex; flex-direction:column;">
    <html>
-       <a href="#arya">Logic Systems: Arya the ChatBot</a>/
+       <a href="#arya">Logic Systems: Arya the ChatBot</a>
        <a href="#feature">Machine Learning: Nearest Neighbor Feature Selection</a>
        <a href="#puzzle">Search: 8 Puzzle Solver</a>
    </html>
