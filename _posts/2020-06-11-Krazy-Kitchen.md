@@ -10,7 +10,7 @@ title: "Krazy Kitchen: Unity Engine Video Game"
 
 ## Abstract
 
-Krazy Kitchen is an online cooperative game where a group of your friends attempt to complete several recipes under chaotic situations. This is our own implementation of the Overcooked game series. Space and time is limited and completing recipes are a combination of many different tasks and ingredients. This game requires users to get, cut, cook, combine and then deliver food. The true fun comes from the pandemonium that accompanies attempting levels individually and discovering through gameplay that the only way to succeed is to work together.
+Krazy Kitchen is a thrilling online cooperative game that challenges you and your friends to complete various recipes amidst chaotic situations. Inspired by the popular Overcooked game series, this is our unique take on the concept. With limited space and time, players must skillfully navigate through a multitude of tasks and ingredients to successfully prepare dishes. From gathering and cutting ingredients to cooking and combining them, the gameplay revolves around the exciting process of creating and delivering food. However, the real enjoyment stems from the pandemonium that ensues when tackling levels individually, as players soon realize that true success can only be achieved through teamwork and collaboration.
 
 ## Built With
 
@@ -20,10 +20,10 @@ Krazy Kitchen is an online cooperative game where a group of your friends attemp
 ## Authors
 
 * **Alex Thomas** - [Github](https://github.com/athom031)
-* **Jose Garcia** - [Github](https://github.com/LadyEbony)
-* **Siqi Tian** - [Github](https://github.com/SiqiT)
-* **Max McKee** - [Github](https://github.com/mmckee003)
-* **Chong Zuo** - [Github](https://github.com/ChongZuo)
+* **Jose G** - [Github](https://github.com/LadyEbony)
+* **Siqi T** - [Github](https://github.com/SiqiT)
+* **Max M** - [Github](https://github.com/mmckee003)
+* **Chong Z** - [Github](https://github.com/ChongZuo)
 
 
 ## Game Description
