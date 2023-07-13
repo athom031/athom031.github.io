@@ -18,7 +18,7 @@ These recordings are processed through the use of a split script. During my inte
 
 <img src="{{ site.url }}/assets/Files/AudioSignal/SplitScript.jpg"/>
 
-[Project Repo](https://github.com/athom031/InternAudioScripts/tree/master/SplitScript)
+[Project Repo](https://github.com/athom031/Intern-Audio-Scripts/tree/master/SplitScript)
 
 ## Audio Cutter
 
@@ -26,7 +26,7 @@ Oftentimes in music I enjoy, I find segments that are undesired. Through my own 
 
 <img src="{{ site.url }}/assets/Files/AudioSignal/AudioCutter.png"/>
 
-[Project Repo](https://github.com/athom031/InternAudioScripts/tree/master/AudioCutter)
+[Project Repo](https://github.com/athom031/Intern-Audio-Scripts/tree/master/AudioCutter)
 
 ## Trim Silence and Normalize Audio
 
@@ -36,4 +36,4 @@ Therefore I built a script to trim off silence and normalize the audio.
 
 <img src="{{ site.url }}/assets/Files/AudioSignal/TrimSilence.png"/>
 
-[Project Repo](https://github.com/athom031/InternAudioScripts/tree/master/TrimSilence)
+[Project Repo](https://github.com/athom031/Intern-Audio-Scripts/tree/master/TrimSilence)
