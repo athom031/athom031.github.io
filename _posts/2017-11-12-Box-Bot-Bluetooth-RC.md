@@ -8,7 +8,7 @@ title: "Box Bot: UCR Hackathon Submission"
 
 <div align="center" style="display: flex; align-items: center;">
   <img src="{{ site.url }}/assets/Files/BoxBot/Award.JPG" style="max-width: 50%; height: auto; margin: 0 5px;"/>
-  <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.JPG" style="max-width: 50%; height: 80%; margin: 0 5px;"/>
+  <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.JPG" style="max-width: 50%; height: 75%; margin: 0 5px;"/>
 </div>
 
 My team consisted of:
