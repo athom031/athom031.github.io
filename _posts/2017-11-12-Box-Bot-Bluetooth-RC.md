@@ -4,7 +4,7 @@ title: "Box Bot: UCR Hackathon Submission"
 ---
 
 ### Bluetooth Remote Controlled Car
-#### Awarded 'Best Hardware Hack' at 2017 Citrus Hack
+#### Awarded **Best Hardware Hack** at 2017 Citrus Hack
 
 <div style="display: flex; align-items: center;">
   <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.JPG" style="max-width: 50%; height: auto; margin: 0 10px;"/>
