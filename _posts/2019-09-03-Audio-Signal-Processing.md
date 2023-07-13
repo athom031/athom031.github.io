@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Audio Signal Processing: Intern Projects"
+title: "Audio Signal Processing: Knowles Internship"
 ---
 
 This page collects a series of projects exploring the audio space. They are inspired by the knowledge gained from my 2019 Summer Internship with [Knowles Intelligent Audio](https://www.knowles.com/).
