@@ -27,7 +27,7 @@ A collection of projects completed in *CS170 - Artificial Intelligence and Machi
 
 ## Logic Systems: Arya the ChatBot
 
-#### [Arya ChatBot Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/AryaBot)
+#### [Arya ChatBot Repo](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/AryaBot)
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "75%"/>
@@ -76,7 +76,7 @@ Input parser and output creation inspired by Liza Daly's python [chat bot](https
 
 ## Machine Learning: Nearest Neighbor Feature Selection
 
-#### [Feature Selection Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN)
+#### [Feature Selection Repo](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/FeatureSelectionNN)
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "75%"/>
@@ -96,7 +96,7 @@ Though forward selection and backward selection will result in similar accurate 
 Forward selection will replicate the accuracy of backward selection with less features. <br/>
 This makes the features picked by Backwards Selection harder to pick. <br/>
 Backwards Selection also takes more time on larger datasets. <br/>
-[Example](https://github.com/athom031/Artificial_Intelligence/tree/master/FeatureSelectionNN/feature_accuracy_example)
+[Example](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/FeatureSelectionNN/feature_accuracy_example)
 
 <!--                           SEARCH                                       -->
 
@@ -104,7 +104,7 @@ Backwards Selection also takes more time on larger datasets. <br/>
 
 ## Search: 8 Puzzle Solver
 
-#### [Puzzle Solver Repo](https://github.com/athom031/Artificial_Intelligence/tree/master/8-Puzzle-Solver)
+#### [Puzzle Solver Repo](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/8-Puzzle-Solver)
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png"/>
