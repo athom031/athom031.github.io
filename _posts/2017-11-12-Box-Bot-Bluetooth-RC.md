@@ -21,7 +21,7 @@ title: "Box Bot: UCR Hackathon Submission"
 * Utilized the Arduino IDE for programming and circuit development, enabling seamless communication between the Android app and the car
 * Gained practical experience in constructing circuits, working with digital/analog signals, and soldering wires onto LED lights to enhance functionality
 
-#### Project Impact 
+#### Impact 
 * Embraced the challenge of a hardware project with limited prior experience, showcasing adaptability, eagerness to learn, and effective collaboration within the team
 * Recognized for our efforts by winning the prestigious **Best Hardware Hack** award among participants from various academic levels.
 
