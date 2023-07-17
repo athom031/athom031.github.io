@@ -26,7 +26,7 @@ title: "Box Bot: UCR Hackathon Submission"
 
 #### Link to Project:
 
-[Project](https://devpost.com/software/box-bot)
+[Box Bot](https://devpost.com/software/box-bot)
 
 <br/>
 
