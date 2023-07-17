@@ -3,7 +3,7 @@ layout: post
 title: "Box Bot: UCR Hackathon Submission"
 ---
 
-### Bluetooth Remote Controlled Car
+### Box Bot: Bluetooth Remote Controlled Car
 #### Awarded **Best Hardware Hack** at 2017 Citrus Hack
 
 <div align="center" style="display: flex; align-items: center;">
@@ -11,18 +11,23 @@ title: "Box Bot: UCR Hackathon Submission"
   <img src="{{ site.url }}/assets/Files/BoxBot/BoxBot.JPG" style="max-width: 50%; height: 75%; margin: 0 5px;"/>
 </div>
 
-My team consisted of:
-* Melissa D.
-* Emma R.
-* Cindy Q.
+#### Project Overview
+* Developed a motorized car using the Arduino IDE.
+* Provided movement controls for the RC through a Bluetooth Android application
+* Participated in a university hackathon as a freshman with a team of engineers, all new to hardware engineering
+* Received **Best Hardware Hack** award at hackathon
 
-We used the Arduino IDE to build a motorized car that was controlled by a personal Android application.
+#### Technical Achievements 
+* Utilized the Arduino IDE for programming and circuit development, enabling seamless communication between the Android app and the car
+* Gained practical experience in constructing circuits, working with digital/analog signals, and soldering wires onto LED lights to enhance functionality
 
-From this project, we learned how to program through the Arduino IDE, build simple circuits, the difference between digital and analog signals, and how to solder wires onto our LED lights.
+#### Project Impact 
+* Embraced the challenge of a hardware project with limited prior experience, showcasing adaptability, eagerness to learn, and effective collaboration within the team
+* Recognized for our efforts by winning the prestigious **Best Hardware Hack** award among participants from various academic levels.
+
+#### Link to Project:
 
 [Project](https://devpost.com/software/box-bot)
-
-This was my first hackathon as it was for Emma and Cindy. Furthermore, none of us had any prior experience working with hardware. Therefore, we took up this opportunity to step out of our comfort zone and learn as much as possible. Considering our technical expertise at this time, it was a great accomplishment to be awarded **Best Hardware Hack**!
 
 <br/>
 
