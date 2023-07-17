@@ -13,7 +13,7 @@ Split Script
 * Takes single audio file and config information to then output each named utterance from test user recording
 * Determines utterances based on silence measurements between each phrase
 <div align="center">
-   <img src="{{ site.url }}/assets/Files/AudioSignal/SplitScript.jpg"/>
+   <img src="{{ site.url }}/assets/Files/AudioSignal/SplitScript.png"/>
 </div>
 
 Audio Cutter
