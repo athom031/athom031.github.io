@@ -5,14 +5,12 @@ permalink: /theChaiChaiTalk/
 ---
 
 
-<!--                        Header                                          -->
-<img src="{{ site.url }}/assets/ChaiChaiTalk/logo_short.png" width = "100%"/>
-
 ### Music in the American Indian Identity - A Podcast Series
 
 ##### UCR Honors Capstone Project
+<!--                        Header                                          -->
+<img src="{{ site.url }}/assets/ChaiChaiTalk/logo_short.png" width = "100%"/>
 ---
-<br/>
 
 <!--                        Abstract                                        -->
 ## Abstract
