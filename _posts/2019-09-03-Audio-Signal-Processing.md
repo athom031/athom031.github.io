@@ -35,7 +35,7 @@ by taking audio files and trimming out silence before start and end of song
 #### Technical Achievements 
 * Developed proficiency in utilizing audio processing APIs, specifically Audio Segment and PyDub, enabling efficient manipulation and analysis of audio data
 * Learned how to develop desktop applications with a user-friendly GUI 
-* Optimized company audio parsing scripts, addressing inefficiencies and removing bottlenecks, resulting in a signficant 1.3x speedup 
+* Optimized company audio parsing scripts, addressing inefficiencies and removing bottlenecks, resulting in a signficant **1.3x Speedup**
 
 #### Impact 
 * Projects serve as a comprehensive summary of experience gained during first technical internship
