@@ -6,7 +6,7 @@ permalink: /theChaiChaiTalk/
 
 
 <!--                        Header                                          -->
-<img src="{{ site.url }}/assets/Files/Guests/logo_short.png" width = "100%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/logo_short.png" width = "100%"/>
 
 ### Music in the American Indian Identity - A Podcast Series
 
@@ -44,7 +44,7 @@ Children born of Indian Immigrants in the U.S. often struggle to balance their t
 
 ## Episode 1: The Chai Chai Talk Intro
 
-<img src="{{ site.url }}/assets/Files/Guests/1_Manny.jpg" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/1_Manny.jpg" width = "50%"/>
 
 
 #### Joined by Manny G.
@@ -53,7 +53,7 @@ In the first episode of the Chai Chai Talk, we introduce the podcast series itse
 <br/>
 
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/1_The_Chai_Chai_Talk_Intro.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -67,7 +67,7 @@ In the first episode of the Chai Chai Talk, we introduce the podcast series itse
 
 ## Episode 2: Growing Up In America Indian
 
-<img src="{{ site.url }}/assets/Files/Guests/2_Manasi.jpeg" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/2_Manasi.jpeg" width = "50%"/>
 
 #### Joined by Manasi S.
 
@@ -75,7 +75,7 @@ In the second episode of the Chai Chai Talk, we introduce the phenomenon of havi
 <br/>
 
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/2_Growing_Up_In America_Indian.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -89,7 +89,7 @@ In the second episode of the Chai Chai Talk, we introduce the phenomenon of havi
 
 ## Episode 3: Giving Our Children A Diluted India
 
-<img src="{{ site.url }}/assets/Files/Guests/3_Manasi.png" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/3_Manasi.png" width = "50%"/>
 
 #### Joined by Manasi S.
 
@@ -97,7 +97,7 @@ In the third episode of the Chai Chai Talk, we continue our conversation with Ma
 <br/>
 
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/3_Giving_Our_Children_A_Diluted_India.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -111,7 +111,7 @@ In the third episode of the Chai Chai Talk, we continue our conversation with Ma
 
 ## Episode 4: A Shifting Identity
 
-<img src="{{ site.url }}/assets/Files/Guests/4_Sarena.jpeg" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/4_Sarena.jpeg" width = "50%"/>
 
 #### Joined by Sarena M.
 
@@ -119,7 +119,7 @@ In the fourth episode of the Chai Chai Talk, we are joined by Sarena. Sarena is 
 <br/>
 
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/4_A_Shifting_Identity.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -133,7 +133,7 @@ In the fourth episode of the Chai Chai Talk, we are joined by Sarena. Sarena is 
 
 ## Episode 5: Underground Music Culture
 
-<img src="{{ site.url }}/assets/Files/Guests/5_Vishant.jpeg" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/5_Vishant.jpeg" width = "50%"/>
 
 #### Joined by Vishant G.
 
@@ -141,7 +141,7 @@ In the fifth episode of the Chai Chai Talk, we are joined by Vishant. Vishant is
 <br/>
 
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/5_Underground_Music_Culture.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -162,14 +162,14 @@ In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third yea
 
 ##### Part 1
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/6_Item_Song_Impact_Part_1.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
 
 ##### Part 2
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/6_Item_Song_Impact_Part_2.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -183,7 +183,7 @@ In the sixth episode of the Chai Chai Talk, we are joined by S. S is a third yea
 
 ## Episode 7: Bollywood Music Evolution
 
-<img src="{{ site.url }}/assets/Files/Guests/7_Nihal.jpeg" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/7_Nihal.jpeg" width = "50%"/>
 
 #### Joined by Nihal D.
 
@@ -191,7 +191,7 @@ In the seventh episode of the Chai Chai Talk, we are joined by Nihal. Nihal is a
 <br/>
 
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/7_Bollywood_Music_Evolution.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -205,7 +205,7 @@ In the seventh episode of the Chai Chai Talk, we are joined by Nihal. Nihal is a
 
 ## Episode 8: Immigrant American Music Expression
 
-<img src="{{ site.url }}/assets/Files/Guests/8_Pratyusha.jpeg" width = "50%"/>
+<img src="{{ site.url }}/assets/ChaiChaiTalk/Guests/8_Pratyusha.jpeg" width = "50%"/>
 
 #### Joined by Pratyusha M.
 
@@ -214,14 +214,14 @@ In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha.
 
 ##### Part 1
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/8_Immigrant_American_Music_Expression_Part_1.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
 
 ##### Part 2
 <audio controls preload>
-   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3"
+   <source src  = "{{ site.url }}/assets/ChaiChaiTalk/Recordings/8_Immigrant_American_Music_Expression_Part_2.mp3"
            type = "audio/mpeg">
    "Your browser does not support the audio element."
 </audio>
@@ -243,5 +243,5 @@ Become a part of the new America. <br/> Drink Boba, eat Ramen, jam to Reggaeton.
 <br/>
 
 <div align="center">
-   <img src="{{ site.url }}/assets/Files/Guests/chai_gif.gif"/>
+   <img src="{{ site.url }}/assets/ChaiChaiTalk/chai_gif.gif"/>
 </div>
