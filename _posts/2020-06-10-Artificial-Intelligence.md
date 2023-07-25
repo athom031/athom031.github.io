@@ -2,6 +2,37 @@
 layout: post
 title: "Artificial Intelligence and Machine Learning: UCR CS 170"
 ---
+#### Projects from Upper Division Computer Science Class in University of California, Riverside
+---
+
+#### Project Overview
+
+**Arya the ChatBot**
+* A sleek AI interface designed to provide users with a personalized conversational experience
+* Based on the way a user interacts with "her", Arya's personality can dynamically evolve
+* Thus the learned personality level will adjust its engagement and responses to user prompts 
+
+**Nearest Neighbor Classifier**
+* A powerful machine learning model designed to classify instances based on their feature sets
+* This innovative approach leverages the nearest neighbor classifier and the one-out algorithm to create accurate and efficient class models
+* A model is learned based off of some starting N instances with an assigned class and a set of M features
+
+***8-Puzzle Problem Solver** 
+* Offers a search algorithm to efficiently solve the famous [8-Puzzle Problem](https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288)
+* This is achieved by mapping out potential paths from initial state and determining the shortest sequence of steps to achieve the goal state
+
+#### Technical Achievements 
+*
+
+#### Impact
+*
+
+#### Links to Project
+* [Arya the ChatBot](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/AryaBot)
+* [Nearest Neighbor Classifier](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/FeatureSelectionNN)
+* [8-Puzzle Problem Solver](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/8-Puzzle-Solver)
+
+
 A collection of projects completed in *CS170 - Artificial Intelligence and Machine Learning*. <br/>
 
 **Logic Systems**: The ability to take previous data and rules and then manipulate them to create new facts. <br/>
@@ -27,7 +58,7 @@ A collection of projects completed in *CS170 - Artificial Intelligence and Machi
 
 ## Logic Systems: Arya the ChatBot
 
-#### [Arya ChatBot Repo](https://github.com/athom031/Artificial-Intelligence-Machine-Learning/tree/master/AryaBot)
+#### [Arya ChatBot Repo]
 
 <div align="center">
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "75%"/>
@@ -126,3 +157,58 @@ A* Search uses the movement cost to determine the next move but adding to that i
 </div><br/>
 
 We can see building upon the movement cost to predict the next best step, reduces the runtime and space complexity exponentially. The heuristic chosen also matters. I was surprised that the misplaced tile performed better for this example than the Manhattan distance because from theory, the Manhattan distance uses more information about the actual state. But they are very similar and might vary for other examples.
+
+
+
+
+---
+layout: post
+title: "Audio Signal Processing: Knowles Internship"
+---
+
+#### Projects inspired by 2019 Summer Internship with [Knowles Intelligent Audio](https://www.knowles.com/)
+---
+
+#### Project Overview
+
+**Split Script**
+* Developed a split script similar to technology used in Knowles Data Collection
+* Script is used in automation of training and evaluating voice command technology
+* Takes single audio file and config information to then output each named utterance from test user recording
+* Determines utterances based on silence measurements between each phrase
+<div align="center">
+   <img src="{{ site.url }}/assets/Files/AudioSignal/SplitScript.png"/>
+</div>
+<br>
+
+**Audio Cutter**
+* Designed a Desktop Widget to allow users to cut out unwanted ranges of audio files
+* Allows for easier audio cutting than hand trimming 
+<div align="center">
+    <img src="{{ site.url }}/assets/Files/AudioSignal/AudioCutter.png"/>
+</div>
+<br>
+
+**Silence Trimmer and Audio Normalizer**
+* Automates audio processing for songs within desired directory
+* Takes collection of audio files to trim out silence and normalize decibel levels
+by taking audio files and trimming out silence before start and end of song
+<div align="center">
+    <img src="{{ site.url }}/assets/Files/AudioSignal/TrimSilence.png"/>
+</div>
+
+#### Technical Achievements 
+* Developed proficiency in utilizing audio processing APIs, specifically Audio Segment and PyDub, enabling efficient manipulation and analysis of audio data
+* Learned how to develop desktop applications with a user-friendly GUI 
+* Optimized company audio parsing scripts, addressing inefficiencies and removing bottlenecks, resulting in a signficant **1.3x Speedup**
+
+#### Impact 
+* Projects serve as a comprehensive summary of experience gained during first technical internship
+* Demonstrated a proactive approach to explore how learning could be combined with outside passions
+* Further highlighted drive to continue developing software that aligns with personal interests and expanding skill sets
+* Capitalized on opportunity to understand inner workings of company tooling and seeking opportunities for improvement and optimization
+
+#### Link to Projects
+* [Split Script](https://github.com/athom031/Intern-Audio-Scripts/tree/master/SplitScript)
+* [Audio Cutter](https://github.com/athom031/Intern-Audio-Scripts/tree/master/AudioCutter)
+* [Silence Trimmer/Audio Normalizer](https://github.com/athom031/Intern-Audio-Scripts/tree/master/TrimSilence)
