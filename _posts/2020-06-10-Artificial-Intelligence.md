@@ -2,26 +2,43 @@
 layout: post
 title: "Artificial Intelligence and Machine Learning: UCR CS 170"
 ---
-#### Projects from Upper Division Computer Science Class in University of California, Riverside
+#### Projects from Upper Division CS Class in University of California, Riverside
 ---
 
 #### Project Overview
 
 **Arya the ChatBot**
+
 * A sleek AI interface designed to provide users with a personalized conversational experience
 * Based on the way a user interacts with "her", Arya's personality can dynamically evolve
-* Thus the learned personality level will adjust its engagement and responses to user prompts 
+* Thus the learned personality level will adjust its engagement and responses to user prompts
+
+<div align="center" style="display: flex; align-items: center;">
+  <img src="{{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" style="max-width: 50%; height: auto; margin: 0 5px;"/>
+  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaSoccer.png" style="max-width: 50%; height: 75%; margin: 0 5px;"/>
+</div>
 
 **Nearest Neighbor Classifier**
+
 * A powerful machine learning model designed to classify instances based on their feature sets
 * This innovative approach leverages the nearest neighbor classifier and the one-out algorithm to create accurate and efficient class models
 * A model is learned based off of some starting N instances with an assigned class and a set of M features
 
-***8-Puzzle Problem Solver** 
+<div align="center">
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" width = "75%"/>
+</div>
+
+**8-Puzzle Problem Solver**
+
 * Offers a search algorithm to efficiently solve the famous [8-Puzzle Problem](https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288)
 * This is achieved by mapping out potential paths from initial state and determining the shortest sequence of steps to achieve the goal state
 
-#### Technical Achievements 
+<div align="center" style="display: flex; align-items: center;">
+  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png" style="max-width: 50%; height: auto; margin: 0 5px;"/>
+  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png" style="max-width: 50%; height: 75%; margin: 0 5px;"/>
+</div>
+
+#### Technical Achievements
 *
 
 #### Impact
@@ -60,14 +77,7 @@ A collection of projects completed in *CS170 - Artificial Intelligence and Machi
 
 #### [Arya ChatBot Repo]
 
-<div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaWanderer.jpg" width = "75%"/>
-</div><br/>
 
-Arya is a natural language model chat bot that represents her learned personality ('negative', 'neutral', or 'positive') with a score and responds accordingly. <br/>
-
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/aryaSoccer.png"/>
-<br/>
 
 Each line, her personality 'score' is at a positive, netural, and negative level accordingly. Though the user input changes, Arya 'feels' like responding in a different way.
 
@@ -141,6 +151,10 @@ Backwards Selection also takes more time on larger datasets. <br/>
 <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png"/>
 </div><br/>
 
+<div align="center">
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png"/>
+</div><br/>
+
 ### Abstract
 A python implementation of a search solution to the 8 puzzle [problem](https://blog.goodaudience.com/solving-8-puzzle-using-a-algorithm-7b509c331288). <br/>
 
@@ -183,7 +197,7 @@ title: "Audio Signal Processing: Knowles Internship"
 
 **Audio Cutter**
 * Designed a Desktop Widget to allow users to cut out unwanted ranges of audio files
-* Allows for easier audio cutting than hand trimming 
+* Allows for easier audio cutting than hand trimming
 <div align="center">
     <img src="{{ site.url }}/assets/Files/AudioSignal/AudioCutter.png"/>
 </div>
@@ -197,12 +211,12 @@ by taking audio files and trimming out silence before start and end of song
     <img src="{{ site.url }}/assets/Files/AudioSignal/TrimSilence.png"/>
 </div>
 
-#### Technical Achievements 
+#### Technical Achievements
 * Developed proficiency in utilizing audio processing APIs, specifically Audio Segment and PyDub, enabling efficient manipulation and analysis of audio data
-* Learned how to develop desktop applications with a user-friendly GUI 
+* Learned how to develop desktop applications with a user-friendly GUI
 * Optimized company audio parsing scripts, addressing inefficiencies and removing bottlenecks, resulting in a signficant **1.3x Speedup**
 
-#### Impact 
+#### Impact
 * Projects serve as a comprehensive summary of experience gained during first technical internship
 * Demonstrated a proactive approach to explore how learning could be combined with outside passions
 * Further highlighted drive to continue developing software that aligns with personal interests and expanding skill sets
