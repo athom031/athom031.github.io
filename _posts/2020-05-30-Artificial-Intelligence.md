@@ -2,7 +2,7 @@
 layout: post
 title: "Artificial Intelligence and Machine Learning: UCR CS 170"
 ---
-#### Projects from Upper Division CS Class in University of California, Riverside
+#### Projects from Upper Division UCR CS Class
 ---
 
 #### Project Overview
