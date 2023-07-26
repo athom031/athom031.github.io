@@ -26,7 +26,7 @@ title: "Artificial Intelligence and Machine Learning: UCR CS 170"
 * A model is learned based off of some starting N instances with an assigned class and a set of M features
 
 <div align="center">
-<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" style="height: 75%; margin: 0 5px;"/>
+<img src="{{ site.url }}/assets/Files/ArtificialIntelligence/80_features_3_5.png" style="max-width: 50%; height: 75%; margin: 0 5px;"/>
 </div>
 
 **8-Puzzle Problem Solver**
@@ -35,8 +35,8 @@ title: "Artificial Intelligence and Machine Learning: UCR CS 170"
 * This is achieved by mapping out potential paths from initial state and determining the shortest sequence of steps to achieve the goal state
 
 <div align="center" style="display: flex; align-items: center;">
-  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png" style="max-width: 50%; height: auto; margin: 0 5px;"/>
-  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png" style="max-width: 50%; height: 75%; margin: 0 5px;"/>
+  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/nodeAnalysis.png" style="max-width: 50%; margin: 0 5px;"/>
+  <img src="{{ site.url }}/assets/Files/ArtificialIntelligence/runtime.png" style="max-width: 50%; margin: 0 5px;"/>
 </div>
 
 #### Technical Achievements
