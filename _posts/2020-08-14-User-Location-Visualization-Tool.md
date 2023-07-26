@@ -19,7 +19,7 @@ title: "User Location Visualization Tool: Full Stack Web Application"
 * On the client side, Google Cloud API shows a real-time visualization of user activity
 
 <div align="center" style="display: flex; align-items: center;">
-  <img src="{{ site.url }}/assets/Files/UserLocationDemo/Visualization.png" style="max-width: 50%; margin: 0 5px;"/>
+  <img src="{{ site.url }}/assets/Files/UserLocationDemo/Visualization.png" style="margin: 0 5px;"/>
 </div>
 
 #### Technical Achievements
