@@ -4,11 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I am a Software Engineer working at Sigma Connectivity Inc. Currently on project with a FAANG company since the beginning of 2021, I have taken it upon myself to explore each new field I have come across. Starting in Android UX, specializing in Accessibility, and then diving into build tools has expanded my skillset considerably since coming out of university.
+I am a Software Engineer with three years of proven experience at Meta Reality Labs (Facebook) as an Infrastructure Engineer. Graduating with Honors in Computer Science from the University of California, Riverside, I am passionate about exploring new technologies and have developed expertise in Software Development, Infrastructure Engineering, Full Stack Web Development, Data Analytics, and Android UI/UX.
 
-I graduated from the University of California, Riverside with an Honors Degree in Computer Science the summer of 2020. A recurring theme of my time in and out of college is my passion for learning. That passion has led me to explore artificial intelligence, embedded systems, and full stack development demonstrated in the projects and roles found on the home page.
+My journey has led me to work on cutting-edge projects, such as developing a Full Stack web application for scalable Twitter search and creating firmware update automation tools for Portal devices. With a strong drive for continuous learning and a knack for collaborative problem-solving, I thrive in both personal and team-oriented projects.
 
-Ultimately my journey has brought out the drive to keep learning each day and the skill I have for working with people to solve problems.
-
+I take pride in my dedication to Software Engineering, and I look forward to exploring new opportunities and challenges.
 
 Let's <a class="u-email" href="mailto:alexjosthomas@gmail.com">connect</a> and talk about what work we can do together.
