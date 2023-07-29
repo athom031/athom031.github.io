@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Time Tracker: Android Application Sigma Connectivity"
+title: "Dream Team Transfers: Full Stack Web Application"
 ---
 #### Techstack: Python, Rust, React
 ---
