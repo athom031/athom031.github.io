@@ -6,6 +6,7 @@ title: "Audio Signal Processing: Knowles Internship"
 #### Projects inspired by 2019 Summer Internship with [Knowles Intelligent Audio](https://www.knowles.com/)
 ---
 <br>
+
 #### Project Overview
 
 **Split Script**
