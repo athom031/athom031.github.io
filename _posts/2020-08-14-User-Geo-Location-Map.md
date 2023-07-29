@@ -2,7 +2,7 @@
 layout: post
 title: "User Geo Location Map: Full Stack Web Application"
 ---
-#### Techstack: NodeJS, React, MongoDB, Google Cloud APIs
+#### Techstack: NodeJS, React, MongoDB, Postman, Google Cloud APIs
 ---
 <br>
 
