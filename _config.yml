@@ -21,10 +21,7 @@
 title: Alex Thomas
 email: alexjosthomas@gmail.com
 description: |+ # we want to keep newlines
-  A Software Engineer I at Sigma Connectivity Inc.
-  A University of California, Riverside Honors Graduate with a B.S. in Computer Science (June 2020).
-  A team player with a passion for learning and developing new software.
-  Let's get some work done.
+  A Software Engineer with three years of valuable experience at Meta Reality Labs, specializing in Infrastructure Engineering for cutting-edge projects involving Portal and Oculus devices. As a University of California, Riverside Honors Graduate with a B.S. in Computer Science, I am dedicated to learning and developing innovative software solutions. Let's collaborate and make an impact together.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  athom031
