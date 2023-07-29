@@ -36,4 +36,4 @@ title: "User Geo Location Map: Full Stack Web Application"
 * Reinforced Networking Skills by configuring network GET requests and information posts using Postman
 
 ### Link to Project
-* [Github Repo](https://github.com/athom031/UserRegLatLong)
+* [Github Repo](https://github.com/athom031/User-Geo-Location-Map/tree/master)
