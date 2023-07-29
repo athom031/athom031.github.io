@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Search Engine: Full Stack Web Application"
 ---
-#### Techstack: Spring, React, Twitter Dev API, Twitter 4J, Lucene
+#### Techstack: Spring, Angular, Twitter Dev API, Twitter 4J, Lucene
 ---
 <br>
 
