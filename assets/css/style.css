@@ -76,9 +76,11 @@ header .logo {
   text-decoration: none;
   color: var(--base-dark-blue);
 }
-header .logo i {
-  font-size: 2.2rem;
+header .logo img {
+  width: 3rem;
+  height: auto;
 }
+
 header .logo:hover {
   color: var(--base-light-blue);
 }

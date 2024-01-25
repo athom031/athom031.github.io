@@ -54,6 +54,25 @@ $(document).ready(function () {
     });
     // <!-- emailjs to mail contact form data -->
 
+
+
+    // <!-- load footer if specified -->
+    $(function(){
+        $("#footer").load("footer.html");
+    });
+
+    // <!-- attach hover logo to logo in navbar -->
+    var logoLink = $('#logo-link');
+    var logoImg = $('#logo-img');
+    logoLink.hover(
+        function() {
+            logoImg.attr('src', 'assets/media/navbar/logo-hover.png'); // path to the hover image
+        },
+        function() {
+            logoImg.attr('src', 'assets/media/navbar/logo.png'); // path to the original image
+        }
+    );
+
 });
 
 // <!-- typed js effect starts -->
