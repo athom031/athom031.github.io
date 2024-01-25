@@ -56,19 +56,6 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
-        }
-    });
-
-
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
     strings: ["backend development","infrastructure design", "framework engineering", "full-stack web development", "frontend development", "data engineering", "android uI/uX", "app feature development"
