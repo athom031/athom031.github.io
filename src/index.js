@@ -55,7 +55,12 @@ $(document).ready(function () {
     // <!-- emailjs to mail contact form data -->
 
 
-    // <!-- load footer if specified -->
+    // <!-- load header at #header-->
+    $(function(){
+        $("#header").load("src/components/header/header.html");
+    });
+
+    // <!-- load footer at #footer-->
     $(function(){
         $("#footer").load("src/components/footer/footer.html");
     });
