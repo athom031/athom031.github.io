@@ -18,8 +18,9 @@ $(document).ready(function () {
             let id = $(this).attr('id');
 
             if (top > offset && top < offset + height) {
+                console.log(id);
                 $('.navbar ul li a').removeClass('active');
-                $('.navbar').find(`[href="#${id}"]`).addClass('active');
+                $('.navbar').find(`[href="/#${id}"]`).addClass('active');
             }
         });
     });
@@ -66,6 +67,16 @@ var typed = new Typed(".typing-text", {
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
+
+async function fetchData(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skills.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
