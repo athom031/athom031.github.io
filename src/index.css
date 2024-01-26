@@ -36,7 +36,9 @@
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: var(--base-light-blue);
+  color: var(--base-readable-blue);
+  background-color: var(--base-dark-blue);
+  border-radius: 20px;
   font-weight: 600;
   padding: 1rem 0;
 }
