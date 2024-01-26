@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     // <!-- load footer if specified -->
     $(function(){
-        $("#footer").load("footer.html");
+        $("#footer").load("src/components/footer/footer.html");
     });
 
     // <!-- attach hover logo to logo in navbar -->
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["backend development","infrastructure design", "framework engineering", "full-stack web development", "frontend development", "data engineering", "android uI/uX", "app feature development"
+    strings: ["backend development","infrastructure design", "framework engineering", "full-stack web development", "data engineering", "frontend development", "android uI/uX", "app feature development"
     ],
     loop: true,
     typeSpeed: 50,
