@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+:root {
+  --nightwing-blue: #00d9ff;
+  --base-dark-blue: #07021a;
+  --base-light-blue: #4a1fee;
+  --base-light-grey: #D3D3D3;
+  --nightwing-dark-blue: #006c80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--base-light-grey);
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-track {
+  background: var(--base-light-grey);
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--base-dark-blue);
+}
+
+/* common media queries starts*/
+@media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+    body {
+      padding-right: 0;
+    }
+    section {
+      padding: 2rem;
+    }
+  }
+/* common media queries ends*/
+
+
+/* scroll top starts */
+#scroll-top {
+  position: fixed;
+  top: -140%;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  background: var(--base-light-grey);
+  color: #07021A;
+  border-radius: 50%;
+  transition: 1s linear;
+  z-index: 1000;
+}
+
+#scroll-top.active {
+  top: calc(100% - 12rem);
+}
+/* scroll top ends */
