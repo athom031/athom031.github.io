@@ -55,7 +55,6 @@ $(document).ready(function () {
     // <!-- emailjs to mail contact form data -->
 
 
-
     // <!-- load footer if specified -->
     $(function(){
         $("#footer").load("footer.html");
@@ -66,10 +65,10 @@ $(document).ready(function () {
     var logoImg = $('#logo-img');
     logoLink.hover(
         function() {
-            logoImg.attr('src', 'assets/media/navbar/logo-hover.png'); // path to the hover image
+            logoImg.attr('src', 'assets/navbar/logo-hover.png'); // path to the hover image
         },
         function() {
-            logoImg.attr('src', 'assets/media/navbar/logo.png'); // path to the original image
+            logoImg.attr('src', 'assets/navbar/logo.png'); // path to the original image
         }
     );
 
