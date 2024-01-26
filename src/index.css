@@ -95,14 +95,18 @@
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: var(--base-light-grey);
+  color: var(--base-dark-blue);
+}
+.about a {
+  color: var(--base-light-blue);
 }
 .about .row {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
-  padding: 4rem;
+  padding: 2rem;
 }
 .about .row .image {
   text-align: center;
@@ -123,48 +127,31 @@
 }
 .about .row .content {
   flex: 1 1 45rem;
-  padding: 3rem;
+  padding: 1rem;
 }
-.about .row .content h3 {
-  color: rgb(27, 27, 27);
-  font-size: 2.5rem;
-}
-.about .row .content .tag {
-  font-size: 1.4rem;
-  color: #020133;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-.about .row .content p {
+.about .row .content p,
+.about .row .content ul {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
 }
-.about .row .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
+
+.about .row .content ul {
+  margin-left: 3rem;
 }
-.about .row .content .box-container .box p {
-  text-transform: none;
-}
-.about .row .content .box-container .box p span {
-  color: #011aff;
-}
+
 .resumebtn {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
   border-radius: 0.5em;
   transition: 0.3s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  color: var(--base-light-grey);
+  background: var(--base-light-blue);
+  box-shadow: 0px 5px 10px rgba(74, 31, 238, 0.6);
   font-family: "Nunito", sans-serif;
 }
 .resumebtn .btn span {
@@ -178,7 +165,7 @@
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: var(--base-dark-blue);
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -199,9 +186,6 @@
   }
   .about .row .content {
     padding: 1rem;
-  }
-  .about .row .content .box-container {
-    gap: 0;
   }
 }
 /* about media queries ends*/
