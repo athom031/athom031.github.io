@@ -100,9 +100,6 @@
   background: var(--base-light-grey);
   color: var(--base-dark-blue);
 }
-.about a {
-  color: var(--base-light-blue);
-}
 .about .row {
   display: flex;
   flex-direction: row;
@@ -140,6 +137,13 @@
   text-transform: none;
 }
 
+.about .row .content p a {
+  color: var(--base-light-blue);
+}
+.about .row .content p a:hover {
+  color: var(--base-readable-blue);
+}
+
 .about .row .content ul {
   margin-left: 3rem;
 }
@@ -167,7 +171,7 @@
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: var(--base-dark-blue);
+  background: var(--base-readable-blue);
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
