@@ -1,5 +1,5 @@
 /* navbar starts */
-header {
+  header {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,10 +12,7 @@ header {
     height: 6.5rem;
     background-color: var(--base-light-grey);
   }
-  section {
-    min-height: 100vh;
-    padding: 2rem 9%;
-  }
+
   .heading {
     font-size: 3.5rem;
     color: var(--base-dark-blue);

@@ -96,10 +96,16 @@
 /* hero section end */
 
 /* about section starts */
+section.about {
+  min-height: auto;
+}
 .about {
   background: var(--base-light-grey);
   color: var(--base-dark-blue);
+  padding-top: 8em;
+  padding-bottom: 8em;
 }
+
 .about .row {
   display: flex;
   flex-direction: row;

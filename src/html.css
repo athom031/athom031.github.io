@@ -45,6 +45,12 @@ html::-webkit-scrollbar-thumb {
   background: var(--base-dark-blue);
 }
 
+section {
+  min-height: 100vh;
+  padding: 2rem 9%;
+}
+
+
 /* common media queries starts*/
 @media (max-width: 450px) {
     html {
