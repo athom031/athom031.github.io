@@ -18,7 +18,6 @@ $(document).ready(function () {
             let id = $(this).attr('id');
 
             if (top > offset && top < offset + height) {
-                console.log(id);
                 $('.navbar ul li a').removeClass('active');
                 $('.navbar').find(`[href="/#${id}"]`).addClass('active');
             }
