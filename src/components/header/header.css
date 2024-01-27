@@ -56,8 +56,10 @@
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     color: var(--base-light-blue);
-    border-bottom: 0.2rem solid var(--base-light-blue);
     padding: 0.5rem 0;
+  }
+  header .navbar ul li a:hover {
+    border-bottom: 0.2rem solid var(--base-light-blue);
   }
   /* navbar ends */
 
@@ -65,7 +67,7 @@
   #menu {
     font-size: 3rem;
     cursor: pointer;
-    color: rgb(24, 2, 63);
+    color: var(--base-dark-blue);
     display: none;
   }
   @media (max-width: 768px) {
@@ -103,9 +105,11 @@
     header .navbar ul li a.active,
     header .navbar ul li a:hover {
       padding: 1rem;
-      color: var(--base-light-blue);
+      color: var(--base-readable-blue);
+    }
+    header .navbar ul li a:hover {
       border-radius: 0.5rem;
-      border-bottom: 0.5rem solid var(--base-light-blue);
+      border-bottom: 0.5rem solid var(--base-readable-blue);
     }
     .fa-times {
       transform: rotate(180deg);
