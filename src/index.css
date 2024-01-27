@@ -203,25 +203,26 @@ section.about {
 /* about media queries ends*/
 /* about section ends */
 
-/* work section starts */
-.work {
+/* projects section starts */
+
+.projects {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
 }
-.work h2 {
+.projects h2 {
   color: #fff;
   padding: 1rem;
 }
-.work .heading span {
+.projects .heading span {
   color: rgb(255, 230, 0);
 }
-.work .box-container {
+.projects .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
 }
-.work .box-container .box {
+.projects .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -229,12 +230,12 @@ section.about {
   overflow: hidden;
   height: 30rem;
 }
-.work .box-container .box img {
+.projects .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.work .box-container .box .content {
+.projects .box-container .box .content {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -244,7 +245,7 @@ section.about {
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag {
+.projects .box-container .box .content .tag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -254,28 +255,28 @@ section.about {
   padding-left: 1rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3 {
+.projects .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.work .box-container .box:hover .content {
+.projects .box-container .box:hover .content {
   top: 25%;
 }
-.work .desc {
+.projects .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p {
+.projects .desc p {
   font-size: 1.5rem;
 }
-.work .desc .btns {
+.projects .desc .btns {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-.work .desc .btns .btn {
+.projects .desc .btns .btn {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -285,14 +286,14 @@ section.about {
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.work .desc .btns .btn:hover {
+.projects .desc .btns .btn:hover {
   background: #310ae0f5;
 }
-.work .viewall {
+.projects .viewall {
   display: flex;
   justify-content: center;
 }
-.work .viewall .btn {
+.projects .viewall .btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -304,26 +305,33 @@ section.about {
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
 }
-.work .viewall .btn span {
+.projects .viewall .btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
 }
-.work .viewall .btn i {
+.projects .viewall .btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.work .viewall .btn:hover {
+.projects .viewall .btn:hover {
   background: #fff;
   color: #000;
 }
-.work .viewall .btn:hover i {
+.projects .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* work section ends */
+/* projects section ends */
 
 /* experience section starts */
+section.experience {
+  min-height: auto;
+}
+.experience {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
@@ -333,7 +341,7 @@ section.about {
   content: "";
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: var(--base-dark-blue);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -353,15 +361,15 @@ section.about {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  background-color: var(--base-light-grey);
+  border: 4px solid var(--base-readable-blue);
   top: 15px;
   border-radius: 50%;
   z-index: 100;
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color: #02094b;
+  color: var(--base-dark-blue);
   font-family: "Font Awesome\ 5 Free";
 }
 .experience .left {
@@ -379,9 +387,9 @@ section.about {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid var(--base-readable-blue);
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent var(--base-readable-blue);
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -392,15 +400,15 @@ section.about {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid var(--base-readable-blue);
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent var(--base-readable-blue) transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: var(--base-readable-blue);
   position: relative;
   border-radius: 6px;
 }
@@ -422,6 +430,7 @@ section.about {
 }
 /* view all button */
 .morebtn {
+  padding-top: 1em;
   display: flex;
   justify-content: center;
 }
@@ -432,8 +441,8 @@ section.about {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: var(--base-light-blue);
+  box-shadow: 0px 5px 10px rgba(74, 31, 238, 0.6);
   text-align: center;
 }
 .morebtn .btn span {
@@ -447,7 +456,7 @@ section.about {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background: var(--base-readable-blue);
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -474,9 +483,9 @@ section.about {
   }
   .experience .container::before {
     left: 61px;
-    border: medium solid #f68c09;
+    border: medium solid var(--base-readable-blue);
     border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
+    border-color: transparent var(--base-readable-blue) transparent transparent;
   }
   .experience .left::after {
     left: 15px;
