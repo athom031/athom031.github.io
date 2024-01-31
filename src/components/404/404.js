@@ -9,5 +9,9 @@ $(document).ready(function(){
         $("#footer").load("src/components/footer/footer.html");
     });
 
-    $('.navbar ul li a').removeClass('active');
+     // scroll spy
+    $('section').each(function () {
+        $('.navbar ul li a').removeClass('active');
+    });
+
 });
