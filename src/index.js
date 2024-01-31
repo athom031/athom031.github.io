@@ -77,10 +77,10 @@ async function fetchProjects(type = "skills") {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#projects .box-container");
     let projectHTML = "";
-    projects.filter(project =>  project.isOnHome).forEach(project => {
+    projects.filter(project =>  project.isOnHome === "true").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>

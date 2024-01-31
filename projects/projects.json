@@ -1,29 +1,65 @@
 [
   {
-    "name": "NotyStack Android",
+    "name": "Dream Team Transfers",
+    "isOnHome": "true",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
-    "category": "android",
+    "image": "Dream_Team_transfers",
+    "category": "fullstack",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "https://dream-team-transfers.netlify.app/",
+      "code": "https://github.com/athom031/Dream-Team-Transfers"
     }
   },
   {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
-    "category": "android",
+    "name": "Oven Ready Bakes",
+    "isOnHome": "web",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "Oven_Ready_Bakes",
+    "category": "web",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "view": "https://ovenreadybakes.com/",
+      "code": "https://github.com/athom031/Oven-Ready-Bakes"
+    }
+  },
+  {
+    "name": "My Github Page",
+    "isOnHome": "web",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "Alex_Thomas_Portfolio",
+    "category": "web",
+    "links": {
+      "view": "https://athom031.github.io/",
+      "code": "https://github.com/athom031/athom031.github.io"
+    }
+  },
+  {
+    "name": "User Engagement Map",
+    "isOnHome": "true",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "User_Engagement_Map",
+    "category": "fullstack",
+    "links": {
+      "view": "https://athom031.github.io/project/user_engagement_map",
+      "code": "https://github.com/athom031/User-Geo-Location-Map"
+    }
+  },
+  {
+    "name": "Twitter Search Engine",
+    "isOnHome": "true",
+    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "image": "Twitter_Search_Engine",
+    "category": "fullstack",
+    "links": {
+      "view": "https://athom031.github.io/project/twitter_search_engine",
       "code": "https://github.com/jigar-sable/sppu-prep-android"
     }
   },
   {
-    "name": "NewsBox Android",
+    "name": "BoxBot Hackathon",
+    "isOnHome": "true",
     "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
+    "image": "Box_Bot_Hackathon",
+    "category": "school",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/newsbox-android"
