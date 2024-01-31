@@ -9,9 +9,10 @@ $(document).ready(function(){
         $("#footer").load("src/components/footer/footer.html");
     });
 
-     // scroll spy
-    $('section').each(function () {
-        $('.navbar ul li a').removeClass('active');
+    // get rid of active class on page load
+    $(document).ready(function() {
+        $('.active').removeClass('active');
     });
+
 
 });
