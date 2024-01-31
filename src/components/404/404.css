@@ -1,14 +1,14 @@
 /* 404 section start */
 .page_404{
-    padding:40px 0;
     background: white;
     margin-top: 6rem;
-    min-height: 60vh;
 }
 .wrapper{
   background-image: url(https://cdn.dribbble.com/userupload/8726278/file/original-ab1bde6f9c74de5c8961f7fe84990cd4.gif);
   height: 60vh;
   background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .msg {
     display: flex;
@@ -19,7 +19,6 @@
     color: var(--base-dark-blue);
 }
 .msg h3{
-    padding-top: 2em;
     font-size: 4rem;
     font-weight: 700;
 }
