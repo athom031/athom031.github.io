@@ -15,7 +15,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #07021A;
+  background: var(--base-dark-blue);
 }
 .home .content {
   flex: 1 1 40rem;
@@ -204,17 +204,18 @@ section.about {
 /* about section ends */
 
 /* projects section starts */
-
+section.projects {
+  min-height: auto;
+}
 .projects {
-  /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: var(--base-dark-blue);
 }
 .projects h2 {
-  color: #fff;
+  color: var(--base-light-grey);
   padding: 1rem;
 }
 .projects .heading span {
-  color: rgb(255, 230, 0);
+  color: var(--nightwing-blue);
 }
 .projects .box-container {
   display: flex;
@@ -225,7 +226,7 @@ section.about {
 .projects .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem var(--nightwing-blue);
   position: relative;
   overflow: hidden;
   height: 30rem;
@@ -241,7 +242,7 @@ section.about {
   position: absolute;
   top: 85%;
   left: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--base-light-grey);
   display: flex;
   flex-direction: column;
 }
@@ -253,7 +254,7 @@ section.about {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: var(--nightwing-blue);
 }
 .projects .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -282,12 +283,12 @@ section.about {
   padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
   font-size: 1.5rem;
-  color: #fff;
-  background: rgb(12, 12, 12);
+  color: var(--base-light-grey);
+  background: var(--base-dark-blue);
   margin-right: 2rem;
 }
 .projects .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: var(--base-light-blue);
 }
 .projects .viewall {
   display: flex;
@@ -301,8 +302,8 @@ section.about {
   transition: 0.5s;
   color: rgb(255, 255, 255);
   font-weight: 700;
-  border: 2px solid #fff;
-  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+  border: 2px solid var(--base-light-grey);
+  box-shadow: 0px 5px 10px rgba(211, 211, 211, 0.4);
   text-align: center;
 }
 .projects .viewall .btn span {
@@ -316,8 +317,8 @@ section.about {
   transition: 0.3s;
 }
 .projects .viewall .btn:hover {
-  background: #fff;
-  color: #000;
+  background: var(--base-light-grey);
+  color: var(--base-dark-blue);
 }
 .projects .viewall .btn:hover i {
   transform: translateX(5px);
