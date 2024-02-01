@@ -1,10 +1,11 @@
 /* box_bot_hackathon styles */
 
 section.project_box_bot_hackathon .dummy-padding {
-  padding-top: 6.5rem;
+  padding-top: 4.5rem;
 }
 
 section.project_box_bot_hackathon .heading {
+  padding-top: 2rem;
   border-top: 2px solid var(--base-dark-blue);
 }
 
@@ -26,6 +27,7 @@ section.project_box_bot_hackathon .content h2 {
 section.project_box_bot_hackathon .content p {
   font-size: 1.5rem;
   text-align: left;
+  text-transform: none;
 }
 
 section.project_box_bot_hackathon .content ul {
@@ -38,23 +40,27 @@ section.project_box_bot_hackathon .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 2rem;
 }
 
 section.project_box_bot_hackathon .image-container {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 section.project_box_bot_hackathon .image {
   width: 60vw;
   height: auto;
   border-radius: 10px;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 section.project_box_bot_hackathon .gif {
   width: 25vw;
   height: auto;
+  border-radius: 10px;
 }
