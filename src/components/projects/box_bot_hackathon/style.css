@@ -37,7 +37,13 @@ section.project_box_bot_hackathon .content ul {
 section.project_box_bot_hackathon .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+}
+
+section.project_box_bot_hackathon .image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 section.project_box_bot_hackathon .image {
