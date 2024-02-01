@@ -4,6 +4,16 @@ section.project_box_bot_hackathon .heading {
   padding-top: 6.5rem;
 }
 
+.project_box_bot_hackathon .heading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--base-dark-blue);
+}
+
 section.project_box_bot_hackathon .content {
   display: flex;
   flex-direction: column;
