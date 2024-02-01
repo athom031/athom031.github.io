@@ -2,7 +2,7 @@
   {
     "name": "Dream Team Transfers",
     "isOnHome": "true",
-    "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB",
+    "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB.",
     "image": "Dream_Team_transfers",
     "category": "fullstack",
     "links": {
@@ -13,7 +13,7 @@
   {
     "name": "Oven Ready Bakes",
     "isOnHome": "true",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "desc": "Static web page for a baking startup. This site, built with React, provides a platform for customers to view baked items, contact bakers, and submit orders with linked Google APIs.",
     "image": "Oven_Ready_Bakes",
     "category": "web",
     "links": {
@@ -24,7 +24,7 @@
   {
     "name": "My Github Page",
     "isOnHome": "true",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "desc": "Interactive portfolio website showcasing my work and technical experience. Revamped in 2024 from a Jekyll blog page to a dynamic React application for a more user-friendly interface.",
     "image": "Alex_Thomas_Portfolio",
     "category": "web",
     "links": {
@@ -35,7 +35,7 @@
   {
     "name": "User Engagement Map",
     "isOnHome": "true",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "desc": "Full-stack application that visualizes real-time user engagement for the client, and registration for the user. Built with React, NodeJS, MongoDB, and Google Cloud APIs.",
     "image": "User_Engagement_Map",
     "category": "fullstack",
     "links": {
@@ -46,7 +46,7 @@
   {
     "name": "Twitter Search Engine",
     "isOnHome": "true",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
     "image": "Twitter_Search_Engine",
     "category": "fullstack",
     "links": {
@@ -57,7 +57,7 @@
   {
     "name": "BoxBot Hackathon",
     "isOnHome": "true",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
+    "desc": "A Bluetooth-controlled RC car built using the Arduino IDE. This project won the Best Hardware Hack at the 2017 Citrus Hack and was built in a team of four engineers.",
     "image": "Box_Bot_Hackathon",
     "category": "school",
     "links": {
