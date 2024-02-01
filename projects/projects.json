@@ -2,7 +2,7 @@
   {
     "name": "Dream Team Transfers",
     "isOnHome": "true",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB",
     "image": "Dream_Team_transfers",
     "category": "fullstack",
     "links": {
@@ -51,7 +51,7 @@
     "category": "fullstack",
     "links": {
       "view": "https://athom031.github.io/project/twitter_search_engine",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "code": "https://github.com/athom031/Twitter-Search-Engine"
     }
   },
   {
@@ -61,8 +61,8 @@
     "image": "Box_Bot_Hackathon",
     "category": "school",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
+      "view": "https://athom031.github.io/project/box_bot_hackathon",
+      "code": "https://devpost.com/software/box-bot"
     }
   },
   {
