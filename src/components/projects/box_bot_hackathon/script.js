@@ -3,11 +3,11 @@
 $(document).ready(function(){
     // <!-- load header at #header-->
     $(function(){
-        $("#header").load("../components/header/header.html");
+        $("#header").load("../../header/header.html");
     });
     // <!-- load footer at #footer-->
     $(function(){
-        $("#footer").load("../components/footer/footer.html");
+        $("#footer").load("../../footer/footer.html");
     });
     // get rid of active class on page load
     $(document).ready(function() {
