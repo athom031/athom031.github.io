@@ -23,6 +23,9 @@ section.project_box_bot_hackathon .content {
 section.project_box_bot_hackathon .image {
   width: 75vw;
   height: auto;
+  border-radius: 10px;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 section.project_box_bot_hackathon .gif {
