@@ -269,6 +269,7 @@ section.projects {
   justify-content: center;
 }
 .projects .desc p {
+  text-transform: none;
   font-size: 1.5rem;
 }
 .projects .desc .btns {
