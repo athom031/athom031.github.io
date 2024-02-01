@@ -12,7 +12,7 @@
   },
   {
     "name": "Oven Ready Bakes",
-    "isOnHome": "web",
+    "isOnHome": "true",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
     "image": "Oven_Ready_Bakes",
     "category": "web",
@@ -23,7 +23,7 @@
   },
   {
     "name": "My Github Page",
-    "isOnHome": "web",
+    "isOnHome": "true",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
     "image": "Alex_Thomas_Portfolio",
     "category": "web",
