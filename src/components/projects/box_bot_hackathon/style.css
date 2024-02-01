@@ -2,9 +2,28 @@
 
 section.project_box_bot_hackathon .heading {
   padding-top: 6.5rem;
+  position: relative;
 }
 
-.project_box_bot_hackathon .heading::after {
+section.project_box_bot_hackathon .heading h1 {
+  color: var(--base-light-blue);
+  font-size: 4rem;
+}
+
+section.project_box_bot_hackathon .heading h3 {
+  color: var(--base-readable-blue);
+  font-size: 2rem;
+}
+
+section.project_box_bot_hackathon .content h2 {
+  font-size: 3rem;
+}
+
+section.project_box_bot_hackathon .content p {
+  font-size: 2.5rem;
+}
+
+section.project_box_bot_hackathon .heading::after {
   content: "";
   position: absolute;
   top: 0;
