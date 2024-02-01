@@ -1,42 +1,53 @@
-/* box_bot_hackathon styles */
+/* project page stylesheet */
 
-section.project_box_bot_hackathon .dummy-padding {
+section.project .dummy-padding {
   padding-top: 4.5rem;
 }
 
-section.project_box_bot_hackathon .heading {
+section.project .heading {
   padding-top: 2rem;
   border-top: 2px solid var(--base-dark-blue);
 }
 
-section.project_box_bot_hackathon .heading h1 {
+section.project .heading h1 {
   color: var(--base-light-blue);
   font-size: 4rem;
 }
 
-section.project_box_bot_hackathon .heading h3 {
+section.project .heading h3 {
   color: var(--base-readable-blue);
   font-size: 1.5rem;
 }
 
-section.project_box_bot_hackathon .content h2 {
+section.project .content h2 {
   font-size: 2rem;
+  font-weight: 500;
   text-align: left;
 }
 
-section.project_box_bot_hackathon .content p {
+section.project .image-container {
+  text-decoration: none;
+  color: var(--base-light-blue);
+}
+
+section.project .image-container:hover {
+  text-decoration: none;
+  color: var(--base-readable-blue);
+}
+
+section.project .content p {
   font-size: 1.5rem;
   text-align: left;
   text-transform: none;
 }
 
-section.project_box_bot_hackathon .content ul {
+section.project .content ul {
   font-size: 1.5rem;
   margin-left: 3rem;
   text-align: left;
 }
 
-section.project_box_bot_hackathon .content {
+section.project .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -45,7 +56,7 @@ section.project_box_bot_hackathon .content {
   padding-top: 2rem;
 }
 
-section.project_box_bot_hackathon .image-container {
+section.project .image-container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -53,13 +64,13 @@ section.project_box_bot_hackathon .image-container {
   padding-bottom: 2em;
 }
 
-section.project_box_bot_hackathon .image {
+section.project .image {
   width: 60vw;
   height: auto;
   border-radius: 10px;
 }
 
-section.project_box_bot_hackathon .gif {
+section.project .gif {
   width: 25vw;
   height: auto;
   border-radius: 10px;
