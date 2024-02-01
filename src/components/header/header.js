@@ -1,3 +1,5 @@
+// footer component script
+
 $(document).ready(function () {
     // change make hamburger icon clickable if media screen is a phone
     $('#menu').click(function () {
@@ -10,10 +12,10 @@ $(document).ready(function () {
     var logoImg = $('#logo-img');
     logoLink.hover(
         function() {
-            logoImg.attr('src', 'assets/navbar/logo-hover.png'); // path to the hover image
+            logoImg.attr('src', '/src/assets/navbar/logo-hover.png'); // path to the hover image
         },
         function() {
-            logoImg.attr('src', 'assets/navbar/logo.png'); // path to the original image
+            logoImg.attr('src', '/src/assets/navbar/logo.png'); // path to the original image
         }
     );
 

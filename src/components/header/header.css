@@ -1,4 +1,7 @@
-/* navbar starts */
+/* header component stylesheet */
+
+/* header starsts  */
+  /* navbar starts */
   header {
     position: fixed;
     top: 0;
@@ -119,3 +122,4 @@
     }
   }
   /* hamburger icon ends */
+/* header ends */

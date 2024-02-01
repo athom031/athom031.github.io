@@ -1,3 +1,5 @@
+// home page script
+
 $(document).ready(function () {
 
     $(window).on('scroll load', function () {
@@ -34,12 +36,12 @@ $(document).ready(function () {
 
     // <!-- load header at #header-->
     $(function(){
-        $("#header").load("src/components/header/header.html");
+        $("#header").load("/src/components/header/header.html");
     });
 
     // <!-- load footer at #footer-->
     $(function(){
-        $("#footer").load("src/components/footer/footer.html");
+        $("#footer").load("/src/components/footer/footer.html");
     });
 
     // <!-- attach hover logo to logo in navbar -->
@@ -69,7 +71,7 @@ var typed = new Typed(".typing-text", {
 
 async function fetchProjects(type = "skills") {
     let response
-    response = await fetch("./src/components/projects/projects.json")
+    response = await fetch("/src/components/projects/projects.json")
     const data = await response.json();
     return data;
 }
