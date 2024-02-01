@@ -18,5 +18,4 @@ $(document).ready(function () {
             logoImg.attr('src', '/assets/navbar/logo.png'); // path to the original image
         }
     );
-
 });

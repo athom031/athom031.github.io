@@ -3,3 +3,15 @@
 section.project_box_bot_hackathon .heading {
   padding-top: 6.5rem;
 }
+
+section.project_box_bot_hackathon .image {
+  width: 75vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+section.project_box_bot_hackathon .gif {
+  width: 25vw;
+  height: auto;
+  margin: 0 auto;
+}
