@@ -1,3 +1,5 @@
+// not currently being used
+
 $(document).ready(function () {
 
     $('#menu').click(function () {
