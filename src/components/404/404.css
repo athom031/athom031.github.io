@@ -9,6 +9,7 @@
     background: white;
     padding-top: 6.5rem;
   }
+
   .wrapper{
     background-image: url(https://cdn.dribbble.com/userupload/8726278/file/original-ab1bde6f9c74de5c8961f7fe84990cd4.gif);
     height: 60vh;
@@ -42,7 +43,6 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    padding-bottom: 10em;
   }
   .backbtn .btn {
     position: relative;
@@ -54,7 +54,6 @@
     background: var(--base-light-blue);
     box-shadow: 0px 5px 10px rgba(74, 31, 238, .6);
     text-align: center;
-    padding-bottom: 10rem;
   }
   .backbtn .btn span {
     font-weight: 600;
