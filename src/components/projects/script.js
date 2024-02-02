@@ -3,11 +3,11 @@
 $(document).ready(function () {
     // <!-- load header at #header-->
     $(function(){
-        $("#header").load("../../header/header.html");
+        $("#header").load("/src/components/header/header.html");
     });
     // <!-- load footer at #footer-->
     $(function(){
-        $("#footer").load("../../footer/footer.html");
+        $("#footer").load("/src/components/footer/footer.html");
     });
     // get rid of active class on page load
     $(document).ready(function() {
@@ -32,7 +32,7 @@ function showProjects(projects) {
         projectsHTML += `
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/projects/tiles/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
