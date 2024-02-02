@@ -206,6 +206,8 @@ section.about {
 /* projects section starts */
 section.projects {
   min-height: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .projects {
   background: var(--base-dark-blue);
