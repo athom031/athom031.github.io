@@ -35,7 +35,7 @@
   {
     "name": "Expense Management",
     "isOnHome": "true",
-    "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React",
+    "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React.",
     "image": "Expense_Management",
     "category": ["fullstack"],
     "links": {
