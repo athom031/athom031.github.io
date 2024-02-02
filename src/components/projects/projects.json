@@ -33,17 +33,6 @@
     }
   },
   {
-    "name": "User Engagement Map",
-    "isOnHome": "true",
-    "desc": "Full-stack application that visualizes real-time user engagement for the client, and registration for the user. Built with React, NodeJS, MongoDB, and Google Cloud APIs.",
-    "image": "User_Engagement_Map",
-    "category": "fullstack",
-    "links": {
-      "view": "https://athom031.github.io/src/components/projects/user_engagement_map",
-      "code": "https://github.com/athom031/User-Geo-Location-Map"
-    }
-  },
-  {
     "name": "Twitter Search Engine",
     "isOnHome": "true",
     "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
@@ -52,6 +41,17 @@
     "links": {
       "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
       "code": "https://github.com/athom031/Twitter-Search-Engine"
+    }
+  },
+  {
+    "name": "User Engagement Map",
+    "isOnHome": "true",
+    "desc": "Full-stack application that visualizes real-time user engagement for the client, and registration for the user. Built with React, NodeJS, MongoDB, and Google Cloud APIs.",
+    "image": "User_Engagement_Map",
+    "category": "fullstack",
+    "links": {
+      "view": "https://athom031.github.io/src/components/projects/user_engagement_map",
+      "code": "https://github.com/athom031/User-Geo-Location-Map"
     }
   },
   {
