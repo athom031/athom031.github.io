@@ -1,0 +1,100 @@
+<!-- user engagement map page html  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="alex thomas, full stack dev, resume, github, portfolio">
+    <meta name="description" content="User Engagement Map Project description" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src/html.css" >
+    <link rel="stylesheet" href="/src/components/header/header.css" >
+    <link rel="stylesheet" href="/src/components/footer/footer.css" >
+    <link rel="stylesheet" href="/src/components/projects/project.css" >
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="/assets/favicon.png" type="image/x-png">
+    <title>Alex Thomas | Portfolio </title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- header starts -->
+<div id="header"></div>
+<!-- header ends -->
+
+<!-- User Engagement Map section start -->
+<section class="project">
+    <div class="dummy-padding">
+        <p><br /></p>
+    </div>
+    <div class="heading">
+        <h1>
+            User Engagement Map - Full Stack Web Application
+        </h1>
+        <h3>
+            July 2020
+        </h3>
+    </div>
+    <div class="content">
+        <h2>
+            Project Pipeline: Backend - Node.js, Frontend - React, Other - MongoDB, Google Cloud APIs, Postman
+        </h2>
+
+        <p>
+            <br />
+            A visual map of users for a client to see user whereabouts and activity. User side involves sleek Login and Registration tabs that then stores information in a MongoDB collection. Once logged in Users can change their information as well. With the Google Cloud API, the users coordinates are saved and displayed on the client side map. Both client and user side call on backend to view user activity in real time.
+            <br />
+        </p>
+
+        <h2>
+            Demo
+        </h2>
+
+        <p>
+            <br />
+            Interface to register users and save user data to MongoDB:
+        </p>
+        <div class="image-container">
+            <img class="image" src="/assets/projects/user_engagement_map/register.png" />
+        </div>
+
+        <p>
+            <br />
+            User Homepage where users can update their information:
+        </p>
+        <div class="image-container">
+            <img class="image" src="/assets/projects/user_engagement_map/login.png" />
+        </div>
+
+        <p>
+            <br />
+            Client application that visualizes user location and activity:
+        </p>
+        <div class="image-container">
+            <img class="image" src="/assets/projects/user_engagement_map/visualization.png " />
+        </div>
+
+        <h2>Github Repo</h2>
+        <p><a href="https://github.com/athom031/User-Geo-Location-Map" class="project-link">Check It Out!</a></p>
+    </div>
+</section>
+<!-- User Engagement Map end -->
+
+<!-- footer section starts -->
+<div id="footer"></div>
+<!-- footer section ends -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+
+<!-- jquery cdn -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="/src/components/projects/project.js"></script>
+
+</body>
+</html>
