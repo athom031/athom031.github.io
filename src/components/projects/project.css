@@ -1,5 +1,15 @@
 /* project page stylesheet */
 
+section.project a {
+  text-decoration: none;
+  color: var(--base-light-blue);
+}
+
+section.project a:hover {
+  text-decoration: none;
+  color: var(--base-readable-blue);
+}
+
 section.project .dummy-padding {
   padding-top: 4.5rem;
 }
@@ -23,16 +33,6 @@ section.project .content h2 {
   font-size: 2rem;
   font-weight: 700;
   text-align: left;
-}
-
-section.project .image-container {
-  text-decoration: none;
-  color: var(--base-light-blue);
-}
-
-section.project .image-container:hover {
-  text-decoration: none;
-  color: var(--base-readable-blue);
 }
 
 section.project .content p {
