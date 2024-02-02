@@ -82,7 +82,7 @@ function showProjects(projects) {
     projects.filter(project =>  project.isOnHome === "true").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/projects/tiles/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
