@@ -66,12 +66,12 @@ section.project .image-container {
 
 section.project .image {
   width: 60vw;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
 }
 
 section.project .gif {
   width: 25vw;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
 }
