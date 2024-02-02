@@ -1,4 +1,4 @@
-// script for box_bot_hackathon page
+// script for project pages
 
 $(document).ready(function(){
     // <!-- load header at #header-->

@@ -1,4 +1,4 @@
-<!-- box bot hackathon page html  -->
+<!-- twitter search engine page html  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="alex thomas, full stack dev, resume, github, portfolio">
-    <meta name="description" content="Twitter Search Engine Project description" />
+    <meta name="description" content="BoxBot Hackathon Project description" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/src/html.css" >
     <link rel="stylesheet" href="/src/components/header/header.css" >
     <link rel="stylesheet" href="/src/components/footer/footer.css" >
-    <link rel="stylesheet" href="/src/components/projects/twitter_search_engine/style.css" >
+    <link rel="stylesheet" href="/src/components/projects/project.css" >
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
@@ -25,56 +25,100 @@
 <div id="header"></div>
 <!-- header ends -->
 
-<!-- Project Twitter Search Engine section start -->
+<!-- Twitter Search Engine Hackathon section start -->
 <section class="project">
     <div class="dummy-padding">
         <p><br /></p>
     </div>
     <div class="heading">
         <h1>
-            Box Bot: UCR Hackathon Submission
+            Twitter Search Engine - Full Stack Web Application
         </h1>
         <h3>
-            November 12, 2017
+            September 2020
         </h3>
     </div>
     <div class="content">
         <h2>
-            Bluetooth Remote Controlled Car
+            Project Pipeline: Backend - Spring / Node.js, Frontend - React, Other - Lucene, Twitter Dev API, Twitter 4j
         </h2>
-        <div class="image-container">
-            <img class="image" src="/assets/projects/box_bot_hackathon/box_bot.jpg" />
-        </div>
-        <h2>
-            <a href="" class="project-link">
-                Project Link
-            </a>
-        </h2>
-        <p>My team consisted of:</p>
-        <ul>
-            <li>Melissa Do</li>
-            <li>Emma Rivera</li>
-            <li>Cindy Quach</li>
-        </ul>
+
         <p>
-            We used the Arduino IDE to build a motorized car that was controlled by personal Android application.
-        </p>
-        <p>
-            From this project, we learned how to program using the Arduino IDE, build circuits, the difference between digital and analog signals, and how to solder wires onto our LED lights.
-        </p>
-        <div class="image-container">
-            <img class="image" src="/assets/projects/box_bot_hackathon/award_hackathon.jpg" />
-        </div>
-        <p>
-            Other than Melissa, the rest of the team had never been to a Hackathon before nor had prior experience with working with hardware. So we approached this opportunity with the goal of learning how to step out of our comfort zones and into the engineering world. Considering our experience with hardware, we achieved something great by being awarded the Best Hardware Hack!
+            A search engine for crawled tweet data. With a Lucene Index, this search engine has the ability to search millions of tweets and return the most recent and relevant results based on a user query.
         </p>
 
         <div class="image-container">
-            <img class="gif" src="/assets/projects/box_bot_hackathon/box_bot_movement.gif" />
+            <img class="image" src="/assets/projects/twitter_search_engine/front_end_search.png" />
         </div>
+
+        <h2>
+            Crawling Twitter Data
+        </h2>
+
+        <p>
+            To crawl twitter, a connection to the Twitter API using a Twitter 4j object and developer keys was made, opening up a stream of tweets. For the tweets, there are two explicit parameters:
+        <p>
+
+        <ul>
+            <li>Tweets tagged with “English” language</li>
+            <li>GPS bounding box within U.S.A.</li>
+        </ul>
+
+        <p>
+            Example cralwed tweets are located <a href="https://github.com/athom031/Twitter-Search-Engine/tree/master/crawl_index/data-sample" class="project-link">here</a>.
+        </p>
+
+        <p>
+            Initially, crawled data also included:
+        </p>
+
+        <ul>
+            <li>Datetime</li>
+            <li>Geolocation (Latitude, Longitude)</li>
+            <li>User</li>
+        </ul>
+
+        <p>
+            But embedding tweets in the front-end application only need the unique Tweet ID.
+            <br/>
+            Text and timestamp are kept as parameters for the actual search feature (returning most recent tweets).
+        </p>
+
+        <h2>Indexing Data with Lucene</h2>
+
+        <p>
+            The index structure generated uses the Lucene library object IndexWriter. The index is built by loading all of the .JSON objects in the .JSON line formatted files into memory which are then parsed to create documents for the lucene index.
+            <br/>
+            When a .JSON object (a Tweet) is parsed, the text of the Tweet is stored as a TextField in the index’s document. This is the baseline used when searching the index later. The ID is not used in the tweet itself but is primarily used when representing the tweet on the front end. The timestamp of the Tweet is stored twice: once as a NumericDocValuesField (used for search score boosting) and once as a LongPoint (for drill down serach functionality).
+        <p>
+
+        <h2>Spring Boot Backend</h2>
+
+        <p>
+            The LuceneBuilder Class was manipulated to fit the contraints of the Spring framework to create a working backend for search queries. But the default Spring framework proved erraneous due to the front end and back end being on local host in development. This meant that cross origin request errors were not linking the front end and backend properly. Therefore a more specialized <a href="https://spring.io/guides/gs/rest-service-cors/" class="project-link">framework</a> was used.
+        </p>
+
+        <div class="image-container">
+            <img class="image" src="/assets/projects/twitter_search_engine/back_end.png" />
+        </div>
+
+        <h2>Angular Frontend</h2>
+
+        <p>
+            The Angular twitter embed component made displaying the relevant tweets quite easy. The only difficulty was that the entire project, initially, was collecting different tweet data. So the Twitter Crawl and Index had to be changed accordingly.
+            <br />
+            The website changes based on the current state of the App class (depending on whether or not a user has entered a query). Once the query is submitted, it calls the front end to get the ID’s of the 10 most relevant tweets, and uses the embed component to display the tweets in a familiar way.
+        </p>
+
+        <div class="image-container">
+            <img class="image" src="/assets/projects/twitter_search_engine/front_end_result.png" />
+        </div>
+
+        <h2>Github Repo</h2>
+        <p><a href="https://github.com/athom031/Twitter-Search-Engine" class="project-link">Check It Out!</a></p>
     </div>
 </section>
-<!-- Project Twitter Search Engine  end -->
+<!-- Twitter Search Engine Hackathon  end -->
 
 <!-- footer section starts -->
 <div id="footer"></div>
@@ -87,7 +131,7 @@
 
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
-<script src="/src/components/projects/box_bot_hackathon/script.js"></script>
+<script src="/src/components/projects/project.js"></script>
 
 </body>
 </html>
