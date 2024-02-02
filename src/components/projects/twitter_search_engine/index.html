@@ -87,6 +87,7 @@
             But embedding tweets in the front-end application only need the unique Tweet ID.
             <br/>
             Text and timestamp are kept as parameters for the actual search feature (returning most recent tweets).
+            <br/>
         </p>
 
         <h2>Indexing Data with Lucene</h2>
@@ -96,6 +97,7 @@
             The index structure generated uses the Lucene library object IndexWriter. The index is built by loading all of the .JSON objects in the .JSON line formatted files into memory which are then parsed to create documents for the lucene index.
             <br/>
             When a .JSON object (a Tweet) is parsed, the text of the Tweet is stored as a TextField in the index’s document. This is the baseline used when searching the index later. The ID is not used in the tweet itself but is primarily used when representing the tweet on the front end. The timestamp of the Tweet is stored twice: once as a NumericDocValuesField (used for search score boosting) and once as a LongPoint (for drill down serach functionality).
+            <br/>
         <p>
 
         <h2>Spring Boot Backend</h2>
