@@ -4,7 +4,7 @@
     "isOnHome": "true",
     "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB.",
     "image": "Dream_Team_Transfers",
-    "category": "fullstack",
+    "category": ["fullstack"],
     "links": {
       "view": "https://dream-team-transfers.netlify.app/",
       "code": "https://github.com/athom031/Dream-Team-Transfers"
@@ -15,7 +15,7 @@
     "isOnHome": "true",
     "desc": "Static web page for a baking startup. This site, built with React, provides a platform for customers to view baked items, contact bakers, and submit orders with linked Google APIs.",
     "image": "Oven_Ready_Bakes",
-    "category": "web",
+    "category": ["static"],
     "links": {
       "view": "https://ovenreadybakes.com/",
       "code": "https://github.com/athom031/Oven-Ready-Bakes"
@@ -26,10 +26,21 @@
     "isOnHome": "true",
     "desc": "Interactive portfolio website showcasing my work and technical experience. Revamped in 2024 from a Jekyll blog page to a dynamic React application for a more user-friendly interface.",
     "image": "Alex_Thomas_Portfolio",
-    "category": "web",
+    "category": ["static"],
     "links": {
       "view": "https://athom031.github.io/",
       "code": "https://github.com/athom031/athom031.github.io"
+    }
+  },
+  {
+    "name": "Expense Management",
+    "isOnHome": "true",
+    "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React",
+    "image": "Expense_Management",
+    "category": ["fullstack"],
+    "links": {
+      "view": "https://expense-management-application.netlify.app/",
+      "code": "https://github.com/athom031/Expense-Management-Application"
     }
   },
   {
@@ -37,10 +48,21 @@
     "isOnHome": "true",
     "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
     "image": "Twitter_Search_Engine",
-    "category": "fullstack",
+    "category": ["fullstack"],
     "links": {
       "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
       "code": "https://github.com/athom031/Twitter-Search-Engine"
+    }
+  },
+  {
+    "name": "Android Time Tracker",
+    "isOnHome": "true",
+    "desc": "Android App developed in Kotlin for employees to log hours. It uses a locally hosted SQLite database for  seamless storage management and incorporates Android APIs to enable a shake-to-start feature.",
+    "image": "Android_Time_Tracker",
+    "category": ["work"],
+    "links": {
+      "view": "https://athom031.github.io/src/components/projects/android_time_tracker",
+      "code": "https://github.com/athom031/Time-Tracker"
     }
   },
   {
@@ -48,10 +70,54 @@
     "isOnHome": "true",
     "desc": "Full-stack application that visualizes real-time user engagement for the client, and registration for the user. Built with React, NodeJS, MongoDB, and Google Cloud APIs.",
     "image": "User_Engagement_Map",
-    "category": "fullstack",
+    "category": ["fullstack"],
     "links": {
       "view": "https://athom031.github.io/src/components/projects/user_engagement_map",
       "code": "https://github.com/athom031/User-Geo-Location-Map"
+    }
+  },
+  {
+    "name": "Krazy Kitchen",
+    "isOnHome": "false",
+    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
+    "image": "Twitter_Search_Engine",
+    "category": ["course"],
+    "links": {
+      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
+      "code": "https://github.com/athom031/Twitter-Search-Engine"
+    }
+  },
+  {
+    "name": "AI/ML",
+    "isOnHome": "false",
+    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
+    "image": "Twitter_Search_Engine",
+    "category": ["course"],
+    "links": {
+      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
+      "code": "https://github.com/athom031/Twitter-Search-Engine"
+    }
+  },
+  {
+    "name": "Embedded Systems",
+    "isOnHome": "false",
+    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
+    "image": "Twitter_Search_Engine",
+    "category": ["course", "hardware"],
+    "links": {
+      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
+      "code": "https://github.com/athom031/Twitter-Search-Engine"
+    }
+  },
+  {
+    "name": "Intern Audio",
+    "isOnHome": "false",
+    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
+    "image": "Twitter_Search_Engine",
+    "category": ["work"],
+    "links": {
+      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
+      "code": "https://github.com/athom031/Twitter-Search-Engine"
     }
   },
   {
@@ -59,7 +125,7 @@
     "isOnHome": "true",
     "desc": "A Bluetooth-controlled RC car built using the Arduino IDE. This project won the Best Hardware Hack at the 2017 Citrus Hack and was built in a team of four engineers.",
     "image": "Box_Bot_Hackathon",
-    "category": "school",
+    "category": ["course", "hardware"],
     "links": {
       "view": "https://athom031.github.io/src/components/projects/box_bot_hackathon",
       "code": "https://devpost.com/software/box-bot"
