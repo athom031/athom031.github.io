@@ -69,7 +69,7 @@ function showProjects(projects) {
     });
 }
 
-getProjects().then(data => {
+fetchProjects().then(data => {
     showProjects(data);
 })
 // fetch projects end
