@@ -27,7 +27,7 @@ function showProjects(projects) {
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
-        <div class="grid-item ${project.category}">
+        <div class="grid-item ${project.category.map(cat => '.' + cat).join(' ')}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
       <img draggable="false" src="/assets/projects/tiles/${project.image}.png" alt="project" />
       <div class="content">
@@ -61,7 +61,11 @@ function showProjects(projects) {
         $('.button-group').find('.is-checked').removeClass('is-checked');
         $(this).addClass('is-checked');
         var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
+        $grid.isotope({
+            filter: function() {
+                return $(this).hasClass(filterValue.substring(1));
+            }
+        });
     });
 }
 

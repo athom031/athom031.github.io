@@ -59,7 +59,7 @@
     "isOnHome": "true",
     "desc": "Android App developed in Kotlin for employees to log hours. It uses a locally hosted SQLite database for  seamless storage management and incorporates Android APIs to enable a shake-to-start feature.",
     "image": "Android_Time_Tracker",
-    "category": ["work"],
+    "category": ["work", "android"],
     "links": {
       "view": "https://athom031.github.io/src/components/projects/android_time_tracker",
       "code": "https://github.com/athom031/Time-Tracker"
