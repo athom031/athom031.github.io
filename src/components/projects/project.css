@@ -45,6 +45,7 @@ section.project .content ul {
   font-size: 2rem;
   margin-left: 3rem;
   text-align: left;
+  text-transform: none;
 }
 
 section.project .content {
