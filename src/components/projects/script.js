@@ -63,7 +63,6 @@ function showProjects(projects) {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({
             filter: function() {
-                var filterValue = $(this).attr('data-filter');
                 if (filterValue === '*') {
                     return true;
                 } else {
