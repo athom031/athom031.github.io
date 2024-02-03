@@ -1,6 +1,6 @@
 /* home page stylesheet */
 
-/* hero section starts*/
+/* intro section starts*/
 .home {
   position: relative;
   display: flex;
@@ -80,7 +80,7 @@
 }
 /* social icons end */
 
-/* hero media queries starts*/
+/* intro media queries starts*/
 @media (max-width: 450px) {
   .socials {
     margin-top: 12rem;
@@ -92,8 +92,8 @@
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
-/* hero section end */
+/* intro media queries ends*/
+/* intro section end */
 
 /* about section starts */
 section.about {
