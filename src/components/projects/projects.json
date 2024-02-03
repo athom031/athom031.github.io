@@ -88,14 +88,14 @@
     }
   },
   {
-    "name": "AI/ML",
+    "name": "AI and ML",
     "isOnHome": "false",
-    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
-    "image": "Twitter_Search_Engine",
+    "desc": "Implemented AI/ML projects in Python, including a dynamic chatbot (logic systems), a Nearest Neighbor Classifier (machine learning), and an 8-Puzzle Problem Solver (search).",
+    "image": "AI_and_ML",
     "category": ["course"],
     "links": {
-      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
-      "code": "https://github.com/athom031/Twitter-Search-Engine"
+      "view": "https://athom031.github.io/src/components/projects/ai_and_ml",
+      "code": "https://github.com/athom031/Artificial-Intelligence-Machine-Learning"
     }
   },
   {
