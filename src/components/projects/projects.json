@@ -78,7 +78,7 @@
   },
   {
     "name": "Krazy Kitchen Game",
-    "isOnHome": "false",
+    "isOnHome": "true",
     "desc": "Multiplayer Unity video game that uses Photon networking for online gameplay. Led team of 5 engineers as Scrum Master, managing project's development process.",
     "image": "Krazy_Kitchen_Game",
     "category": ["course"],
