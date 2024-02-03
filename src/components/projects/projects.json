@@ -77,14 +77,14 @@
     }
   },
   {
-    "name": "Krazy Kitchen",
+    "name": "Krazy Kitchen Game",
     "isOnHome": "false",
     "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
-    "image": "Twitter_Search_Engine",
+    "image": "Krazy_Kitchen_Game",
     "category": ["course"],
     "links": {
-      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
-      "code": "https://github.com/athom031/Twitter-Search-Engine"
+      "view": "https://athom031.github.io/src/components/projects/krazy_kitchen_game",
+      "code": "https://github.com/athom031/Krazy-Kitchen"
     }
   },
   {

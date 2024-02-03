@@ -61,6 +61,8 @@ function showProjects(projects) {
         $('.button-group').find('.is-checked').removeClass('is-checked');
         $(this).addClass('is-checked');
         var filterValue = $(this).attr('data-filter');
+        console.log(filterValue);
+        console.log($(this));
         $grid.isotope({
             filter: function() {
                 return $(this).hasClass(filterValue.substring(1));
