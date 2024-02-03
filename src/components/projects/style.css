@@ -4,6 +4,7 @@
 .projects{
   background: var(--base-dark-blue);
   margin-top: 6.5rem;
+  border-bottom: 2px solid var(--base-light-grey);
 }
 .projects h2 {
   color: var(--base-light-grey);
@@ -113,6 +114,7 @@
 .projects .desc .btns .btn:hover{
   background: var(--base-readable-blue);
 }
+
 
 @media screen and (max-width: 450px) {
   .projects .button-group{

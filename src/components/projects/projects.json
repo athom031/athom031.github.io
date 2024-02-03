@@ -37,7 +37,7 @@
     "isOnHome": "true",
     "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React.",
     "image": "Expense_Management",
-    "category": ["fullstack"],
+    "category": ["fullstack", "work"],
     "links": {
       "view": "https://expense-management-application.netlify.app/",
       "code": "https://github.com/athom031/Expense-Management-Application"
