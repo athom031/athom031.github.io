@@ -16,17 +16,14 @@ $(document).ready(function () {
 });
 
 // fetch projects start
-function getProjects() {
-    return fetch("projects.json")
-        .then(response => response.json())
-        .then(data => {
-            return data
-        });
+async function fetchProjects() {
+    let response = await fetch("/src/components/projects/projects.json")
+    const data = await response.json();
+    return data;
 }
 
-
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
+    let projectsContainer = document.querySelector(".projects .box-container");
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `

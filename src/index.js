@@ -69,9 +69,8 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchProjects(type = "skills") {
-    let response
-    response = await fetch("/src/components/projects/projects.json")
+async function fetchProjects() {
+    let response = await fetch("/src/components/projects/projects.json")
     const data = await response.json();
     return data;
 }
