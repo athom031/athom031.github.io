@@ -79,7 +79,7 @@
   {
     "name": "Krazy Kitchen Game",
     "isOnHome": "false",
-    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
+    "desc": "Multiplayer Unity video game that uses Photon networking for online gameplay. Led team of 5 engineers as Scrum Master, managing project's development process.",
     "image": "Krazy_Kitchen_Game",
     "category": ["course"],
     "links": {
