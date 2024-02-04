@@ -41,7 +41,7 @@ section.project .content p {
   text-transform: none;
 }
 
-section.project .content ul {
+section.project .content ul, li {
   font-size: 2rem;
   margin-left: 3rem;
   text-align: left;
