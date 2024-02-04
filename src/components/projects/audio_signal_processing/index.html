@@ -1,0 +1,185 @@
+<!-- audio signal processing page html  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="alex thomas, full stack dev, resume, github, portfolio">
+    <meta name="description" content="Audio Signal Processing Project description" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src/html.css" >
+    <link rel="stylesheet" href="/src/components/header/header.css" >
+    <link rel="stylesheet" href="/src/components/footer/footer.css" >
+    <link rel="stylesheet" href="/src/components/projects/project.css" >
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="/assets/favicon.png" type="image/x-png">
+    <title>Alex Thomas | Portfolio </title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- header starts -->
+<div id="header"></div>
+<!-- header ends -->
+
+<!-- Project Audio Signal Processing section start -->
+<section class="project">
+
+    <div class="dummy-padding">
+        <p><br /></p>
+    </div>
+
+    <div class="heading">
+        <h1>
+            Audio Signal Processing
+        </h1>
+        <h3>
+            September 2019
+        </h3>
+    </div>
+
+    <div class="content">
+        <h2>
+            Projects inspired by 2019 Summer Internship with <a href="https://www.knowles.com/">Knowles Intelligent Audio</a>
+        </h2>
+
+        <hr />
+        <p><br /></p>
+
+        <h2>
+            Project Overview
+        </h2>
+
+        <p>
+            <strong>Split Script</strong>
+        </p>
+
+        <ul>
+            <li>
+                Developed a split script similar to technology used in Knowles Data Collection
+            </li>
+            <li>
+                Script is used in automation of training and evaluating voice command technology
+            </li>
+            <li>
+                Takes single audio file and config information to then output each named utterance from test user recording
+            </li>
+            <li>
+                Determines utterances based on silence measurements between each phrase
+            </li>
+        </ul>
+
+        <div class="image-container">
+            <img class="image" src="/assets/projects/audio_signal_processing/split_script.png" />
+        </div>
+
+        <p>
+            <strong>Audio Cutter</strong>
+        </p>
+
+        <ul>
+            <li>
+                Designed a Desktop Widget to allow users to cut out unwanted ranges of audio files
+            </li>
+            <li>
+                Allows for easier audio cutting than hand trimming
+            </li>
+        </ul>
+
+        <div class="image-container">
+            <img class="image" src="/assets/projects/audio_signal_processing/audio_cutter.png" />
+        </div>
+
+        <p><br /></p>
+
+        <p>
+            <strong>Silence Trimmer and Audio Normalizer</strong>
+        </p>
+
+        <ul>
+            <li>
+                Automates audio processing for songs within desired directory
+            </li>
+            <li>
+                Takes collection of audio files to trim out silence and normalize decibel levels
+                by taking audio files and trimming out silence before start and end of song
+            </li>
+        </ul>
+
+        <div class="image-container">
+            <img class="image" src="/assets/projects/audio_signal_processing/trim_silence.png" />
+        </div>
+
+        <h2>
+            Technical Achievements
+        </h2>
+
+        <ul>
+            <li>
+                Developed proficiency in utilizing audio processing APIs, specifically Audio Segment and PyDub, enabling efficient manipulation and analysis of audio data
+            </li>
+            <li>
+                Learned how to develop desktop applications with a user-friendly GUI
+            </li>
+            <li>
+                Optimized company audio parsing scripts, addressing inefficiencies and removing bottlenecks, resulting in a signficant <strong>1.3x Speedup</strong>
+            </li>
+        </ul>
+
+        <h2>
+            Impact
+        </h2>
+
+        <ul>
+            <li>
+                Projects serve as a comprehensive summary of experience gained during first technical internship
+            </li>
+            <li>
+                Demonstrated a proactive approach to explore how learning could be combined with outside passions
+            </li>
+            <li>
+                Further highlighted drive to continue developing software that aligns with personal interests and expanding skill sets
+            </li>
+            <li>
+                Capitalized on opportunity to understand inner workings of company tooling and seeking opportunities for improvement and optimization
+            </li>
+        </ul>
+
+        <h2>
+            Link to Project
+        </h2>
+
+        <ul>
+            <li>
+                <a href="https://github.com/athom031/Intern-Audio-Scripts/tree/master/SplitScript">Split Script</a>
+            </li>
+            <li>
+                <a href="https://github.com/athom031/Intern-Audio-Scripts/tree/master/AudioCutter">Audio Cutter</a>
+            </li>
+            <li>
+                <a href="https://github.com/athom031/Intern-Audio-Scripts/tree/master/TrimSilence">Silence Trimmer/Audio Normalizer</a>
+            </li>
+        </ul>
+
+    </div>
+</section>
+<!-- Project Audio Signal Processing  end -->
+
+<!-- footer section starts -->
+<div id="footer"></div>
+<!-- footer section ends -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+
+<!-- jquery cdn -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="/src/components/projects/project.js"></script>
+
+</body>
+</html>
