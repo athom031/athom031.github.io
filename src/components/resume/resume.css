@@ -1,8 +1,10 @@
 /* resume page stylesheet */
 
+section.resume .dummy-padding {
+    padding-top: 6.5rem;
+}
 .content {
     position: absolute;
-    top: 6.5rem;
     bottom: 4rem;
     width: 100%;
 }
