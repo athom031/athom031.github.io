@@ -9,8 +9,9 @@ $(document).ready(function(){
     $(function(){
         $("#footer").load("/src/components/footer/footer.html");
     });
-    // get rid of active class on page load
-    $(document).ready(function() {
+
+    $(function(){
+        // get rid of active class on page load
         $('.active').removeClass('active');
         // add 'active' class to the 'Resume' link
         $('.navbar').find(`[href="/src/components/resume"]`).addClass('active');
