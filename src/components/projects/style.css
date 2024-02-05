@@ -92,8 +92,9 @@
   flex-direction: column;
   justify-content: center;
 }
-.projects .desc p{
+.projects .desc p {
   font-size: 1.25rem;
+  text-transform: none;
 }
 .projects .desc .btns{
   display: flex;
