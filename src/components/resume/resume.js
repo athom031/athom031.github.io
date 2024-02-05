@@ -1,19 +1,11 @@
 // script for resume page
 
 $(document).ready(function(){
-    // <!-- load header at #header-->
-    $(function(){
-        $("#header").load("/src/components/header/header.html");
-    });
-    // <!-- load footer at #footer-->
-    $(function(){
-        $("#footer").load("/src/components/footer/footer.html");
-    });
-
-    $(function(){
-        // get rid of active class on page load
-        $('.active').removeClass('active');
-        // add 'active' class to the 'Resume' link
+    // load header at #header
+    $("#header").load("/src/components/header/header.html", function() {
+        // add 'active' class to the 'Resume' link after the header is loaded
         $('.navbar').find(`[href="/src/components/resume"]`).addClass('active');
     });
+    // load footer at #footer
+    $("#footer").load("/src/components/footer/footer.html");
 });
