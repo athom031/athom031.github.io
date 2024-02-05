@@ -110,14 +110,14 @@
     }
   },
   {
-    "name": "Intern Audio",
+    "name": "Audio Signal Processing",
     "isOnHome": "false",
-    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
-    "image": "Twitter_Search_Engine",
+    "desc": "A suite of audio processing tools inspired by internship. All were made with Python scripts and interactive GUIs.",
+    "image": "Audio_Signal_Processing",
     "category": ["work"],
     "links": {
-      "view": "https://athom031.github.io/src/components/projects/twitter_search_engine",
-      "code": "https://github.com/athom031/Twitter-Search-Engine"
+      "view": "https://athom031.github.io/src/components/projects/audio_signal_processing",
+      "code": "https://github.com/athom031/Intern-Audio-Scripts/"
     }
   },
   {
