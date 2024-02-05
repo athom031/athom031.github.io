@@ -13,6 +13,6 @@ $(document).ready(function(){
     $(document).ready(function() {
         $('.active').removeClass('active');
         // add 'active' class to the 'Resume' link
-        $('a[href="/src/components/resume"]').addClass('active');
+        $('.navbar').find(`[href="/src/components/resume"]`).addClass('active');
     });
 });
