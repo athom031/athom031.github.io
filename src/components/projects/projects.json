@@ -34,7 +34,7 @@
   },
   {
     "name": "Expense Management",
-    "isOnHome": "true",
+    "isOnHome": "false",
     "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React.",
     "image": "Expense_Management",
     "category": ["fullstack", "work"],
@@ -67,7 +67,7 @@
   },
   {
     "name": "User Engagement Map",
-    "isOnHome": "false",
+    "isOnHome": "true",
     "desc": "Full-stack application that visualizes real-time user engagement for the client, and registration for the user. Built with React, NodeJS, MongoDB, and Google Cloud APIs.",
     "image": "User_Engagement_Map",
     "category": ["fullstack"],
