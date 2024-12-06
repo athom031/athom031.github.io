@@ -1,5 +1,16 @@
 [
   {
+    "name": "Dream Team Transfers",
+    "isOnHome": "true",
+    "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB.",
+    "image": "Dream_Team_Transfers",
+    "category": ["fullstack"],
+    "links": {
+      "view": "https://dream-team-transfers.netlify.app/",
+      "code": "https://github.com/athom031/Dream-Team-Transfers"
+    }
+  },
+  {
     "name": "GIPHY Search Engine",
     "isOnHome": "false",
     "desc": "Interactive search engine for discovering trending and relevant GIFs using the GIPHY API. Built with React and optimized for real-time updates, featuring debounced search and sleek display.",
