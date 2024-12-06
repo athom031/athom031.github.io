@@ -12,7 +12,7 @@
   },
   {
     "name": "GIPHY Search Engine",
-    "desc": "Interactive search engine for discovering trending and relevant GIFs using the GIPHY API. Built with React and optimized for real-time updates, featuring debounced search and a visually unique circular display.",
+    "desc": "Interactive search engine for discovering trending and relevant GIFs using the GIPHY API. Built with React and optimized for real-time updates, featuring debounced search and sleek display.",
     "image": "GIPHY_Search_Engine",
     "category": ["static"],
     "links": {
