@@ -11,6 +11,16 @@
     }
   },
   {
+    "name": "GIPHY Search Engine",
+    "desc": "Interactive search engine for discovering trending and relevant GIFs using the GIPHY API. Built with React and optimized for real-time updates, featuring debounced search and a visually unique circular display.",
+    "image": "GIPHY_Search_Engine",
+    "category": ["static"],
+    "links": {
+      "view": "https://giphy-trending-search.netlify.app/",
+      "code": "https://github.com/athom031/GIPHY_Search_Engine"
+    }
+  },
+  {
     "name": "Oven Ready Bakes",
     "isOnHome": "true",
     "desc": "Static web page for a baking startup. This site, built with React, provides a platform for customers to view baked items, contact bakers, and submit orders with linked Google APIs.",
