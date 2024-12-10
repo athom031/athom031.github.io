@@ -11,6 +11,17 @@
     }
   },
   {
+    "name": "Prop Ellrs Tabletop",
+    "isOnHome": "false",
+    "desc": "Interactive web application simulating a toy robot's navigation on a 5x5 tabletop grid. Built using React, it features intuitive controls, styled visuals, and logic to ensure the robot stays safely on the grid.",
+    "image": "Prop_Ellrs_Tabletop",
+    "category": ["static"],
+    "links": {
+      "view": "https://prop-ellrs-tabletop.netlify.app/",
+      "code": "https://github.com/athom031/Prop_Ellrs_Tabletop/tree/main"
+    }
+  },
+  {
     "name": "GIPHY Search Engine",
     "isOnHome": "false",
     "desc": "Interactive search engine for discovering trending and relevant GIFs using the GIPHY API. Built with React and optimized for real-time updates, featuring debounced search and sleek display.",
