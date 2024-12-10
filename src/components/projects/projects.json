@@ -11,6 +11,17 @@
     }
   },
   {
+    "name": "Meta RL DevInfra",
+    "isOnHome": "true",
+    "desc": "Developed and optimized full-stack web tools for Reality Labs, including Dogfooding Hub and continuous integration systems, leveraging React, GraphQL, Hack, Python, and MySQL to streamline workflows, reduce runtime by 70%, and enhance developer efficiency across Meta’s device ecosystem.",
+    "image": "Meta_RL_DevInfra",
+    "category": ["work", "fullstack"],
+    "links": {
+      "view": "https://engineering.fb.com/category/developer-tools/",
+      "code": "https://engineering.fb.com/category/open-source/"
+    }
+  },
+  {
     "name": "Prop Ellrs Tabletop",
     "isOnHome": "false",
     "desc": "Interactive web application simulating a toy robot's navigation on a 5x5 tabletop grid. Built using React, it features intuitive controls, styled visuals, and logic to ensure the robot stays safely on the grid.",
@@ -81,7 +92,7 @@
     "isOnHome": "false",
     "desc": "Android App developed in Kotlin for employees to log hours. It uses a locally hosted SQLite database for  seamless storage management and incorporates Android APIs to enable a shake-to-start feature.",
     "image": "Android_Time_Tracker",
-    "category": ["work", "android"],
+    "category": ["work", "app"],
     "links": {
       "view": "https://athom031.github.io/src/components/projects/android_time_tracker",
       "code": "https://github.com/athom031/Time-Tracker"
