@@ -66,7 +66,7 @@
   },
   {
     "name": "My Github Page",
-    "isOnHome": "true",
+    "isOnHome": "false",
     "desc": "Interactive portfolio website showcasing my work and technical experience. Revamped in 2024 from a Jekyll blog page to a dynamic React application for a more user-friendly interface.",
     "image": "Alex_Thomas_Portfolio",
     "category": ["static"],
@@ -165,7 +165,7 @@
   },
   {
     "name": "BoxBot Hackathon",
-    "isOnHome": "true",
+    "isOnHome": "false",
     "desc": "A Bluetooth-controlled RC car built using the Arduino IDE. This project won the Best Hardware Hack at the 2017 Citrus Hack and was built in a team of four engineers.",
     "image": "Box_Bot_Hackathon",
     "category": ["course", "hardware"],
