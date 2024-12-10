@@ -1,5 +1,15 @@
 [
   {
+    "name": "Local Kitchens",
+    "isOnHome": "true",
+    "desc": "Drove development of full-stack applications at a restaurant startup as a Senior Software Engineer, working on in-store ordering kiosks, mobile app, website, 3rd-party integrations, kitchen systems, receipt printers, and SMS services. Championed the customer rewards program and contributed to the mobile app rebrand using TypeScript, Python, Elixir, and React Native.",
+    "image": "Local_Kitchens",
+    "category": ["fullstack", "app"],
+    "links": {
+      "view": "https://www.localkitchens.com/order/store/sanbruno/popular"
+    }
+  },
+  {
     "name": "Dream Team Transfers",
     "isOnHome": "true",
     "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB.",
@@ -70,7 +80,7 @@
     "isOnHome": "false",
     "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React.",
     "image": "Expense_Management",
-    "category": ["fullstack", "work"],
+    "category": ["fullstack"],
     "links": {
       "view": "https://expense-management-application.netlify.app/",
       "code": "https://github.com/athom031/Expense-Management-Application"
