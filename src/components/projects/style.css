@@ -87,7 +87,7 @@
   top: 25%;
 }
 .projects .desc {
-  margin: 2rem;
+  margin: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,7 +100,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .projects .desc .btns .btn{
   line-height: 0;
