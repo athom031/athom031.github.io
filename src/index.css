@@ -279,6 +279,7 @@ section.projects {
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
+  padding-top: 1rem;
 }
 .projects .desc .btns .btn {
   line-height: 0;
