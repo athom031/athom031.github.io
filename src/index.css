@@ -296,6 +296,7 @@ section.projects {
 .projects .viewall {
   display: flex;
   justify-content: center;
+  padding-top: .5rem;
 }
 .projects .viewall .btn {
   position: relative;
