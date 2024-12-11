@@ -2,7 +2,7 @@
   {
     "name": "Local Kitchens",
     "isOnHome": "true",
-    "desc": "Drove development of full-stack applications at a restaurant startup as a Senior Software Engineer, working on in-store ordering kiosks, mobile app, website, 3rd-party integrations, kitchen systems, receipt printers, and SMS services. Championed the customer rewards program and contributed to the mobile app rebrand using TypeScript, Python, Elixir, and React Native.",
+    "desc": "Developed full-stack applications as Senior Software Engineer, working on kiosks, mobile app, website, integrations, and SMS. Contributed to the rewards program and app rebrand using TypeScript, Python, Elixir, and React Native.",
     "image": "Local_Kitchens",
     "category": ["fullstack", "app"],
     "links": {
@@ -12,7 +12,7 @@
   {
     "name": "Dream Team Transfers",
     "isOnHome": "true",
-    "desc": "Full-stack application which offers users a realistic simulation of Soccer Transfers using real-life data from Transfermarkt. Built using Python, React, and PouchDB.",
+    "desc": "Full-stack app simulating soccer transfers with real-life data from Transfermarkt, built using Python, React, and PouchDB.",
     "image": "Dream_Team_Transfers",
     "category": ["fullstack"],
     "links": {
@@ -23,7 +23,7 @@
   {
     "name": "Meta RL DevInfra",
     "isOnHome": "true",
-    "desc": "Developed and optimized full-stack web tools for Reality Labs, including Dogfooding Hub and continuous integration systems, leveraging React, GraphQL, Hack, Python, and MySQL to streamline workflows, reduce runtime by 70%, and enhance developer efficiency across Meta’s device ecosystem.",
+    "desc": "Built and optimized web tools for Reality Labs, including Dogfooding Hub and CI systems, using React, GraphQL, Hack, Python, and MySQL to reduce runtime by 70% and improve developer efficiency across Meta's device ecosystem.",
     "image": "Meta_RL_DevInfra",
     "category": ["work", "fullstack"],
     "links": {
@@ -34,7 +34,7 @@
   {
     "name": "Prop Ellrs Tabletop",
     "isOnHome": "false",
-    "desc": "Interactive web application simulating a toy robot's navigation on a 5x5 tabletop grid. Built using React, it features intuitive controls, styled visuals, and logic to ensure the robot stays safely on the grid.",
+    "desc": "Interactive web app simulating a toy robot's navigation on a 5x5 tabletop grid, built using React with intuitive controls and logic to ensure the robot stays on the grid.",
     "image": "Prop_Ellrs_Tabletop",
     "category": ["static"],
     "links": {
@@ -45,7 +45,7 @@
   {
     "name": "GIPHY Search Engine",
     "isOnHome": "false",
-    "desc": "Interactive search engine for discovering trending and relevant GIFs using the GIPHY API. Built with React and optimized for real-time updates, featuring debounced search and sleek display.",
+    "desc": "Search engine for discovering trending GIFs using the GIPHY API. Built with React for real-time updates, featuring debounced search and a sleek display.",
     "image": "GIPHY_Search_Engine",
     "category": ["static"],
     "links": {
@@ -56,7 +56,7 @@
   {
     "name": "Oven Ready Bakes",
     "isOnHome": "true",
-    "desc": "Static web page for a baking startup. This site, built with React, provides a platform for customers to view baked items, contact bakers, and submit orders with linked Google APIs.",
+    "desc": "Static web page for a baking startup, built with React to showcase baked items, contact bakers, and enable order submissions with Google API integration.",
     "image": "Oven_Ready_Bakes",
     "category": ["static"],
     "links": {
@@ -67,7 +67,7 @@
   {
     "name": "My Github Page",
     "isOnHome": "false",
-    "desc": "Interactive portfolio website showcasing my work and technical experience. Revamped in 2024 from a Jekyll blog page to a dynamic React application for a more user-friendly interface.",
+    "desc": "Interactive portfolio showcasing my work and technical experience, revamped in 2024 from a Jekyll blog to a dynamic React app for a better user experience.",
     "image": "Alex_Thomas_Portfolio",
     "category": ["static"],
     "links": {
@@ -78,7 +78,7 @@
   {
     "name": "Expense Management",
     "isOnHome": "false",
-    "desc": "Full-stack application leveraging indexedDB for reliable user expense data storage. Designed for seamless CRUD operations that ensures scalability with a user-friednly UI/UX built in React.",
+    "desc": "Full-stack app using indexedDB for reliable expense data storage and CRUD operations, with a user-friendly UI/UX built in React.",
     "image": "Expense_Management",
     "category": ["fullstack"],
     "links": {
@@ -89,7 +89,7 @@
   {
     "name": "Twitter Search Engine",
     "isOnHome": "true",
-    "desc": "Full-stack application that uses a Lucene index built on Twitter Crawler data to create an efficienct search engine. Integrated into a Spring Boot and Node.js backend, with results embedded on an Angular front end.",
+    "desc": "Full-stack app using a Lucene index built on Twitter Crawler data for an efficient search engine, integrated into a Spring Boot and Node.js backend with an Angular front end.",
     "image": "Twitter_Search_Engine",
     "category": ["fullstack"],
     "links": {
@@ -100,7 +100,7 @@
   {
     "name": "Android Time Tracker",
     "isOnHome": "false",
-    "desc": "Android App developed in Kotlin for employees to log hours. It uses a locally hosted SQLite database for  seamless storage management and incorporates Android APIs to enable a shake-to-start feature.",
+    "desc": "Android app built in Kotlin for employees to log hours, using a locally hosted SQLite database and incorporating a shake-to-start feature.",
     "image": "Android_Time_Tracker",
     "category": ["work", "app"],
     "links": {
@@ -111,7 +111,7 @@
   {
     "name": "User Engagement Map",
     "isOnHome": "true",
-    "desc": "Full-stack application that visualizes real-time user engagement for the client, and registration for the user. Built with React, NodeJS, MongoDB, and Google Cloud APIs.",
+    "desc": "Full-stack app visualizing real-time user engagement and registration, built with React, Node.js, MongoDB, and Google Cloud APIs.",
     "image": "User_Engagement_Map",
     "category": ["fullstack"],
     "links": {
@@ -122,7 +122,7 @@
   {
     "name": "Krazy Kitchen Game",
     "isOnHome": "false",
-    "desc": "Multiplayer Unity video game that uses Photon networking for online gameplay. Led team of 5 engineers as Scrum Master, managing project's development process.",
+    "desc": "Multiplayer Unity game with Photon networking for online play. Led a team of 5 engineers as Scrum Master, managing development and process.",
     "image": "Krazy_Kitchen_Game",
     "category": ["course"],
     "links": {
@@ -133,7 +133,7 @@
   {
     "name": "AI and ML",
     "isOnHome": "false",
-    "desc": "Implemented AI/ML projects in Python, including a dynamic chatbot (logic systems), a Nearest Neighbor Classifier (machine learning), and an 8-Puzzle Problem Solver (search).",
+    "desc": "Implemented AI/ML projects in Python, including a dynamic chatbot, a Nearest Neighbor Classifier, and an 8-Puzzle Problem Solver.",
     "image": "AI_and_ML",
     "category": ["course"],
     "links": {
@@ -144,7 +144,7 @@
   {
     "name": "Embedded Systems",
     "isOnHome": "false",
-    "desc": "Developed a series of embedded systems projects to cover hardware-software integration and real-time system design using C and the ATMega microcontroller.",
+    "desc": "Developed embedded systems projects covering hardware-software integration and real-time system design using C and the ATMega microcontroller.",
     "image": "Embedded_Systems",
     "category": ["course", "hardware"],
     "links": {
@@ -155,7 +155,7 @@
   {
     "name": "Audio Signal Processing",
     "isOnHome": "false",
-    "desc": "A suite of audio processing tools inspired by internship. All were made with Python scripts and interactive GUIs.",
+    "desc": "Suite of audio processing tools created with Python scripts and interactive GUIs, inspired by my internship work.",
     "image": "Audio_Signal_Processing",
     "category": ["work"],
     "links": {
@@ -166,7 +166,7 @@
   {
     "name": "BoxBot Hackathon",
     "isOnHome": "false",
-    "desc": "A Bluetooth-controlled RC car built using the Arduino IDE. This project won the Best Hardware Hack at the 2017 Citrus Hack and was built in a team of four engineers.",
+    "desc": "Bluetooth-controlled RC car built using Arduino IDE, winning Best Hardware Hack at Citrus Hack 2017. Developed in a team of four engineers.",
     "image": "Box_Bot_Hackathon",
     "category": ["course", "hardware"],
     "links": {
